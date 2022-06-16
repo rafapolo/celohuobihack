@@ -1,18 +1,17 @@
 
-## VERAΞFIKO
+## VERAΞFIKO MMXXII
 
-Celo x Huobi: Stablecoin in Web3 & Sustainability - June MMXXII
+**Celo x Huobi: Stablecoin in Web3 & Sustainability 2022**
 
 In Esperanto, *Vera Efico* means *Real Impact*. 
 
-
 #### Description
 
-This project proposes a noble usage for the Celo stablecoin pegged to the brazilian official R$ Real currency. An innovative system enabling the 1.3 billion bank accounts in the country to acquire tokens and multi-chain cryptocurrencies at Huobi Exchange directly from their own bank accounts, taking advantage of the new Brazilian Central Bank protocol for instant payment, allowing us to convert a R\$ PIX transfer into 1:1 Celo cR\$ - tradable for 1291 Huobi tokens thought on our dApp - while collecting an experimental market-maker fee, directly distributed into impactMarket's poverty alleviation mechanisms, and our own MCO2 token vault - used to bootstrap our DAO aiming to acquire a land to build an offline ReFi Hacklab.
+This project proposes a noble usage for the Celo stablecoin pegged to the brazilian official R$ Real currency: an innovative system enabling the 1.3 billion bank accounts in the country to acquire tokens and multi-chain cryptocurrencies at Huobi Exchange directly from their own bank accounts, taking advantage of the new Brazilian Central Bank protocol for instant payment, allowing us to convert a R\$ PIX transfer into 1:1 Celo cR\$ - tradable for 1291 Huobi tokens through our dApp - while collecting an experimental market-maker fee, directly distributed into impactMarket's poverty alleviation mechanisms, and our own MCO2 token vault - used to bootstrap our DAO aiming to acquire a land for collective regeneration.
 
 #### Scenario
 
-- Brazil is the sixth most populated country in the world. Home to roughly 214 million people today, it accounts for almost half of South America’s inhabitants.
+- Brazil is the sixth most populated country in the world. Home to roughly 214 million people today, it accounts for almost half of South America’s inhabitants. By 2023 we might have our own CBDCs. 
 - Over 60% of Brazil’s population fall under the millennial or Gen Z bracket, with youths aged 15–24 accounting for more than ⅓ of the total population.
 - According to an Harvard Business School case-study, “in December 2018 the interest rate in Brazil for corporate loans was 52.3%, for consumer loans it was 120.0% and for credit card indebtedness it was 272.42%". DeFi might change this scenario.
 - Of the whole population, around 70% have regular Internet access and own a smartphone. There are more phones than people.
@@ -32,7 +31,7 @@ With open eyes, Latin America is full of problems - specially on public governan
 - Most friends-of-friends mediation solutions (as I have done some times) requires some hours-before R$ Real/BRL deposit and a later conversion and transfer with a variable price. The new Brazilian payment protocol changes that.
 - Many people just want a non-custodian fast service: Choose -> Pay in R$ -> Validate -> and Receive the cryptocurrency or token in their own private wallet.
 
-For this Hackaton we are experimenting with a mobile system provided to the group above, bridging and re-routing a tiny part of this decentralized financial flows into *real impact* beyond crypto *per se*.
+For this Hackaton we are experimenting with a 3-pillars system provided to the group above, bridging and re-routing a tiny part of this decentralized financial flows into *real impact* beyond crypto *per se*.
 
 #### Vision
 
@@ -48,22 +47,26 @@ The full way around in hypertextual history, some researchers says the english w
 
 > All these pieces of paper are issued with as much solemnity and authority as if they were of pure gold or silver... and indeed everybody takes them readily, for wheresoever a person may go throughout the Great Kaan's dominions he shall find these pieces of paper current, and shall be able to transact all sales and purchases of goods by means of them just as well as if they were coins of pure gold.
 
-Back them, a paper carrying the same value as gold could be equally hard to explain and believe as some of us today describing algorithms running on computers around the globe, acting as distributed treasures potentially operated by many keys - text files carrying secrets that can unlock - on our case - increasing wealth of carbon-markets tokens, economically designed on principles of ecological Karma. Beyond gold; virtual units with values sealed by divine Mathematicians's laws, crypt'okens tradable for real properties in sacred places. For most of us, it is hard to fully comprehend how it is factible, when it doesn't sound pure magic. If some trees wood's fiber could become valuable paper-money, distributed programmed algorithms now can store intangible trees values in itself.
+Back them, a paper carrying the same value as gold could be equally hard to explain and believe as some of us today describing algorithms running on computers around the globe, acting as distributed treasures potentially operated by many keys - text files carrying secrets that can unlock - on our case - increasing wealth of carbon-markets tokens, economically designed on principles of ecological Karma. Beyond gold; virtual units with values sealed by divine Mathematicians's laws, crypt'okens tradable for real properties in sacred places. For most of us is hard to fully comprehend how it is possible, when it doesn't sound pure magic. If some trees wood's fiber could become valuable paper-money, distributed programmed algorithms now can store intangible natural values in itself.
 
-Information Technologies, as language tools, allow us to shape not just the future, but doing so by changing the past's narratives and visions still reverberating on us now. We carry encoded values within the always-evolving institutionalized languages, as so, we believe we can collectively increase our conditions to make poverty and deforestations as obsolete as smallpox! Remembered in history as solved problems. Willing so is the first step into all centuries-ahead conquers, and working on the reinvention of money's narrative and redistribution is certainly a big hope from our times to allow new collective actions in the right directions, reinventing and performing new modes of distributed care.
+Information Technologies, as language tools, allow us to shape not just the future, but doing so by changing the past's narratives and visions still reverberating on us now. We carry encoded values within the always-evolving institutionalized languages, as so, we believe that prosperity can collectively increase our conditions to make poverty and deforestation as obsolete as smallpox! Remembered in history as solved problems. Willing so is the first step into all centuries-ahead conquers, and working on the reinvention of money's narrative and redistribution is a challenging inspiration for better times, unlocking new collective actions to reinvent and perform new modes of distributed care.
 
 #### Tech & Architecture   
 
-Our system has tree pillars,
+Coming from years on web2 tech, finally experiments with new web3 protocols and frameworks was a great challenge. While we missed time to integrate all functions, we've architected a scalable system without servers or databases to manage a hybrid-exchange, with potential to become fully on-chain. 
+ 
+Our prototyped system has tree pillars,
 
-1. ##### The MOΞDAO prototype
+1. ##### The MOΞDAO - smart contracts
+- moeda is the portuguese world for coin; um moedão is a big one.
+- coordinate the usage of the shared cMCO2 vault
 - votes and proposals
 - manages balances
-- coordinate the usage of the shared cMCO2 vault
+- manage orders
 
-2. ##### The progressive dApp frontend
+2. ##### The dApp - a distributed progressive frontend
   - accessible through IPFS
-  - connects users to their CELO wallets 
+  - connects users to their Celo wallets 
   - lists orders history and statuses
   - validate & convert R$ to cR\$ through Moedax
   - reads the contract's oracle providing current Huobi metadata 
@@ -71,35 +74,31 @@ Our system has tree pillars,
   - todo: validate provider's metadata signature to avoid potential price-manipulations
   
 
-3. ##### The on/off-chain smart node
-    A software prototyped in Ruby running with a Celo Full Node on a VPS, mainly,
+3. ##### The Agent - an on/off-chain smart-node proposal
+    A software prototyped in Ruby connected to a local Celo Full Node, mainly,
     - detecting and converting cReal incomes
-    - bridging Huobi Exchange metadata on IPFS
-    - observing and execute on-chain Orders
-    - managing balances and finances
-    - converting CELO fees into cMCO2
-
-  **In a nutshell,**
-
-  When bootstrapped at first, the Smart Node Agent deploys a contract on the Celo network with a IPNS path string. This path is used by the dApp as a decentralized oracle providing updated information on our preprocessed Huobi market data. This contract also stores on-chain orders. Though it operates by itself, the Agent can call Mento stability mechanism for conversions and transfers, and it also integrates the Huobi API - requesting orders and withdraws.
-   
-  The Agent should be kept awake, constantly checking new cReal deposits and reading Huobi websockets market ticks for the USDT pairs potentially tradable for Celo Reais on our own mechanism. For each price_change event, the prices+fees are converted to cR\$ Real and published through IPNS on a distributed metadata.json
-
-  On the dApp side, where the user is the king, once a Celo Wallet is plugged, the +1200 Huobi tokens and it's prices encoded on the metadata.json are listed to be acquired with cR\$. We integrated a cReal provider as an external solution, where some basic personal data is validated and the user proofs the ownership of his/her bank account following local compliance to also protect the provider. Then, a conversion Real 1:1 cReal happens with a single PIX QrCode paid on any national mobile banking.
-
-  Now, jumping in, let's suppose a folk with his connected wallet wants to buy $xyz with cReal on our decentralized approach. The dApp verifies his user's balance and - calling the contract - posts a new on-chain Order. A transfer having the order_id data encoded as a comment is the second and last step.  
-
-  The Agent owns the contract and the Celo wallets, it executes the conversions from cReal to the desired token at Huobi. It transfer $xyz, or refunds the user's cReal if fails.
-
-  Finally, all collected CELO fees are converted into cMCO2 and sent to a vault. 
+    - bridging Huobi Exchange metadata on IPNS
+    - executing on-chain Orders off-chain
+    - managing transactions and finances
+    - converting Celo bridging fees into cMCO2
 
   ```mermaid
 
     classDiagram
         Agent -- Huobi
-        Agent -- CeloMentoVault
+        Agent -- CeloMento
         Agent -- Web3Utils
         Agent --> Contract
+        class dApp{
+            + cMCO2_balance
+            + available_liquidity
+            - list_huobi_tokens()
+            - list_history()
+            - validate_user()
+            - acquire_cReal()
+            - acquire_token()
+        }
+        dApp --> Contract
         class Huobi{
           + tradable_tokens
           + celo_balance
@@ -113,11 +112,10 @@ Our system has tree pillars,
           - last_tokens_prices()
           - send_celo_fees_to_vault()
         }
-        class CeloMentoVault{
+        class CeloMento{
             + cMCO2_balance
             + CELO_balance
             + cReal_balance
-            + fullnode_path
             - call celo-cli()
             - swap(celo<>cReal)
             - transfer_celo_to_huobi()
@@ -136,7 +134,7 @@ Our system has tree pillars,
         }
         class Agent{
           + summary      
-          + marketmaker_fee
+          + marketmaker_fee        
           - print_local_balances()
           - print_huobi_balances()
           - print_last_celo_tick()
@@ -145,8 +143,7 @@ Our system has tree pillars,
         Contract --> Order
         class Contract{
             - owner
-            - ipns_metadata
-            - balance()
+            - ipns_metadata_path
             - post_order()
         }
           class Order {
@@ -158,6 +155,21 @@ Our system has tree pillars,
 
   ```
 
+  **In a nutshell,**
+
+  When bootstrapped at first, the Smart Node Agent deploys a contract on the Celo network with an IPNS path string. This path is used by the dApp as a decentralized oracle providing updated information on our preprocessed Huobi market data. This contract also stores on-chain orders. Though it operates by itself, the Agent can call Mento stability mechanism for conversions and transfers, and it also integrates the Huobi API - requesting orders and withdraws.
+   
+  The Agent should be kept awake, constantly checking new cReal deposits and reading Huobi websockets market ticks for the USDT pairs potentially tradable for Celo Reais on our own mechanism. For each price_change event, the prices+fees are calculated as cR\$ Real and published through IPNS on a distributed metadata.json
+
+  The Interplanetary File System protocol is extended with the proposed IPNS Name System, solving the problem of a distributed file having an distinct address on each update, unable to have a unique URL for the updated file. We encode the ipns:// path on the smart contract, enabling the dApp to read an always-updated version of the metadata.json provided off-chain by the Agent. 
+
+  On the dApp side, where the user is a soul, once a Celo Wallet is plugged, the +1200 Huobi tokens and it's prices encoded on the metadata are listed to be acquired with cR\$. We integrated a cReal provider as an external solution, where some basic KYC is validated and the user proofs the ownership of his/her bank account, following local compliance to also protect the provider. Then, a conversion Real 1:1 cReal happens with a single PIX QrCode paid on any national mobile banking.
+
+  Now, jumping in, let's suppose someone with the connected wallet wants to buy a token with cReal on our decentralized approach. The dApp verifies the user's balance and - calling the contract - posts a new on-chain Order encoding his wish. A cReal transfer with the order_id encoded in the comment having this same Order's price pays the conversion service.
+
+  The Agent owns the contract and the local Celo wallets, when it receives a transfer it checks the encoded data, validates it and orchestrate the few conversions from cReal to the desired token at Huobi. Afterall, it withdraws the token from the Exchange to the user's provided wallet and updates the contract:order statuses, or refunds the user's cReal - if fails for our lack of liquidity, suddenly-higher slippages or was paid too late.
+
+  Every night, half of the collected Celo-Huobi bridging service fees are converted into cMCO2 and sent to MOΞDAO's vault.
 
 #### Pitch video
   - name
@@ -169,10 +181,9 @@ Our system has tree pillars,
 
 #### Team
 
-Rafael Polo is a Brazilian-Portuguese Computer Scientist from Rio de Janeiro with a Master in Information Systems and a Greek heart, experimenting with artificial and natural languages for the last 20 years. Worked as a Fullstack Web2 Developer in Berlin and co-created a Computer Lab in Athens, where volunteered as a teacher to refugees and on-the-edge communities for 4 years. In 2021 moved to Lisbon, when was graced by a Celo Community Fund to research and develop a hybrid-exchange providing Celo Real.
+Rafael Polo is a 37' Brazilian-Portuguese Computer Scientist from Rio de Janeiro with a Master in Information Systems and a Greek heart, experimenting with artificial and natural languages for the last 20 years. Worked as a Fullstack Web2 Developer in Berlin and co-created a Computer Lab in Athens, where volunteered as a teacher to on-the-edge communities for 4 years. In 2021 moved to Lisbon, when was graced by a Celo Community Fund to develop the experimental Celo Real provider used on this project.
 
-While I took a solo flight on this Celo/Huobi Hackaton, I might thank lots of friends for the inspiring conversations; my sister Marina, a Phd Researcher on Culture and Ideology (despite my failed insistence on the web3 utopias); Jonathan, the young layer helping me to navigate on nebulous compliancies and to setup a Ltda Company in Brazil (despite I never said sorry for paying him with tokens that lost 340% in value); Miguel, for inspire me on UX and think software as a product (despite I still doubt on OpenAI creating good tools); Pedro Victor, the artist who gave me 5 bitcoins in 2011, which I fully sold for a flight to Berlin; and my lovely Venezuelan partner Andreina, for her almost-infinite patience and for keeping me aware of the world's struggles beyond my techno-bubbles. 
-
+While I took a solo flight writing VERAΞFICO, "we" came from the conversations with many amazing people echoing here; We would love to be funded to keep working on this project, while bridging crypto to the masses.
 
 #### Links
 
@@ -182,8 +193,11 @@ While I took a solo flight on this Celo/Huobi Hackaton, I might thank lots of fr
 
 ---
 
+VERAΞFIKO: Very Exotic Real Apparatus Ξ from Interplanetary Comrades Online
+
 ni celas realan efikon // we target real impact // visamos impacto real // στοχεύουμε σε πραγματικό αντίκτυπο
+
+Rafael Polo, June MMXXII
 
 ---
 
-Rafael Polo, MMXXII
