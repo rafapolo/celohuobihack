@@ -4,6 +4,6 @@ ruby "3.0.0"
 gem 'web3-eth'
 gem 'httparty'
 gem "awesome_print"
-gem 'faye/websocket'
+gem 'websocket'
 gem 'eventmachine'
 gem "pp"

@@ -1,7 +1,8 @@
 # author: rafael polo
+require "httpaty"
 
 class Huobi
-  attr_accesible :account_id
+  attr_accessor :account_id
   
   def initialize(access_key = '', secret_key = '', signature_version = "2")
     @access_key = access_key
@@ -12,7 +13,7 @@ class Huobi
         'Content-Type' => 'application/json',
         'Accept' => 'application/json',
     }
-    @account_id = huobi.accounts['data'].first["id"]
+    # @account_id = self.accounts['data'].first["id"]
   end
 
   def symbols
@@ -71,7 +72,7 @@ class Huobi
     params = {
       address: address, 
       currency: currency, 
-      amount: amount
+      amount: amount,
       fee: fee
     }
     request("GET", "/v1/dw/withdraw/api/create", params)
@@ -82,9 +83,9 @@ class Huobi
   # /v2/account/withdraw/quota
   # /v1/query/deposit-withdraw
 
-  def balances account_id
+  def balances    
     # balances = {"account_id"=>account_id}
-    request("GET", "/v1/account/accounts/#{account_id}/balance", {})
+    request("GET", "/v1/account/accounts/#{@account_id}/balance", {})
     # ['data']['list']
   end
 

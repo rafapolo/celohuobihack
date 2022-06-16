@@ -1,7 +1,7 @@
-require "web3-eth"
+# author: rafael polo
 
 class Web3Utils
-  attr_accessible: web3
+  attr_accessor :web3
   
   def initializer()
     web3 = Web3::Eth::Rpc.new host: 'localhost', port: 8545, 
@@ -28,10 +28,10 @@ class Web3Utils
 
   # CeloMento monitoring the income transactions is enough
   # def read_onchain_orders()
-    # triggered by the smart contract event
+  #   triggered by the smart contract event
   # end
   # def monitor_events
-    # contract = web3.eth.contract(abi).at('0x');...
+  #   contract = web3.eth.contract(abi).at('0x');...
   # end
 
   # we considered to generate a per-user 
@@ -41,7 +41,7 @@ class Web3Utils
   # end
 
   # def deploy_contract
-  #   # nodejs and go lang have better libs for this
+  #   nodejs and go lang have better libs for this
   # end
 
 end

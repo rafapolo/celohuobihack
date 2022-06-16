@@ -33,8 +33,10 @@
 require "./src/huobi"
 require "./src/web3_utils"
 require 'openssl'
+require 'open-uri'
 require "json"
 require 'zlib'
+require "base64"
 
 class Cli
   # base for a command prompt
@@ -52,7 +54,7 @@ class Cli
     puts "Account #{huobi.account_id}"
     print_line
 
-    balances = huobi.balances account_id
+    balances = huobi.balances
     puts "#{balances["data"]["type"]} balance:" # spot
     # show non-zero balances
     if balances['data']['list'].select{|b| b['balance']!="0"}.size>0
