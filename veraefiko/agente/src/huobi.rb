@@ -1,9 +1,12 @@
 # author: rafael polo
-require "httpaty"
+require "httparty"
+require "eventmachine"
+require "faye"
+
 
 class Huobi
-  attr_accessor :account_id
-  
+  attr_reader :account_id
+
   def initialize(access_key = '', secret_key = '', signature_version = "2")
     @access_key = access_key
     @secret_key = secret_key
@@ -13,7 +16,7 @@ class Huobi
         'Content-Type' => 'application/json',
         'Accept' => 'application/json',
     }
-    # @account_id = self.accounts['data'].first["id"]
+    @account_id = accounts['data'].first["id"]
   end
 
   def symbols
@@ -155,7 +158,9 @@ class Huobi
           ws.send(pong.to_json)
         end
 
-        p tick if tick=msg["tick"]
+        if tick=msg["tick"]
+          p tick 
+        end
       end
   
       ws.on :close do |event|

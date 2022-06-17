@@ -1,10 +1,15 @@
 # author: rafael polo 
 
 class CeloMento
-  # a simple celo-cli wrapper
+  # a simple celo-cli wrapper proof-of-concept
   
   def self.balance(wallet)
     `npx celocli account:balances #{wallet}`
+  end
+  
+  def self.local_balance
+      `npx celocli account:balances #{ENV['LQDT_WALLET']}`
+    end
   end
   
   def self.celoStableValues
@@ -39,8 +44,8 @@ class CeloMento
     end    
   end    
   
-  # todo: use pure web3
-  def self.load_txs_from_wallet() # working proof-of-concept
+  # todo: use pure web3 functions reading local node
+  def self.load_txs_from_wallet()
     since = Time.now - 600*600 = # last_known_valid_transaction
     get("http://explorer.celo.org/api?module=account&action=txlist&starttimestamp=#{since}&address=#{ENV['LQDT_WALLET']}")['result']
   end

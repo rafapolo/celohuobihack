@@ -37,6 +37,8 @@ require 'open-uri'
 require "json"
 require 'zlib'
 require "base64"
+require "byebug"
+
 
 class Cli
   # base for a command prompt
@@ -84,10 +86,18 @@ Huobi.stream_markets
 # for each Web3Utils.load_txs_from_wallet
 #   when new income transfer tx
 #     order_id = Web3Utils.read_data_comment_from_raw_input(tx)
-#     order = Web3Utils.read_contract_order(order_id)
-#     if order.is_too_late? # > 5 minutes 
-#       refund!    
-#     else 
+#     order = Order.new(order_id) # => Web3Utils.read_contract_order(order_id)
+#     if order.valid? && !order.executed? && !order.is_too_late? # > 5 minutes 
 #       Huobi.execute_onchain_order(order)
+#     else 
+#       order.refund!    
 #   end
+# end
+
+# todo: 
+# def generate_tokens metadata
+  # we basicly select all usdt markets and calculate as BRL Real + @marketmaker_fee on a new Hash
+  # see sample agente/ipfs/metadata.json
+# end
+
 # end
