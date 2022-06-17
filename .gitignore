@@ -1,3 +1,4 @@
 vendor/
 todo.txt
 Gemfile.lock
+.byebug_history

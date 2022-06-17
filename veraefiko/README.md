@@ -1,5 +1,5 @@
 
-## VERAΞFIKO MMXXII
+## VERAΞFIKO
 
 **Celo x Huobi: Stablecoin in Web3 & Sustainability 2022**
 
@@ -9,7 +9,7 @@ In Esperanto, *Vera Efico* means *Real Impact*.
 
 This project proposes a noble usage for the Celo stablecoin pegged to the brazilian official R$ Real currency: an innovative system enabling the 1.3 billion bank accounts in the country to acquire tokens and multi-chain cryptocurrencies at Huobi Exchange directly from their own bank accounts, taking advantage of the new Brazilian Central Bank protocol for instant payment, allowing us to convert a R\$ PIX transfer into 1:1 Celo cR\$ - tradable for 1291 Huobi tokens through our dApp - while collecting an experimental market-maker fee, directly distributed into impactMarket's poverty alleviation mechanisms, and our own MCO2 token vault - used to bootstrap our DAO aiming to acquire a land for collective regeneration.
 
-#### Scenario
+#### Context
 
 - Brazil is the sixth most populated country in the world. Home to roughly 214 million people today, it accounts for almost half of South America’s inhabitants. By 2023 we might have our own CBDCs. 
 - Over 60% of Brazil’s population fall under the millennial or Gen Z bracket, with youths aged 15–24 accounting for more than ⅓ of the total population.
@@ -53,18 +53,18 @@ Information Technologies, as language tools, allow us to shape not just the futu
 
 #### Tech & Architecture   
 
-Coming from years on web2 tech, finally experiments with new web3 protocols and frameworks was a great challenge. While we missed time to integrate all functions, we've architected a scalable system without servers or databases to manage a hybrid-exchange, with potential to become fully on-chain. 
+Coming from decades on web2 engineering, to experiment with web3 protocols and frameworks is a great challenge, breaking the traditional clients-servers paradigm into a decentralized computing system. While we needed more time to test and integrate all functions, we've focused and achieved a high-level system architecture without servers or databases acting as a hybrid-exchange, also bridging a Fiat currency paired with it's equivalent stablecoin into other chains and tokens. Our framework also grasps the potential to evolve it as a fully on-chain payment solution.
  
-Our prototyped system has tree pillars,
+The ミ tree pillars of our prototyped system,
 
-1. ##### The MOΞDAO - smart contracts
-- moeda is the portuguese world for coin; um moedão is a big one.
+1. ##### ミ The MOΞDAO - smart contracts
+- moeda is the portuguese world for coin; a moedão is a big one.
 - coordinate the usage of the shared cMCO2 vault
 - votes and proposals
 - manages balances
 - manage orders
 
-2. ##### The dApp - a distributed progressive frontend
+2. ##### ミ The dApp - a distributed progressive frontend
   - accessible through IPFS
   - connects users to their Celo wallets 
   - lists orders history and statuses
@@ -74,13 +74,15 @@ Our prototyped system has tree pillars,
   - todo: validate provider's metadata signature to avoid potential price-manipulations
   
 
-3. ##### The Agent - an on/off-chain smart-node proposal
+3. ##### ミ The Agent - an on/off-chain smart-node proposal
     A software prototyped in Ruby connected to a local Celo Full Node, mainly,
     - detecting and converting cReal incomes
     - bridging Huobi Exchange metadata on IPNS
     - executing on-chain Orders off-chain
     - managing transactions and finances
     - converting Celo bridging fees into cMCO2
+    
+    <br/>**Modeled as,**
 
   ```mermaid
 
@@ -157,19 +159,64 @@ Our prototyped system has tree pillars,
 
   **In a nutshell,**
 
-  When bootstrapped at first, the Smart Node Agent deploys a contract on the Celo network with an IPNS path string. This path is used by the dApp as a decentralized oracle providing updated information on our preprocessed Huobi market data. This contract also stores on-chain orders. Though it operates by itself, the Agent can call Mento stability mechanism for conversions and transfers, and it also integrates the Huobi API - requesting orders and withdraws.
+  The Smart Node Agent has a contract deployed on the Celo network with an IPNS path string. This path is used by the dApp as a decentralized oracle providing updated information on our preprocessed Huobi market data. This contract also stores on-chain orders. Though it operates by itself, the Agent can call Mento stability mechanism for conversions and transfers, and it also integrates the Huobi API - executing centralized orders and withdraws.
    
   The Agent should be kept awake, constantly checking new cReal deposits and reading Huobi websockets market ticks for the USDT pairs potentially tradable for Celo Reais on our own mechanism. For each price_change event, the prices+fees are calculated as cR\$ Real and published through IPNS on a distributed metadata.json
 
   The Interplanetary File System protocol is extended with the proposed IPNS Name System, solving the problem of a distributed file having an distinct address on each update, unable to have a unique URL for the updated file. We encode the ipns:// path on the smart contract, enabling the dApp to read an always-updated version of the metadata.json provided off-chain by the Agent. 
 
-  On the dApp side, where the user is a soul, once a Celo Wallet is plugged, the +1200 Huobi tokens and it's prices encoded on the metadata are listed to be acquired with cR\$. We integrated a cReal provider as an external solution, where some basic KYC is validated and the user proofs the ownership of his/her bank account, following local compliance to also protect the provider. Then, a conversion Real 1:1 cReal happens with a single PIX QrCode paid on any national mobile banking.
+  On the dApp side, where the user is a soul, once a Celo Wallet is plugged, the +1200 tokens and it's prices encoded on the metadata are listed to be acquired with cR\$. We integrated a cReal provider as an external solution, where some basic KYC is validated and the user proofs the ownership of his/her bank account, following local compliance and also protect the provider, Moedax. Then, a conversion Real 1:1 cReal happens with a single PIX QrCode paid on any national mobile banking.
 
-  Now, jumping in, let's suppose someone with the connected wallet wants to buy a token with cReal on our decentralized approach. The dApp verifies the user's balance and - calling the contract - posts a new on-chain Order encoding his wish. A cReal transfer with the order_id encoded in the comment having this same Order's price pays the conversion service.
+  Now, jumping in, let's suppose someone with the connected wallet wants to buy a token with cReal on our decentralized approach. The dApp verifies the user's balance and - calling the contract - posts a new on-chain Order encoding his wish. The further cReal transfer with the order_id encoded, having the same Order's price, pays the conversion service. All transfers without an encoded order_id are considered donations.
 
-  The Agent owns the contract and the local Celo wallets, when it receives a transfer it checks the encoded data, validates it and orchestrate the few conversions from cReal to the desired token at Huobi. Afterall, it withdraws the token from the Exchange to the user's provided wallet and updates the contract:order statuses, or refunds the user's cReal - if fails for our lack of liquidity, suddenly-higher slippages or was paid too late.
+  The Agent owns the contract and the local Celo wallets, when it receives a transfer it checks the encoded data, validates it and orchestrate the few conversions from cReal to the desired token at Huobi. Afterall, it withdraws the token from the Exchange to the user's provided wallet and updates the contract:order statuses, or refunds the user's cReal - if fails for lack of liquidity, suddenly-higher slippages or was paid too late.
 
   Every night, half of the collected Celo-Huobi bridging service fees are converted into cMCO2 and sent to MOΞDAO's vault.
+  
+  <br/>**Scenarios and co-sequences,** 
+  
+  ```mermaid  
+    sequenceDiagram
+      actor Soul
+      Soul-->>dApp: connect wallet
+      loop
+      Agent-->Huobi: listening markets data
+      Agent-->>Agent: publish tokens metadata on ipfs
+      end
+      dApp-->>Contract: get ipns metadata path
+      dApp-->>dApp: decode ipfs://metadata
+      dApp-->>Soul: list tokens
+
+      alt acquire token
+        Soul-->>dApp: order(token, chain, price)
+        dApp-->>Contract: post_order()
+        dApp-->>Soul: QrCode for cReal
+        Soul->>Agent: cReal
+      end
+      loop
+        Agent-->>Agent: check income transaction's with an order_id
+        Agent-->>Contract: read Order data
+        Agent-->>Agent: execute_order, if valid
+      end
+
+      par execute_order
+        Agent-->>Huobi: execute order
+        Huobi->>Huobi: usdt-token
+        Agent-->>Huobi: execute withdraw
+        Huobi->>Soul: token
+        Agent-->>Soul: refund cReal, if fails
+        Agent-->>Contract: update statuses      
+      end
+      par rebalance_liquidity
+      Agent->>Agent: cReal -> Celo
+      Agent->>Huobi: Celo
+      Huobi->>Huobi: celo-usdt
+      end
+      loop midnight
+      Agent-->>Agent: half fees to ImpactMarket
+      Agent-->>Agent: half into our cMCO2
+      end
+  ```
 
 #### Pitch video
   - name
@@ -181,7 +228,7 @@ Our prototyped system has tree pillars,
 
 #### Team
 
-Rafael Polo is a 37' Brazilian-Portuguese Computer Scientist from Rio de Janeiro with a Master in Information Systems and a Greek heart, experimenting with artificial and natural languages for the last 20 years. Worked as a Fullstack Web2 Developer in Berlin and co-created a Computer Lab in Athens, where volunteered as a teacher to on-the-edge communities for 4 years. In 2021 moved to Lisbon, when was graced by a Celo Community Fund to develop the experimental Celo Real provider used on this project.
+Rafael Polo is a 37' Brazilian-Portuguese Computer Scientist from Rio de Janeiro with a Master in Information Systems and a Greek heart, experimenting with artificial and natural languages for the last 20 years. Worked as a Fullstack Web2 Developer in Berlin and co-created a Computer Lab in Athens, where volunteered as a teacher to on-the-edge communities for 4 years. In 2021 moved to Lisbon, when was graced by a Celo Community Fund to develop an experimental Fiat to Celo Real cash-in provider.
 
 While I took a solo flight writing VERAΞFICO, "we" came from the conversations with many amazing people echoing here; We would love to be funded to keep working on this project, while bridging crypto to the masses.
 
@@ -195,7 +242,9 @@ While I took a solo flight writing VERAΞFICO, "we" came from the conversations 
 
 VERAΞFIKO: Very Exotic Real Apparatus Ξ from Interplanetary Comrades Online
 
-ni celas realan efikon // we target real impact // visamos impacto real // στοχεύουμε σε πραγματικό αντίκτυπο
+Aparato is  the totality of means by which a designated function is performed or a specific task executed, as in a system of government.
+
+ni celas realan efikon // we target real impact // visamos impacto real // wir zielen auf echte wirkung ab // στοχεύουμε σε πραγματικό αντίκτυπο
 
 Rafael Polo, June MMXXII
 
