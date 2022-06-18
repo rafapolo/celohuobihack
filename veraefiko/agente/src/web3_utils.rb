@@ -44,4 +44,5 @@ class Web3Utils
   #   nodejs and go lang have better libs for this
   # end
 
+  # todo: query_graphql()
 end

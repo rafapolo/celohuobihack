@@ -7,7 +7,7 @@ In Esperanto, *Vera Efico* means *Real Impact*.
 
 #### Description
 
-This project proposes a noble usage for the Celo stablecoin pegged to the brazilian official R$ Real currency: an innovative system enabling the 1.3 billion bank accounts in the country to acquire tokens and multi-chain cryptocurrencies at Huobi Exchange directly from their own bank accounts, taking advantage of the new Brazilian Central Bank protocol for instant payment, allowing us to convert a R\$ PIX transfer into 1:1 Celo cR\$ - tradable for 1291 Huobi tokens through our dApp - while collecting an experimental market-maker fee, directly distributed into impactMarket's poverty alleviation mechanisms, and our own MCO2 token vault - used to bootstrap our DAO aiming to acquire a land for collective regeneration.
+This project proposes a noble usage for the Celo stablecoin pegged to the brazilian official R$ Real currency: an innovative system enabling the 1.3 billion bank accounts in the country to acquire tokens and multi-chain cryptocurrencies at Huobi Exchange directly from their own bank accounts, taking advantage of the new Brazilian Central Bank protocol for instant payment, allowing us to convert a R\$ PIX transfer into 1:1 Celo cR\$ - tradable for 1291 Huobi tokens through our dApp - while collecting an experimental market-maker fee, directly distributed into impactMarket's poverty alleviation mechanisms, and our own MCO2 token vault - used to bootstrap our DAO aiming to protect Brazilian lands.
 
 #### Context
 
@@ -39,9 +39,9 @@ When coinage was first introduced into the Greek world in the 7th century BC, it
 
 As we write, the largest national crypto CEX in Brazil, with more than 1.5 million users, had a 24h trading volume of $4,345,824 from small investors. Basic maths shows us that *every day*, their users spend the equivalent to a minimum-wage paid to 300 people *for one year*, or hypothetically, beyond the pure individual speculation, this one-day crypto-flow of small investors could fund 20 people with spectacular skills together for two year to research and build *real impact* projects. Even a fraction of this crypto-exchanges flows could become collective investments for Open Universities or ReFi Hacklabs.
 
-There is money! But the ways it is operated today makes it extremely concentrated in networks far from the urgent social and natural needs. We are Celo Maximalists, in the sense of believing that there are beautiful ways to understand and spread prosperity, as the new programmable monetary paradigm creates new economic models. We believe it is a question of exemplar collective organization and distributed awareness, potentially enabled by blockchain concepts, removing the barriers for better cooperation among financially-aware self-managed collectives. We also speculate on the future forms of volunteer compensation, when DAOs and Souls are opting-out of States taxation, where surplus should flow to? It should flow.
+There is money! But the ways it is operated today makes it extremely concentrated in networks far from the urgent social and natural needs. We are Celo Maximalists, in the sense of believing that there are beautiful ways to understand and spread prosperity, as the new programmable monetary paradigm creates new economic models. We believe it is a question of exemplar collective organization and distributed awareness, potentially enabled by blockchain concepts, removing the barriers for better cooperation among financially-aware self-managed collectives. We also speculate on the future forms of volunteer compensation, when DAOs and Souls are opting-out of States taxation, where surplus should flow to? It should flow broader.
 
-Changing time, we remember that some technologies can be revolutionary, as when on the 12th century Fibonacci published about the Hindu-Arabic numeral system, bringing light to the works from the mathematicians Al-Khwārizmī - "Algorithm" comes from his name - a 9th century mathematicians who translated older Sanskrit texts from the much older Hindu mathematicians Aryabhata, who - on the 5th century - calculated Earth's circumference with an accuracy of 0.3% without clocks or telescopes, just using his own numeric system based on phonetics. For more than one thousand years Europeans used Roman numerals, can you imagine us today in MMXXII doing the same? With a non-decimal system for daily arithmetic, the computers we know today wouldn't even exist. The Statistics Foundations came a few centuries later, so, understanding our chances we could finally navigate into better luck.
+Changing time, we remember that some technologies can be revolutionary, as when on the 12th century Fibonacci published about the Hindu-Arabic numeral system, bringing light to the works of the 9th century mathematicians Al-Khwārizmī - "Algorithm" comes from his name - who translated older Sanskrit texts from the much older Hindu mathematician Aryabhata, who back in the 5th century - one thousand years before the colonization of America - calculated Earth's circumference with an accuracy of 0.3% without clocks or telescopes, just using his own numeric system based on phonetics. For more than one thousand years Europeans used Roman numerals, a non-decimal system for daily arithmetic. Can you imagine us today in MMXXII limited to it? The Statistics Foundations came 5 centuries after the Hindu-Arabic numeral was introduced to Europeans, so, understanding our chances we could finally navigate into better luck.
 
 The full way around in non-linear hypertextual history, some researchers says the english word *cash* came from the Sanskrit unit of measure, Karṣa (कर्ष). In between, it was just in the the 13th century that Marco Polo described in his book of travels the fiat money of the Yuan Dynasty; 
 
@@ -49,7 +49,7 @@ The full way around in non-linear hypertextual history, some researchers says th
 
 Back them, a paper carrying the same value as gold could be equally hard to explain and believe as some of us today describing algorithms running on computers around the globe, acting as distributed treasures potentially operated by many keys - text files carrying secrets that can unlock - on our case - increasing wealth of carbon-markets tokens, economically designed on principles of ecological Karma. Beyond gold; virtual units with values sealed by divine Mathematicians's laws, crypt'okens tradable for real properties in sacred places. For most of us is hard to fully comprehend how it is possible, when it doesn't sound pure magic. If some trees wood's fiber could become valuable paper-money, distributed programmed algorithms now can store intangible natural values in itself.
 
-Information Technologies, as language tools, allow us to shape not just the future, but doing so by changing the past's narratives and visions still reverberating on us now. We carry encoded values within the always-evolving institutionalized languages, as so, we believe that prosperity can collectively increase our conditions to make poverty and deforestation as obsolete as smallpox! Remembered in history as solved problems with more education and science. Willing so is the first step into all centuries-ahead conquers, and working on the reinvention of money's narrative and redistribution is a challenging inspiration for better times, unlocking new collective actions to reinvent and perform new modes of distributed care.
+Information Technologies, as language tools, allow us to shape not just the future, but doing so by changing the past's narratives and visions still reverberating on us now. We carry encoded values within the always-evolving institutionalized languages, as so, we believe that prosperity can collectively increase our conditions to make poverty and deforestation as obsolete as smallpox! Remembered in history as solved problems with increasing science. Willing so is the first step into all centuries-ahead conquers, and working on the reinvention of money's narrative and redistribution is a challenging inspiration for better times, unlocking new collective actions to reinvent and perform new modes of distributed care.
 
 #### Tech & Architecture   
 
@@ -59,31 +59,28 @@ The ミ tree pillars of our prototyped system,
 
 1. ##### ミ The MOΞDAO - smart contracts
 - moeda is the portuguese world for coin; a moedão is a big one.
-- coordinate the usage of the shared cMCO2 vault
-- votes and proposals
-- manages balances
-- manage orders
+- HybridEx, a basic contract managing on-chain orders
+- coordinate the proposals for the shared cMCO2 vault usage
 - a [CharloDAO](https://github.com/PhoenixTechAfrica/Tutorials/tree/dev/projects/charlo) extended fork base, compiled with Truffle
 
 2. ##### ミ The dApp - a distributed progressive frontend
   - accessible through IPFS
   - connects users to their Celo wallets 
-  - lists orders history and statuses
   - validate & convert R$ to cR\$ through Moedax cash-in provider
   - reads the contract's oracle providing current Huobi metadata 
   - stores a new Order on the contract
+  - todo: lists orders history and statuses
   - todo: validate provider's metadata signature to avoid potential price-manipulations
   
 
 3. ##### ミ The Agent - an on/off-chain smart-node proposal
-    A from-scratch software in Ruby connected to a local Celo Full Node,
-    - detecting and converting cReal incomes
-    - bridging Huobi Exchange metadata on IPNS
-    - executing on-chain Orders off-chain
-    - managing transactions and finances
-    - converting Celo bridging fees into cMCO2
-    - autonomous daemon &  client terminal,
-    <br/>
+    A software written in Ruby connected to a local Celo Full Node for,
+  - detecting and converting cReal incomes
+  - bridging Huobi Exchange metadata on IPNS
+  - executing on-chain Orders off-chain
+  - managing transactions and finances
+  - converting Celo bridging fees into cMCO2
+  - prompting the autonomous daemon,<br/><br/>
     
                                           ```
                                           # ==============================
@@ -200,7 +197,7 @@ The ミ tree pillars of our prototyped system,
 
   The Interplanetary File System protocol is extended with the proposed IPNS Name System, solving the problem of a distributed file having an distinct address on each update, unable to have a unique URL for the updated file. We encode the ipns:// path on the smart contract, enabling the dApp to read an always-updated version of the metadata.json provided off-chain by the Agent. 
 
-  On the dApp side, where the user is a soul, once a Celo Wallet is plugged, the +1200 tokens and it's prices encoded on the metadata are listed to be acquired with cR\$. We integrated a cReal provider as an external solution, where some basic KYC is validated and the user proofs the ownership of his/her bank account, following local compliance and also protect the provider, Moedax. Then, a conversion Real 1:1 cReal happens with a single PIX QrCode paid on any national mobile banking.
+  On the dApp side, where the user is a Soul, once a Celo Wallet is plugged, the +1200 tokens and it's prices encoded on the metadata are listed to be acquired with cR\$. We integrated a cReal provider as an external solution, where some basic KYC is validated and the user proofs the ownership of his/her bank account, following local compliance and also protect the provider, Moedax. Then, a conversion Real 1:1 cReal happens with a single PIX QrCode paid on any national mobile banking.
 
   Now, jumping in, let's suppose someone with the connected wallet wants to buy a token with cReal on our decentralized approach. The dApp verifies the user's balance and - calling the contract - posts a new on-chain Order encoding his wish. The further cReal transfer with the order_id encoded, having the same Order's price, pays the conversion service. All transfers without an encoded order_id are considered donations.
 
@@ -230,8 +227,8 @@ The ミ tree pillars of our prototyped system,
         dApp-->>Soul: QrCode for cReal
         Soul->>Agent: cReal
       end
-      loop
-        Agent-->>Agent: check income transaction's with an order_id
+      loop new_orders?
+        Agent-->>Agent: event: income transaction's with an order_id
         Agent-->>Contract: read Order data
         Agent-->>Agent: execute_order, if valid
       end
@@ -257,9 +254,9 @@ The ミ tree pillars of our prototyped system,
 
 #### Team
 
-Rafael Polo is a 37' Brazilian-Portuguese Computer Scientist from Rio de Janeiro with a Master in Information Systems and a Greek heart, experimenting with artificial and natural languages for the last 20 years. Worked as a Web2 Software Engineer in Berlin and co-created a Computer Lab in Athens, where volunteered as a teacher to on-the-edge communities for 4 years. In 2021 moved to Lisbon, when was graced by a Celo Community Fund to build a Fiat to Celo Real on-ramp provider, Moedax. Now looking for a new job or fund challenge.
+Rafael Polo is a 37' Brazilian-Portuguese Computer Scientist from Rio de Janeiro with a Master in Information Systems and a Greek heart, experimenting with artificial and natural languages for the last 20 years. Worked as a Web2 Software Engineer in Berlin and co-created a Computer Lab in Athens, where volunteered as a teacher to on-the-edge communities for 4 years. In 2021 moved to Lisbon, when was graced by a Celo Community Fund to build Moedax, a Fiat to Celo Real on-ramp provider. As of 2022, open for a job position or a new funded project challenge.
 
-While I took a solo flight writing VERAΞFICO, "we" came from the conversations with many amazing people echoing here, who would love to get funded as a proper team to build the concepts we speculate so much about into tools to bridge crypto to the masses in a more private way.
+While I took a solo flight writing VERAΞFICO, "we" came from the conversations with many amazing people echoing around "me", who would love to get funded as a proper team to build tools for the concepts we speculate so much about, bridging crypto to the masses in more enriching ways.
 
 #### Links
 
