@@ -7,7 +7,7 @@ In Esperanto, *Vera Efico* means *Real Impact*.
 
 #### Description
 
-This project proposes a noble usage for the Celo stablecoin pegged to the brazilian official R$ Real currency: an innovative system enabling the 1.3 billion bank accounts in the country to acquire tokens and multi-chain cryptocurrencies at Huobi Exchange directly from their own bank accounts, taking advantage of the new Brazilian Central Bank protocol for instant payment, allowing us to convert a R\$ PIX transfer into 1:1 Celo cR\$ - tradable for 1291 Huobi tokens through our dApp - while collecting an experimental market-maker fee, directly distributed into impactMarket's poverty alleviation mechanisms, and our own MCO2 token vault - used to bootstrap our DAO aiming to protect Brazilian lands.
+This project proposes a noble usage for the Celo stablecoin pegged to the brazilian official R&#36; Real currency: an innovative system enabling the 1.3 billion bank accounts in the country to acquire tokens and multi-chain cryptocurrencies at Huobi Exchange directly from their own bank accounts, taking advantage of the new Brazilian Central Bank protocol for instant payment, allowing us to convert Fiat PIX transfer into 1:1 Celo  - tradable for 1291 Huobi tokens through our dApp - while collecting an experimental market-maker fee, directly distributed into impactMarket's poverty alleviation mechanisms, and our own MCO2 token vault - used to bootstrap our DAO aiming to protect Brazilian lands.
 
 #### Context
 
@@ -71,16 +71,17 @@ The ミ tree pillars of our prototyped system,
   - stores a new Order on the contract
   - todo: lists orders history and statuses
   - todo: validate provider's metadata signature to avoid potential price-manipulations
-  
 
 3. ##### ミ The Agent - an on/off-chain smart-node proposal
-    A software written in Ruby connected to a local Celo Full Node for,
+  A software written in Ruby connected to a local Celo Full Node for,    
   - detecting and converting cReal incomes
   - bridging Huobi Exchange metadata on IPNS
   - executing on-chain Orders off-chain
   - managing transactions and finances
   - converting Celo bridging fees into cMCO2
-  - prompting the autonomous daemon,<br/><br/>
+  - prompting the autonomous daemon,
+ 
+<br/><br/>
     
                                           ```
                                           # ==============================
