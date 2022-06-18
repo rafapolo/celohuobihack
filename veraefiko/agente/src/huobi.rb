@@ -5,8 +5,9 @@ require "faye"
 
 
 class Huobi
-  attr_reader :account_id
-
+  attr_reader :account_id, :marketmaker_fee
+  @marketmaker_fee = 2/100 # 2%  
+  
   def initialize(access_key = '', secret_key = '', signature_version = "2")
     @access_key = access_key
     @secret_key = secret_key
@@ -21,7 +22,7 @@ class Huobi
 
   def symbols
     request("GET", "/v1/common/symbols", {})
-    # 1291 as 2022-06-14
+    # 1291 listed as 2022-06-14
   end
 
   def depth(symbol, type = "step0")
@@ -32,11 +33,6 @@ class Huobi
   def history_kline(symbol, period, size = 150)
     params = {"symbol" => symbol, "period" => period, "size" => size}
     request("GET", "/market/history/kline", params)
-  end
-
-  def merged(symbol)
-    params = {"symbol" => symbol}
-    request("GET", "/market/detail/merged", params)
   end
 
   def market_trade(symbol)
@@ -79,7 +75,6 @@ class Huobi
       fee: fee
     }
     request("GET", "/v1/dw/withdraw/api/create", params)
-    # ['data']
   end
   
   # todo: 

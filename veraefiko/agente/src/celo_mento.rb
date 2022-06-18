@@ -1,7 +1,8 @@
 # author: rafael polo 
 
 class CeloMento
-  # a simple celo-cli wrapper proof-of-concept
+  # a simple celo-cli wrapper as a proof-of-concept
+  # in a future version we'll use Rust, Go or pure Nodejs libs
   
   def self.balance(wallet)
     `npx celocli account:balances #{wallet}`
@@ -51,8 +52,9 @@ class CeloMento
   end
 
   def self.generate_cMCO2_from_fees
-    # can't exchange with mento? 
-    # todo: find better route or plug other cex
+    # from all remaining local wallet Celo Real 
+    # todo: can't exchange with mento? integrate UberSwap!?
+    # research: allbridge
   end
 	
   private

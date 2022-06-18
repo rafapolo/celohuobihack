@@ -1,35 +1,5 @@
 # author: rafael polo
 
-# ==============================
-# Huobi Terminal / veraΞfiko
-# ==============================
-# Account 40337003
-# ==============================
-# spot balance:
-# (empty)
-# ==============================
-# last CELO buy at $0.8637 USDT
-# ==============================
-# {"id"=>468375750,
-#  "low"=>0.8405,
-#  "high"=>0.9599,
-#  "open"=>0.8629,
-#  "close"=>0.8658,
-#  "vol"=>96570.47165076,
-#  "amount"=>107133.24710231682,
-#  "version"=>468375750,
-#  "count"=>2083}
-# ==============================
-# wss:// reading Huobi markets...
-# ==============================
-# ipfs:// publishing changes ...
-# ==============================
-# celo:// new income transfer!
-# ==============================
-# Order#2481 executed!
-# ==============================
-# ...
-
 require "./src/huobi"
 require "./src/web3_utils"
 require 'openssl'
@@ -49,7 +19,7 @@ class Cli
   
   def dashboard
     print_line
-    puts "Huobi Terminal / veraΞfiko"
+    puts "Agent VERAΞFIKO v0.1"
     huobi = Huobi.new(ENV["access_key"], ENV["secret_key"])
     
     print_line
