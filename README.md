@@ -75,12 +75,15 @@ The ミ tree pillars of our prototyped system,
 
 3. ##### ミ The Agent - an on/off-chain smart-node proposal
     A software written in Ruby connected to a local Celo Full Node for,
+  
   - detecting and converting cReal incomes
   - bridging Huobi Exchange metadata on IPNS
   - executing on-chain Orders off-chain
   - managing transactions and finances
   - converting Celo bridging fees into cMCO2
-  - prompting the autonomous daemon,<br/><br/>
+  - prompting the distributed data,
+  
+  <br/><br/>
     
                                           ```
                                           # ==============================
