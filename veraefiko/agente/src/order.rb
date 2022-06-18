@@ -12,7 +12,7 @@ class Order
       @token = order.token
       @chain = order.chain
       @value = order.value
-      @status = order.status
+      @status = order.status # State { Waiting_Payment, Executed, Refunded }
       @created_at = order.created_at
     end
     
@@ -22,7 +22,11 @@ class Order
     end
     
     def valid?
-      #wip: !self.too_old? && liquidity && availability && slipage_diff
+      #wip: !self.too_old? && Huobi.has_liquidity? && Huobi.slipage_diff_perc_from() < 3
       true
+    end
+    
+    def refund!
+      CeloMento.send(@to, @value) unless @status == "Refunded"
     end
 end

@@ -1,14 +1,15 @@
 # author: rafael polo
+
 require "httparty"
 require "eventmachine"
 require "faye"
-
 
 class Huobi
   attr_reader :account_id, :marketmaker_fee
   @marketmaker_fee = 2/100 # 2%  
   
   def initialize(access_key = '', secret_key = '', signature_version = "2")
+    raise "set Huobi API keys!" unless access_key && secret_key
     @access_key = access_key
     @secret_key = secret_key
     @signature_version = signature_version
@@ -20,9 +21,9 @@ class Huobi
     @account_id = accounts['data'].first["id"]
   end
 
+  # 1291 listed as 2022-06-14
   def symbols
     request("GET", "/v1/common/symbols", {})
-    # 1291 listed as 2022-06-14
   end
 
   def depth(symbol, type = "step0")
@@ -63,7 +64,6 @@ class Huobi
   def accounts
     params = {}
     request("GET", "/v1/account/accounts", params)
-    # ['data']
   end
   
   def withdraw(address, currency, amount, fee)
@@ -76,10 +76,6 @@ class Huobi
     }
     request("GET", "/v1/dw/withdraw/api/create", params)
   end
-  
-  # todo: 
-  # /v2/account/withdraw/quota
-  # /v1/query/deposit-withdraw
 
   def balances    
     # balances = {"account_id"=>account_id}
@@ -99,10 +95,6 @@ class Huobi
     request("POST", "/v1/order/orders/place", params)
   end
 
-  def matchresults(order_id)
-    params = {"order-id" => order_id}
-    request("GET", "/v1/order/orders/#{order_id}/matchresults", params)
-  end
 
   def orders(symbol, start_date = nil, size = 100)
     params = {
@@ -116,13 +108,6 @@ class Huobi
     request("GET", "/v1/order/orders", params)
   end
   
-  def execute_onchain_order(order)
-    # {token, to, amount, chain}
-    # last_token_price *= @bridging_fee
-    # we need to improve the mechanism to consider the price variations
-    self.new_order(@account_id, "#{token}usdt", "buy", last_token_price, amount)
-  end
-
   def open_orders(symbol, side)
     params = {
         "symbol" => symbol,
@@ -132,16 +117,36 @@ class Huobi
     request("GET", "/v1/order/orders", params)
   end
   
-  # Websocket streaming a market
-  # todo: stream all
+  # todo: 
+  # /v2/account/withdraw/quota
+  # /v1/query/deposit-withdraw
+  
+  # beyond REST API
+  
+  # def generate_tokens metadata
+  # we basicly select all usdt markets and calculate as BRL Real + @marketmaker_fee on a new Hash
+  # see sample agente/ipfs/metadata.json
+  # might add more metadata as provider_signature and updated_at 
+  # end
+  
+  def execute_onchain_order(order)
+    # {token, to, amount, chain}
+    # last_token_price *= @bridging_fee
+    # we need to improve the mechanism to consider the price variations
+    self.new_order(@account_id, "#{token}usdt", "buy", last_token_price, amount)
+  end
+  
+  # Websocket streaming
   def self.stream_markets
+    # todo: stream all
+    market = "celousdt"
     
     EM.run {
       ws = Faye::WebSocket::Client.new('wss://api.huobi.pro/ws')
   
       ws.on :open do |event|
         p :ws_open
-        ws.send({"sub": "market.celousdt.detail", "id": "id1"}.to_json)
+        ws.send({"sub": "market.#{market}.detail", "id": "id1"}.to_json)
       end
   
       ws.on :message do |event|

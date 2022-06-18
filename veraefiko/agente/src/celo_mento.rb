@@ -1,8 +1,8 @@
 # author: rafael polo 
 
 class CeloMento
-  # a simple celo-cli wrapper as a proof-of-concept
-  # in a future version we'll use Rust, Go or pure Nodejs libs
+  # a simple proof-of-concept celo-cli wrapper
+  # in a future version might use Go or pure Nodejs libs
   
   def self.balance(wallet)
     `npx celocli account:balances #{wallet}`
@@ -13,19 +13,20 @@ class CeloMento
     end
   end
   
+  # {"USD"=>3.515337790239205, "EUR"=>3.1687936815240936, "REAL"=>16.74053086564363}
   def self.celoStableValues
-    # {"USD"=>3.515337790239205, "EUR"=>3.1687936815240936, "REAL"=>16.74053086564363}
     `npx celocli exchange:show`
       .scan(/=> (\d+) c(\w+)/)
       .map{|x,y| [y,(x.to_f/1000000000000000000).round(3)]}
       .to_h
   end
   
+  #  {"USD"=>4.786, "EUR"=>5.33, "REAL"=>1.0}
   def self.exchangeRealValues
-    #  {"USD"=>4.786, "EUR"=>5.33, "REAL"=>1.0}
     celoValues = exchangeCeloValues()
     celoValues.map{|c,v| ["c#{c}", "R$#{(celoValues["REAL"]/v).round(3)}"]}.to_h    
   end
+  
   def self.swap_to_real(amount)
     `npx celocli exchange:reals --from #{ENV['LQDT_WALLET']} --value #{amount * 10 ** 18} --privateKey #{ENV['PVT_KEY']}` 
   end
@@ -45,17 +46,30 @@ class CeloMento
     end    
   end    
   
-  # todo: use pure web3 functions reading local node
+  # wip: use pure web3 functions reading local node
   def self.load_txs_from_wallet()
     since = Time.now - 600*600 = # last_known_valid_transaction
     get("http://explorer.celo.org/api?module=account&action=txlist&starttimestamp=#{since}&address=#{ENV['LQDT_WALLET']}")['result']
   end
-
+  
   def self.generate_cMCO2_from_fees
     # from all remaining local wallet Celo Real 
     # todo: can't exchange with mento? integrate UberSwap!?
     # research: allbridge
   end
+  
+  # wip: observe_payments
+  # for each Web3Utils.load_txs_from_wallet
+  #   when new income transfer tx
+  #     order_id = Web3Utils.read_data_comment_from_raw_input(tx)
+  #     order = Order.new(order_id) # => Web3Utils.read_contract_order(order_id)
+  #     if order.valid? && !order.executed? && !order.is_too_late? # > 5 minutes 
+  #       Huobi.execute_onchain_order(order)
+  #     else 
+  #       # order.refund!
+  #   end
+  # end
+
 	
   private
 	def self.get(url)
