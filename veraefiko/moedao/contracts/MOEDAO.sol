@@ -7,6 +7,9 @@ import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 /// @title MOEDAO
 /// @author Segun Ogundipe David
 /// adapted by @author Rafael Polo
+
+// todo: in a future version this contract should hold it's vault addr/wallet
+
 contract MOEDAO is ReentrancyGuard, AccessControl {
     bytes32 public constant CONTRIBUTOR_ROLE = keccak256("CONTRIBUTOR");
     bytes32 public constant STAKEHOLDER_ROLE = keccak256("STAKEHOLDER");
@@ -16,6 +19,7 @@ contract MOEDAO is ReentrancyGuard, AccessControl {
     // This variable is incremented everytime a new charity proposal is added.
     // It is needed to iterate through the charty proposals as solidity doesn't provide a way to step through mappings.
     uint256 numOfProposals;
+    
 
     /// @notice Holds all the charity proposals made in the DAO.
     mapping(uint256 => CharityProposal) private charityProposals;
