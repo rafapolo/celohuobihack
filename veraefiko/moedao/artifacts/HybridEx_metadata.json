@@ -1,0 +1,165 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "chain",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "OrderedAdded",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "token",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "chain",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "addOrder",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "order_id",
+						"type": "uint256"
+					}
+				],
+				"name": "getOrder",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "order_id",
+								"type": "uint256"
+							},
+							{
+								"internalType": "address",
+								"name": "to",
+								"type": "address"
+							},
+							{
+								"internalType": "string",
+								"name": "token",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "chain",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "amount",
+								"type": "uint256"
+							},
+							{
+								"internalType": "enum HybridEx.State",
+								"name": "state",
+								"type": "uint8"
+							}
+						],
+						"internalType": "struct HybridEx.Order",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ipns_path",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"author": "rafael polo description stores CEX orders on-chain as a privacy-protecting layer",
+			"kind": "dev",
+			"methods": {},
+			"title": "HybridEx",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/HybridDex.sol": "HybridEx"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/HybridDex.sol": {
+			"keccak256": "0xb92da5a449db453f60bc58dfbba10bdf02945625856225fde65b13bcf4392040",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://f23879d33f3f679a5dfaabd359b6d8411e6ab443779556ffd4112fe5af938ef2",
+				"dweb:/ipfs/QmPcwnX8eHUrP2n9XBFyTi6MnPhH7FcWMMLWVYt6FrkvBL"
+			]
+		}
+	},
+	"version": 1
+}
