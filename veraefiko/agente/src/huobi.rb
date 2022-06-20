@@ -87,7 +87,7 @@ class Huobi
     params = {
         "account-id" => @account_id,
         "amount" => count,
-        "price" => price,
+        "price" => price, # todo: use market_price
         "source" => "api",
         "symbol" => symbol,
         "type" => "#{side}-limit"
@@ -133,7 +133,8 @@ class Huobi
     # {token, to, amount, chain}
     # last_token_price *= @bridging_fee
     # we need to improve the mechanism to consider the price variations
-    self.new_order(@account_id, "#{token}usdt", "buy", last_token_price, amount)
+    self.new_order(@account_id, "cusdtusdt", "buy", amount)
+    self.new_order(@account_id, "#{token}usdt", "sell", amount)
   end
   
   # Websocket streaming

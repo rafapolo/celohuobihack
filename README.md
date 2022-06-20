@@ -49,11 +49,11 @@ The full way around in non-linear hypertextual history, some researchers says th
 
 Back them, a paper carrying the same value as gold could be equally hard to explain and believe as some of us today describing algorithms running on computers around the globe, acting as distributed treasures potentially operated by many keys - text files carrying secrets that can unlock - on our case - increasing wealth of carbon-markets tokens, economically designed on principles of ecological Karma. Beyond gold; virtual units with values sealed by divine Mathematicians's laws, crypt'okens tradable for real properties in sacred places. For most of us is hard to fully comprehend how it is possible, when it doesn't sound pure magic. If some trees wood's fiber could become valuable paper-money, distributed programmed algorithms now can store intangible natural values in itself.
 
-Information Technologies, as language tools, allow us to shape not just the future, but doing so by changing the past's narratives and visions still reverberating on us now. We carry encoded values within the always-evolving institutionalized languages, as so, we believe that prosperity can collectively increase our conditions to make poverty and deforestation as obsolete as smallpox! Remembered in history as solved problems with increasing science. Willing so is the first step into all centuries-ahead conquers, and working on the reinvention of money's narrative and redistribution is a challenging inspiration for better times, unlocking new collective actions to reinvent and perform new modes of distributed care.
+Information Technologies, as language tools, allow us to shape not just the future, but doing so by changing past methods and visions still reverberating on us now. Together, we believe humanity can make poverty and deforestation as obsolete as smallpox! Remembered in history as a solved problem. Willing so is the first step into all centuries-ahead conquers, and working on the reinvention of money's narrative and redistribution is a challenging inspiration for better times, unlocking new collective actions to reinvent and perform new modes of distributed care.
 
 #### Tech & Architecture   
 
-Coming from decades on web2 engineering, to experiment with web3 protocols and frameworks is a great challenge, breaking the traditional clients-servers paradigm into a decentralized computing system. While we needed more time to test and integrate all functions, we've focused and achieved a high-level system architecture without servers or databases acting as a hybrid-exchange, also bridging a Fiat currency paired with it's equivalent stablecoin into other chains and tokens. Our framework also grasps the potential to evolve as a fully on-chain payment solution.
+Coming from decades on web2 engineering, to experiment with web3 protocols and frameworks is a great challenge, breaking the traditional clients-servers paradigm into a decentralized computing system. While we missed to have integrated tests, we achieved a high-level system architecture without servers or databases working as a hybrid-exchange, also bridging a Fiat currency paired with it's equivalent stablecoin into other chains and tokens. Our framework also grasps the potential to evolve as a fully on-chain payment solution.
  
 The ミ tree pillars of our prototyped system,
 
@@ -84,7 +84,7 @@ The ミ tree pillars of our prototyped system,
   
   <br/><br/>
     
-                                          ```
+```
                                           # ==============================
                                           # Agent VERAΞFIKO v0.1
                                           # ==============================
@@ -92,9 +92,9 @@ The ミ tree pillars of our prototyped system,
                                           # ==============================
                                           # spot balance:
                                           # CELO 28.75
-                                          # USDT 138.15 (liquidity)
+                                          # CUSD 138.15 (liquidity)
                                           # ==============================
-                                          # last CELO buy at $0.8637 USDT
+                                          # last CELO buy at $0.8637 CUSD
                                           # ==============================
                                           # {"id"=>468375750,
                                           #  "low"=>0.8405,
@@ -115,8 +115,10 @@ The ミ tree pillars of our prototyped system,
                                           # Order#2481 executed!
                                           # ==============================
                                           # $ _
-                                          ```
-    <br/>**Modeled as,**
+```    
+<br/>    
+
+**Modeled as,**
 
   ```mermaid
 
@@ -138,10 +140,10 @@ The ミ tree pillars of our prototyped system,
         class Huobi{
           + tradable_tokens
           + celo_balance
-          + usdt_balance
+          + cusd_balance
           - balances()   
-          - swap(celo<>usdt)()
-          - create_order("*usdt", amount)
+          - swap(celo<>cusd)()
+          - create_order("*cusd", amount)
           - order_status(id)
           - execute_witdraw(token, to)
           - withdraw_status(id)
@@ -195,7 +197,7 @@ The ミ tree pillars of our prototyped system,
 
   The Smart Node Agent has a contract deployed on the Celo network with an IPNS path string. This path is used by the dApp as a decentralized oracle providing updated information on our preprocessed Huobi market data. This contract also stores on-chain orders. Though it operates by itself, the Agent can call Mento stability mechanism for conversions and transfers, and it also integrates the Huobi API - executing centralized orders and withdraws.
    
-  The Agent should be kept awake, constantly checking new cReal deposits and reading Huobi websockets market ticks for the USDT pairs potentially tradable for Celo Reais on our own mechanism. For each price_change event, the prices+fees are calculated as cR\$ Real and published through IPNS on a distributed metadata.json
+  The Agent should be kept awake, constantly checking new cReal deposits and reading Huobi websockets market ticks for the CUSD pairs potentially tradable for Celo Reais on our own mechanism. For each price_change event, the prices+fees are calculated as cR\$ Real and published through IPNS on a distributed metadata.json
 
   The Interplanetary File System protocol is extended with the proposed IPNS Name System, solving the problem of a distributed file having an distinct address on each update, unable to have a unique URL for the updated file. We encode the ipns:// path on the smart contract, enabling the dApp to read an always-updated version of the metadata.json provided off-chain by the Agent. 
 
@@ -237,6 +239,7 @@ The ミ tree pillars of our prototyped system,
 
       par execute_order
         Agent-->>Huobi: execute order
+        Huobi->>Huobi: cusd-usdt
         Huobi->>Huobi: usdt-token
         Agent-->>Huobi: execute withdraw
         Huobi->>Soul: token
@@ -246,7 +249,7 @@ The ミ tree pillars of our prototyped system,
       par rebalance_liquidity
       Agent->>Agent: cReal -> Celo
       Agent->>Huobi: Celo - fees
-      Huobi->>Huobi: celo-usdt
+      Huobi->>Huobi: celo-cusd
       end
       loop midnight
       Agent-->>Agent: half fees to ImpactMarket
@@ -256,7 +259,7 @@ The ミ tree pillars of our prototyped system,
 
 #### Team
 
-Rafael Polo is a 37' Brazilian-Portuguese Computer Scientist from Rio de Janeiro with a Master in Information Systems and a Greek heart, experimenting with artificial and natural languages for the last 20 years. Worked as a Web2 Software Engineer in Berlin and co-created a Computer Lab in Athens, where volunteered as a teacher to on-the-edge communities for 4 years. In 2021 moved to Lisbon, when was graced by a Celo Community Fund to build Moedax, a Fiat to Celo Real on-ramp provider. As of 2022, open for a job position or a new funded project challenge.
+Rafael Polo is a 37' Brazilian-Portuguese Computer Scientist from Rio de Janeiro with a Master in Information Systems and a Greek heart, experimenting with artificial and natural languages for the last 20 years. Worked as a Web2 Software Engineer in Berlin and co-created a Computer Lab in Athens, where volunteered as a teacher to on-the-edge communities for 4 years. In 2021 moved to Lisbon, when was graced by a Celo Community Fund to build Moedax, a Fiat to Celo Real on-ramp provider. As of 2022, is open for a job position or a new funded project challenge.
 
 While I took a solo flight writing VERAΞFICO, "we" came from the conversations with many amazing people echoing around "me", who would love to get funded as a proper team to build tools for the concepts we speculate so much about, bridging crypto to the masses in more enriching ways.
 
