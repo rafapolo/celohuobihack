@@ -21,7 +21,8 @@ class Huobi
     @account_id = accounts['data'].first["id"]
   end
 
-  # 1291 listed as 2022-06-14
+  # 1291 listed as 2022-06-14 / 
+  # 532 usdt pairs
   def symbols
     request("GET", "/v1/common/symbols", {})
   end
@@ -78,9 +79,7 @@ class Huobi
   end
 
   def balances    
-    # balances = {"account_id"=>account_id}
     request("GET", "/v1/account/accounts/#{@account_id}/balance", {})
-    # ['data']['list']
   end
 
   def new_order(symbol, side, price, amount)
@@ -126,7 +125,7 @@ class Huobi
   # def generate_tokens metadata
   # we basicly select all usdt markets and calculate as BRL Real + @marketmaker_fee on a new Hash
   # see sample agente/ipfs/metadata.json
-  # might add more metadata as provider_signature and updated_at 
+  # should add more metadata as :provider_signature and :updated_at 
   # end
   
   def execute_onchain_order(order)

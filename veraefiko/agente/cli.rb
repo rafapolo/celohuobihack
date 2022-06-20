@@ -53,13 +53,17 @@ class Cli
 
 end
 
-Cli.new
-Huobi.stream_markets
-
+#Cli.new
+# Huobi.stream_markets
 # CeloMento.observe_payments
 
 
-# todo: 
-
-
-# end
+# serve local dApp folder
+# for wallet integration purposes
+def local_dapp!
+  require 'webrick'
+  puts "==> dApp @ http://localhost:2022"
+  WEBrick::HTTPServer.new(Port: 2022, 
+    DocumentRoot: File.expand_path("../dapp/dapp/")).start
+end
+local_dapp!
