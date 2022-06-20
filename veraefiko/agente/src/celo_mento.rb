@@ -53,9 +53,11 @@ class CeloMento
   end
   
   def self.generate_cMCO2_from_fees
-    # from all remaining local wallet Celo Real 
-    # todo: can't exchange with mento? integrate UberSwap!?
-    # research: allbridge
+    # from all available local wallet Celo Real 
+    # https://github.com/mobiusAMM/swappa
+    # todo: test more!
+    # > swappa --registries=mobius --input cREAL --output cMCO2 --amount #{available_cbrl}
+    # research: allbridge and Mobius
   end
   
   # wip: observe_payments
