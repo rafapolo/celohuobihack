@@ -51,7 +51,7 @@ Information Technologies, as language tools, allow us to shape not just the futu
 
 #### Tech & Architecture   
 
-Coming from decades on web2 engineering, to experiment with web3 protocols and frameworks is a great challenge, breaking the traditional closed clients-servers paradigm into an open decentralized computing system. While we missed to have integrated tests, we achieved a high-level system architecture without servers or databases working as a hybrid-exchange, bridging a Fiat currency paired with it's equivalent stablecoin into other chains and tokens. With so many open-sourced DAOs and dApps, we focused on the most innovative part of the system: a from-scratch software written in Ruby connected to a local Celo Full Node. Our framework also grasps the potential to evolve as a hybrid payment solution.
+Coming from decades on web2 engineering, to experiment with web3 protocols and frameworks is a great challenge, breaking the traditional closed clients-servers paradigm into an open decentralized computing system. While we missed to have integrated tests, we achieved a high-level system architecture without servers or databases working as a hybrid-exchange, bridging a Fiat currency paired with it's equivalent stablecoin into other chains and tokens. With so many open-sourced DAOs and dApps, we focused on the most innovative part of the system: a from-scratch software written in Ruby connected to a local Celo Full Node, acting as an Automated Market Maker. Our framework also grasps the potential to evolve as a hybrid payment solution.
  
 The ミ tree pillars of our prototyped system,
 
@@ -81,40 +81,40 @@ The ミ tree pillars of our prototyped system,
   <br/><br/>
     
 ```
-                                          # ==============================
-                                          # Agent VERAΞFIKO v0.1
-                                          # ==============================
-                                          # Huobi Account 40337003
-                                          # ==============================
-                                          # spot balance:
-                                          # CELO 28.75
-                                          # cUSD 138.15 (liquidity)
-                                          # ==============================
-                                          # last CELO buy at $0.8637 cUSD
-                                          # ==============================
-                                          # {"id"=>468375750,
-                                          #  "low"=>0.8405,
-                                          #  "high"=>0.9599,
-                                          #  "open"=>0.8629,
-                                          #  "close"=>0.8658,
-                                          #  "vol"=>96570.47165076,
-                                          #  "amount"=>107133.24710231682,
-                                          #  "version"=>468375750,
-                                          #  "count"=>2083}
-                                          # ==============================
-                                          # wss:// reading Huobi markets...
-                                          # ==============================
-                                          # ipfs:// publishing changes ...
-                                          # ==============================
-                                          # celo:// new income transfer!
-                                          # ==============================
-                                          # Order#2481 executed!
-                                          # ==============================
-                                          # $ CeloMento.exchangeRealValues()
-                                          #    => USD: 4.786 
-                                          #    => EUR: 5.33 
-                                          #    => REAL: 1.0
-                                          # $ _
+                            # ==============================
+                            # Agent VERAΞFIKO v0.1
+                            # ==============================
+                            # Huobi Account 40337003
+                            # ==============================
+                            # spot balance:
+                            # CELO 28.75
+                            # cUSD 138.15 (liquidity)
+                            # ==============================
+                            # last CELO buy at $0.8637 cUSD
+                            # ==============================
+                            # {"id"=>468375750,
+                            #  "low"=>0.8405,
+                            #  "high"=>0.9599,
+                            #  "open"=>0.8629,
+                            #  "close"=>0.8658,
+                            #  "vol"=>96570.47165076,
+                            #  "amount"=>107133.24710231682,
+                            #  "version"=>468375750,
+                            #  "count"=>2083}
+                            # ==============================
+                            # wss:// reading Huobi markets...
+                            # ==============================
+                            # ipfs:// publishing changes ...
+                            # ==============================
+                            # celo:// new income transfer!
+                            # ==============================
+                            # Order#2481 executed!
+                            # ==============================
+                            # $ CeloMento.exchangeRealValues()
+                            #    => USD: 4.786 
+                            #    => EUR: 5.33 
+                            #    => REAL: 1.0
+                            # $ _
 ```    
 <br/>    
 
