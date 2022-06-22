@@ -128,6 +128,9 @@ class Huobi
   # should add more metadata as :provider_signature and :updated_at 
   # end
   
+  # research: AMM
+  # the cUSD liquidity could be tokenized and yield farm pools created
+  
   def execute_onchain_order(order)
     # {token, to, amount, chain}
     # last_token_price *= @bridging_fee
