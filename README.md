@@ -7,7 +7,7 @@ In Esperanto, *Vera Efico* means *Real Impact*.
 
 #### Description
 
-This project proposes a noble usage for the Celo stablecoin pegged to the brazilian official R&#36; Real currency: an innovative system enabling the 1.3 billion bank accounts in the country to acquire tokens and multi-chain cryptocurrencies at Huobi Exchange from their own bank accounts in a more private way. Taking advantage of the new Brazilian Central Bank protocol for instant payment, PIX, we convert a Fiat transfer into 1:1 Celo Real, tradable for +500 tokens and cryptocurrencies at Huobi - whose market data is published to IPFS and accessed through our dApp. Bridging it, we collect an experimental market-maker fee, directly distributed into impactMarket's poverty alleviation mechanisms, and our own cMCO2 token vault - managed by the DAO proposals focused on protecting Brazilian lands.
+This project proposes a noble usage for the Celo stablecoin pegged to the brazilian official R&#36; Real currency: an innovative system enabling the 1.3 billion bank accounts in the country to acquire tokens and multi-chain cryptocurrencies at Huobi Exchange from their own bank accounts in a more private way. Taking advantage of the new Brazilian Central Bank protocol for instant payment, PIX, we convert a Fiat transfer into 1:1 Celo Real, tradable for the +500 tokens and cryptocurrencies at Huobi - whose market data is published into IPFS and accessed through our dApp. Bridging it, we collect an experimental market-maker fee, directly distributed into impactMarket's poverty alleviation mechanisms, and our own cMCO2 token vault - managed by the DAO proposals focused on protecting Brazilian lands.
 
 #### Context
 
@@ -21,7 +21,7 @@ This project proposes a noble usage for the Celo stablecoin pegged to the brazil
 
 #### Problem(s)
 
-With open eyes, Latin America is full of problems - specially on public governance and the usage of resources - which Celo technologies opens new paradigms on decentralized coordination to better deal with. While it is important to see problems holistically, we need to be analytic to propose small iterative steps to pedagogically achieve solutions together. Let's describe a few stories around us, as inspirations for a smaller generalized problem to tackle;
+With open eyes, Latin America is full of problems - specially on public governance and the local usage of resources - which Celo technologies opens new paradigms on decentralized coordination to better deal with. While it is important to see problems holistically, we need to be analytic to propose small iterative steps to pedagogically achieve solutions together. Let's describe a few stories around us, as inspirations for a smaller generalized problem to tackle;
 
 - For years we interact on a Telegram group with 40 thousand brazilians supporting each other on buying cryptocurrency out of centralized exchanges, discussing projects, micro-investing, doing risky p2p and announcing all sort of demands involving the cryptoeconomy.
 - Many people get really lost on the Exchanges bureaucracies requirements and with frustrated UX navigation, when they just need a token to join a game, vote on a DAO, invest as some trusted friends suggests, or just to PoolTogether. Most users are digging opportunities on profitable trends.
@@ -51,7 +51,7 @@ Information Technologies, as language tools, allow us to shape not just the futu
 
 #### Tech & Architecture   
 
-Coming from decades on web2 engineering, to experiment with web3 protocols and frameworks is a great challenge, breaking the traditional closed clients-servers paradigm into an open decentralized computing system. While we missed to have integrated tests, we achieved a high-level system architecture without servers or databases working as a hybrid-exchange, bridging a Fiat currency paired with it's equivalent stablecoin into other chains and tokens. With so many open-sourced DAOs and dApps, we focused on the most innovative part of the system: a from-scratch software written in Ruby connected to a local Celo Full Node, acting as an Automated Market Maker. Our framework also grasps the potential to evolve as a hybrid payment solution.
+Coming from decades on web2 engineering, to experiment with web3 protocols and frameworks is a great challenge, breaking the traditional closed clients-servers paradigm into an open decentralized computing system. While we missed to have integrated tests, we achieved a high-level system architecture without servers or databases working as a hybrid-exchange, bridging a Fiat currency paired with it's equivalent stablecoin into other chains and tokens. With so many open-sourced DAOs and dApps, we focused on the most innovative part of the system, The Agent, a from-scratch software written in Ruby connected to a local Celo Full Node. Our framework also grasps the potential to evolve as a hybrid payment solution.
  
 The ミ tree pillars of our prototyped system,
 
@@ -110,7 +110,7 @@ The ミ tree pillars of our prototyped system,
                             # ==============================
                             # Order#2481 executed!
                             # ==============================
-                            # $ CeloMento.exchangeRealValues()
+                            # $ Celo.exchangeRealValues()
                             #    => USD: 4.786 
                             #    => EUR: 5.33 
                             #    => REAL: 1.0
@@ -124,7 +124,7 @@ The ミ tree pillars of our prototyped system,
 
     classDiagram
         Agent -- Huobi
-        Agent -- CeloMento
+        Agent -- Celo
         Agent -- Web3Utils
         Agent --> Contract
         class dApp{
@@ -150,7 +150,7 @@ The ミ tree pillars of our prototyped system,
           - last_tokens_prices()
           - send_celo_fees_to_vault()
         }
-        class CeloMento{
+        class Celo{
             + cMCO2_balance
             + CELO_balance
             + cReal_balance
@@ -201,11 +201,11 @@ The ミ tree pillars of our prototyped system,
 
   The Interplanetary File System protocol is extended with the proposed IPNS Name System, solving the problem of a distributed file having an distinct address on each update, unable to have a unique URL for the updated file. We encode the ipns:// path on the smart contract, enabling the dApp to read an always-updated version of the metadata.json provided off-chain by the Agent. 
 
-  On the dApp side, once a Wallet is plugged, the +500 tokens prices encoded on the metadata are listed to be exchanged with cR\$. We integrated a cReal provider as an external solution, where some basic KYC is validated and the user proofs the ownership of his/her bank account, following local compliance and also protect the provider, Moedax. Then, a conversion Real 1:1 cReal happens with a single PIX QrCode paid on any national mobile banking.
+  On the dApp side, once a Wallet is plugged, the +500 tokens prices encoded on the metadata are listed to be exchanged with cR\$. We integrated a cReal on-ramp as an external solution, where some basic KYC is validated and the user proofs the ownership of his/her bank account, following local compliance and also protecting the provider, Moedax. Then, a conversion Real 1:1 cReal happens with a single generated PIX QrCode paid on any national mobile banking.
 
-  Now, jumping in, let's suppose someone with the connected wallet wants to buy a token with cReal on our decentralized approach. The dApp verifies the user's balance and - calling the contract - posts a new on-chain Order encoding his wish. The further cReal transfer with the order_id encoded, having the same Order's price, pays the conversion service. All transfers without an encoded order_id are considered donations.
+  Now, jumping in, let's suppose someone with the connected wallet wants to buy a token with cReal on our decentralized approach. The dApp verifies the user's balance and - calling the contract - posts a new on-chain Order encoding his wish. A further cReal transfer with this order_id encoded, having this order's price, pays the conversion service. All transfers without an encoded order_id are considered donations.
 
-  The Agent owns the contract and the local Celo wallets, when it receives a transfer it checks the encoded data, validates it and orchestrate the few conversions from cReal to the desired token at Huobi. Afterall, it withdraws the token from the Exchange to the user's provided wallet and updates the contract:order statuses, or refunds the user's cReal - if fails for lack of liquidity, suddenly-higher slippages or was paid too late.
+  The Agent owns the contract and the local Celo wallets, when it receives a transfer it checks the encoded data, validates it and orchestrate the few conversions from cReal to the desired token at Huobi. Afterall, it withdraws the token from the Exchange to the user's provided wallet and updates the contract:order status, or refunds the user's cReal - if fails for lack of liquidity, suddenly-higher slippages or was paid too late.
 
   Every night, half of the collected Celo-Huobi bridging service fees are converted into cMCO2 and sent to MOΞDAO's vault.
   
@@ -263,7 +263,7 @@ The ミ tree pillars of our prototyped system,
 
 #### Team
 
-Rafael Polo is a 37' Brazilian-Portuguese Computer Scientist from Rio de Janeiro with a Master in Information Systems and a Greek heart, experimenting with artificial and natural languages for the last 20 years. Worked as a Web2 Software Engineer in Berlin and co-created a Computer Lab in Athens, where volunteered as a teacher to on-the-edge communities for 4 years. In 2021 moved to Lisbon, when was graced by a Celo Community Fund to build Moedax, a Fiat to Celo Real on-ramp provider. As of the current 2022 crypto-crash, he is open for a job position or a new funded project challenge.
+Rafael Polo is a 37' Brazilian-Portuguese Computer Scientist from Rio de Janeiro with a Master in Information Systems and a Greek heart, experimenting with artificial and natural languages for the last 20 years. Worked as a Web2 Software Engineer in Berlin and co-created a Computer Lab in Athens, where volunteered as a teacher to on-the-edge communities for 4 years. In 2021 moved to Lisbon, when was graced by a Celo Community Fund to build Moedax, a Fiat to Celo Real on-ramp provider. As of 2022, he is open for a job position or a new funded project challenge.
 
 While I took a solo flight writing VERAΞFICO, "we" came from the conversations with many amazing people echoing around us, who would love to get funded as a team to build tools for the concepts we speculate so much about, bridging crypto to the masses in more enriching ways.
 
