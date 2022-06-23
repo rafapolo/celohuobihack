@@ -1,0 +1,21 @@
+html {
+  background: linear-gradient(#007224,#274f8c);
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+}
+
+body{ 
+  border: 10px solid black;
+  margin: 10px;
+  padding: 20px;
+  height: 100%;
+  color: white;
+}
+
+.logo{  
+    height: 250px;
+    float: left;
+}
