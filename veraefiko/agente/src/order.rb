@@ -2,7 +2,7 @@
 
 class Order
     # encapsulate on-chain order
-    attr_accessor :order_id, :from, :to, :token, :chain, :value, :created_at
+    attr_accessor :order_id, :from, :to, :token, :chain, :amount, :created_at
     
     def initialize(order_id)
       order = Web3Utils.read_contract_order(order_id)  
@@ -11,14 +11,9 @@ class Order
       @to = order.to
       @token = order.token
       @chain = order.chain
-      @value = order.value
+      @value = order.amount
       @status = order.status # State { Waiting_Payment, Executed, Refunded }
       @created_at = order.created_at
-    end
-    
-    def too_old?
-      # wip: created_at > Time.now - 8.minutes
-      false
     end
     
     def valid?
@@ -26,7 +21,17 @@ class Order
       true
     end
     
+    def too_old?
+      # wip: created_at > Time.now - 8.minutes
+      false
+    end
+    
+    def execute!
+      Huobi.execute_onchain_order(self.order_id)
+      # todo: better as a singleton!
+    end
+    
     def refund!
-      CeloMento.send(@to, @value) unless @status == "Refunded"
+      Celo.send(@to, @value) unless @status == "Refunded"
     end
 end

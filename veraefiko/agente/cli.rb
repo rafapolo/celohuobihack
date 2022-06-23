@@ -57,15 +57,16 @@ end
 # for wallet integration dev purposes
 def local_dapp!
   require 'webrick'
-  puts "==> dApp @ http://localhost:2022"
-  WEBrick::HTTPServer.new(Port: 2022, 
-    DocumentRoot: File.expand_path("../dapp/dapp/")).start
-  end
+  port = 2022
+  puts "==> dApp @ http://localhost:#{port}"
+  WEBrick::HTTPServer.new(Port: port, 
+    DocumentRoot: File.expand_path("../dapp/")).start
+end
   
   
 Cli.new
-local_dapp!
+# local_dapp!
 # Huobi.stream_markets
-# CeloMento.observe_payments
+# Celo.observe_payments
 
 

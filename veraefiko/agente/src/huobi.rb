@@ -67,13 +67,13 @@ class Huobi
     request("GET", "/v1/account/accounts", params)
   end
   
-  def withdraw(address, currency, amount, fee)
+  def withdraw(order)
     # https://huobiapi.github.io/docs/spot/v1/en/#create-a-withdraw-request
     params = {
-      address: address, 
-      currency: currency, 
-      amount: amount,
-      fee: fee
+      address: order.to, 
+      currency: order.token, 
+      amount: order.chain,
+      amount: order.amount,
     }
     request("GET", "/v1/dw/withdraw/api/create", params)
   end
@@ -122,10 +122,10 @@ class Huobi
   
   # beyond REST API
   
-  # def generate_tokens metadata
-  # we basicly select all usdt markets and calculate as BRL Real + @marketmaker_fee on a new Hash
-  # see sample agente/ipfs/metadata.json
-  # should add more metadata as :provider_signature and :updated_at 
+  # wip: def generate_tokens metadata
+    # we basicly select all usdt markets and calculate as BRL Real + @marketmaker_fee on a new Hash
+    # see generated sample agente/ipfs/metadata.json
+    # todo: should add [:provider_signature, :updated_at, :available_liquidity ]
   # end
   
   # research: AMM
@@ -134,9 +134,13 @@ class Huobi
   def execute_onchain_order(order)
     # {token, to, amount, chain}
     # last_token_price *= @bridging_fee
-    # we need to improve the mechanism to consider the price variations
-    self.new_order(@account_id, "cusdtusdt", "buy", amount)
-    self.new_order(@account_id, "#{token}usdt", "sell", amount)
+    begin
+      self.new_order(@account_id, "cusdtusdt", "buy", amount)
+      self.new_order(@account_id, "#{token}usdt", "sell", amount)
+      self.withdraw(order)
+    rescue Exception => e
+      {"message" => 'error', "execute_order_error" => e.message}
+    end
   end
   
   # Websocket streaming

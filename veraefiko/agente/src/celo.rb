@@ -1,6 +1,6 @@
 # author: rafael polo 
 
-class CeloMento
+class Celo
   # a simple proof-of-concept celo-cli wrapper
   # in a future version might use Go or pure Nodejs libs
   
