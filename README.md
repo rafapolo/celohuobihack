@@ -5,7 +5,10 @@
 
 In Esperanto, *Vera Efico* means *Real Impact*. 
 
+
 #### Description
+
+In one line, we collect cMCO2 while providing a private fiat ↠ crypto bridge for brazilians.
 
 This project proposes a noble usage for the Celo stablecoin pegged to the brazilian official R&#36; Real currency: an innovative system enabling the 1.3 billion bank accounts in the country to acquire tokens and multi-chain cryptocurrencies at Huobi Exchange from their own bank accounts in a more private way. Taking advantage of the new Brazilian Central Bank protocol for instant payment, PIX, we convert a Fiat transfer into 1:1 Celo Real, tradable for the +500 tokens and cryptocurrencies at Huobi - whose market data is published into IPFS and accessed through our dApp. Bridging it, we collect an experimental market-maker fee, directly distributed into impactMarket's poverty alleviation mechanisms, and our own cMCO2 token vault - managed by the DAO proposals focused on protecting Brazilian lands.
 
@@ -31,17 +34,17 @@ With open eyes, Latin America is full of problems - specially on public governan
 - Most friends-of-friends mediation solutions (as we have done some times) requires some hours-before R$ Real/BRL deposit and a later conversion and transfer with a variable price. The new Brazilian payment protocol changes that.
 - Many people just want a non-custodian fast service: Choose -> Pay in R$ -> and Receive the cryptocurrency or token in their own private wallet.
 
-For this Hackaton, we are experimenting with a 3-pillars system provided to the group above, re-routing a tiny part of this decentralized financial flows into *real impact* beyond crypto *per se*.
+For this Hackaton, we are experimenting with a 3-pillars system provided to the group above, re-routing a tiny part of this new decentralized financial flows into *real impact* beyond crypto *per se*.
 
 #### Vision
 
-When coinage was first introduced into the Greek world in the 7th century BC, it was not seen as an economic instrument so much as a magical charm, "*a talisman that could at will transform itself into any desirable or desired object.*" Today, 2800 years later, the notion that money is a tool to satisfy the individual's unlimited desires is still dominant. We hope to bring it more collectively-purposeful in the 2800 ahead. 
+When coinage was first introduced into the Greek world in the 7th century BC, it was not seen as an economic instrument so much as a magical charm, "*a talisman that could at will transform itself into any desirable or desired object.*" Today, 2800 years later, the notion that money is a tool to satisfy the individual's unlimited desires is still dominant. We hope to bring it more collectively-purposeful in the 2800 years ahead. 
 
 As we write, the largest national crypto CEX in Brazil, with more than 1.5 million users, had a 24h trading volume of $4,345,824 from small investors. Basic maths shows us that *every day*, their users spend the equivalent to a minimum-wage paid to 300 people *for one year*, or hypothetically, beyond the pure individual speculation, this one-day crypto-flow of small investors could fund 20 people with spectacular skills together for two year to research and build *real impact* projects. Even a fraction of this crypto-exchanges flows could become relevant investments for Open Universities or ReFi Hacklabs.
 
 There is money! But the ways it is operated today makes it extremely concentrated in networks far from the urgent social and environmental needs. We are Celo Maximalists, in the sense of believing that there are beautiful ways to understand wealth and spread prosperity, as the new programmable monetary paradigm creates new economic models. We believe it is a question of exemplar collective organization and distributed awareness, potentially enabled by blockchain concepts, removing the barriers for better cooperation among financially-aware self-managed collectives.
 
-Changing time, we remember that some technologies can be revolutionary, as when on the 12th century Fibonacci published about the Hindu-Arabic numeral system, bringing light to the works of the 9th century mathematicians Al-Khwārizmī - "Algorithm" comes from his name - who translated older Sanskrit texts from the much older Hindu mathematician Aryabhata from the 5th century - one thousand years before the colonization of America - calculated Earth's circumference with an accuracy of 0.3% without clocks or telescopes, just using his own methods and numeric system based on phonetics. For more than one thousand years Europeans used Roman numerals, a non-decimal system making daily arithmetic almost impossible. Ca you imaginable in use today? In plain MMXXII. Obsolete, the Statistics Foundations came 5 centuries after the Hindu-Arabic numeral were introduced to Europeans, so, understanding our chances we could finally navigate into better luck.
+Changing time, we remember that some technologies can be revolutionary, as when on the 12th century Fibonacci published about the Hindu-Arabic numeral system, bringing light to the works of the 9th century mathematicians Al-Khwārizmī - "Algorithm" comes from his name - who translated older Sanskrit texts from the 5th century Hindu mathematician Aryabhata, who, one thousand years before the colonization of America, calculated Earth's circumference with an accuracy of 0.3% without clocks or telescopes, just using his own methods and numeric system based on phonetics. For more than one thousand years Europeans used Roman numerals, a non-decimal system making daily arithmetic almost impossible. Can you imaginable it in use today? In plain MMXXII. Obsolete, the Statistics Foundations came 5 centuries after the Hindu-Arabic numeral were introduced to Europeans, so, understanding our chances we could finally navigate into better luck.
 
 The full way around in non-linear hypertextual history, some researchers says the english word *cash* came from the Sanskrit unit of measure, Karṣa (कर्ष). In between, it was just in the the 13th century that Marco Polo described in his book of travels the surprising fiat money of the Yuan Dynasty; "*these pieces of paper are issued with as much solemnity and authority as if they were of pure gold or silver...and indeed everybody takes them readily*".
 
@@ -51,14 +54,14 @@ Information Technologies, as language tools, allow us to shape not just the futu
 
 #### Tech & Architecture   
 
-Coming from decades on web2 engineering, to experiment with web3 protocols and frameworks is a great challenge, breaking the traditional closed clients-servers paradigm into an open decentralized computing system. While we missed to have integrated tests, we achieved a high-level system architecture without servers or databases working as a hybrid-exchange, bridging a Fiat currency paired with it's equivalent stablecoin into other chains and tokens. With so many open-sourced DAOs and dApps, we focused on the most innovative part of the system, The Agent, a from-scratch software written in Ruby connected to a local Celo Full Node. Our framework also grasps the potential to evolve as a hybrid payment solution.
+Coming from decades on web2 engineering, to experiment with web3 protocols and frameworks is an exciting challenge, breaking the traditional closed clients-servers paradigm into an open decentralized computing system. While we missed to have integrated tests, we achieved a high-level system architecture without servers, load balancers or databases working as a hybrid-exchange, bridging a Fiat currency paired with it's equivalent stablecoin into other tokens and chains. With so many open-sourced DAOs and dApps, we decided to focus on the most innovative part of the system, The Agent, a from-scratch software written in Ruby connected to a local Celo Full Node and IPFS, mediating the on/off chain exchanges. Our framework also grasps the potential to evolve as a hybrid payment solution.
  
 The ミ tree pillars of our prototyped system,
 
 1. ##### ミ The MOΞDAO - smart contracts
 - moeda is the portuguese world for coin; a moedão is a big one.
 - coordinate the proposals for the shared cMCO2 vault usage
-- a simple [CharloDAO](https://github.com/PhoenixTechAfrica/Tutorials/tree/dev/projects/charlo) extended fork base, compiled with Truffle
+- a simple DAO fork base, compiled with Truffle
 - HybridEx, our initial Contract managing on-chain orders
 
 2. ##### ミ The dApp - a distributed progressive frontend
@@ -75,6 +78,7 @@ The ミ tree pillars of our prototyped system,
   - bridging Huobi Exchange metadata on IPNS
   - executing on-chain Orders off-chain
   - managing transactions and finances
+  - donating half of the collected fees
   - converting cReal fees into cMCO2
   - prompting the accessible distributed data,
   
@@ -138,11 +142,10 @@ The ミ tree pillars of our prototyped system,
         }
         dApp --> Contract
         class Huobi{
+          + marketmaker_fee 
           + tradable_tokens
           + celo_balance
           + cusd_balance
-          - balances()   
-          - swap(celo<>cusd)()
           - create_order("*cusd", amount)
           - order_status(id)
           - execute_witdraw(token, to)
@@ -168,11 +171,9 @@ The ミ tree pillars of our prototyped system,
           - decode_txt_data()
           - publish_json_metadata()
           - todo: generate_pix_contract()
-          - read_ipfs_published_metadata()
         }
         class Agent{
           + summary      
-          + marketmaker_fee        
           - print_local_balances()
           - print_huobi_balances()
           - print_last_celo_tick()
@@ -259,11 +260,11 @@ The ミ tree pillars of our prototyped system,
       Agent-->>Agent: half fees to ImpactMarket
       Agent-->>Agent: half into our cMCO2
       end
-  ```
+  ```     
 
 #### Team
 
-Rafael Polo is a 37' Brazilian-Portuguese Computer Scientist from Rio de Janeiro with a Master in Information Systems and a Greek heart, experimenting with artificial and natural languages for the last 20 years. Worked as a Web2 Software Engineer in Berlin and co-created a Computer Lab in Athens, where volunteered as a teacher to on-the-edge communities for 4 years. In 2021 moved to Lisbon, when was graced by a Celo Community Fund to build Moedax, a Fiat to Celo Real on-ramp provider. As of 2022, he is open for a job position or a new funded project challenge.
+Rafael Polo is a 37' Brazilian-Portuguese Computer Scientist from Rio de Janeiro with a Master in Information Systems and a Greek heart, experimenting with artificial and natural languages for the last 20 years. Worked as a Web2 Software Engineer in Berlin and co-created a Computer Lab in Athens, where volunteered as a teacher to on-the-edge communities for 4 years. In 2021 moved to Lisbon, when was graced by a Celo Community Fund to build Moedax, a Fiat to Celo Real on-ramp provider. As of 2022 crypto-crash, he is open for a job position or a new funded project challenge.
 
 While I took a solo flight writing VERAΞFICO, "we" came from the conversations with many amazing people echoing around us, who would love to get funded as a team to build tools for the concepts we speculate so much about, bridging crypto to the masses in more enriching ways.
 
