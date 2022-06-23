@@ -29,6 +29,7 @@ class Web3Utils
     end
   end
 
+  # => https://ipfs.io/ipfs/QmSGsGXvntzHSVZoDvgA5VYzQE8hCUYQUB3ctZyhDPabnm
   def publish_json_metadata(metadata)
     File.write("#{@ipfs_path}/metadata.json")
     hash = exec_ipfs("add metadata.json")["Hash"]
@@ -40,19 +41,6 @@ class Web3Utils
     # hybridex = web3.Eth.Contract.new(hybridEx_abi_path)
     #   .at @ipfs_contract_addr
     # hybridex.getOrder(order_id)
-  # end
-  
-  # def get_by_block(block, from)
-  #   block = web3.eth.getBlockByNumber block  
-  #   block.transactions[0].from from
-  # end  
-
-  # Celo monitoring the income transactions is enough
-  # def read_onchain_orders()
-  #   triggered by the smart contract event
-  # end
-  # def monitor_events
-  #   contract = web3.eth.contract(abi).at('0x');...
   # end
 
   # we considered to generate a per-user 

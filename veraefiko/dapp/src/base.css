@@ -1,21 +1,64 @@
 html {
-  background: linear-gradient(#007224,#274f8c);
+  background: linear-gradient(#04531d,#274f8c);
   background-position: center 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   -webkit-background-size: cover;
 }
-
+.auth{
+  width: 50%;
+  font-size: 16px;
+}
 body{ 
-  border: 10px solid black;
+  border: 10px solid #042305;
   margin: 10px;
   padding: 20px;
   height: 100%;
   color: white;
+  font-family: monospace;
 }
-
+.wallet{
+  display: none;
+  text-align: center;
+}
+.wallet>h2{
+  background: -webkit-linear-gradient(45deg, #6a34ff, #45ffb2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .logo{  
-    height: 250px;
-    float: left;
+  height: 250px;
+  float: left;
+}
+#tokens{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.token{
+  border: 1px solid black;
+  padding: 10px;
+  margin: 4px;
+  background: -webkit-linear-gradient(45deg, #38580b, #0e905a 100%);  
+  cursor: pointer;
+  font-size: 14px;
+}
+.token:hover{
+  background: -webkit-linear-gradient(45deg, #0e905a, #38580b 100%);  
+}
+.topup{
+  margin-bottom:20px; 
+  font-size: 16px;
+}
+#bottom{
+  background-color: #052305;
+  text-align: center;  
+  font-size: 12px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 5px;  
+  text-align: center;
 }

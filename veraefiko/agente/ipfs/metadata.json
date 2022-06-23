@@ -1,1545 +1,1545 @@
 {
-  usdt_cbrl_rate: 4.797600000000001,
-  updated_at: 2022-06-02 16:24:01 +0100,
-  data: {
-    1inch: {
-      name: 1inch,
-      min_brl: 227.58560307360003,
-      max_brl: 4160529.071025398,
-      valor: 7.899232953181081
-    },
-    aave: {
-      name: Aave,
-      min_brl: 435.7784337840001,
-      max_brl: 7975838.281020491,
-      valor: 507.2964185655028
-    },
-    abyss: {
-      name: The Abyss,
-      min_brl: 582.5037608208,
-      max_brl: 6764.992063714082,
-      valor: 3.1918056551763807
-    },
-    ach: {
-      name: Alchemy Pay,
-      min_brl: 573.7986643464002,
-      max_brl: 25669.16804537506,
-      valor: 3.1036516668028153
-    },
-    acm: {
-      name: AC Milan Fan Token,
-      min_brl: 304.3027820952001,
-      max_brl: 35598.51282450751,
-      valor: 24.153375974791963
-    },
-    ada: {
-      name: Cardano,
-      min_brl: 200.47821794640004,
-      max_brl: 60356263.95104925,
-      valor: 5.675729381234364
-    },
-    ads: {
-      name: Adshares,
-      min_brl: 151.12440000000004,
-      max_brl: 30629.92899434193,
-      valor: 17.517877525824908
-    },
-    ae: {
-      name: Aeternity,
-      min_brl: 151.12440000000004,
-      max_brl: 3126.478082848051,
-      valor: 3.3764027962654777
-    },
-    agld: {
-      name: Adventure Gold,
-      min_brl: 247.80098152800005,
-      max_brl: 28959.52674992161,
-      valor: 5.911385302119612
-    },
-    aion: {
-      name: Aion,
-      min_brl: 252.13659663600006,
-      max_brl: 4038.0185186510407,
-      valor: 3.16927565409169
-    },
-    alcx: {
-      name: Alchemix,
-      min_brl: 195.63234929280003,
-      max_brl: 2428.0552910849765,
-      valor: 165.9599440120038
-    },
-    algo: {
-      name: Algorand,
-      min_brl: 192.48180855120006,
-      max_brl: 60364828.595528275,
-      valor: 5.145604204955683
-    },
-    alice: {
-      name: MyNeighborAlice,
-      min_brl: 243.44223719040002,
-      max_brl: 32481.75832521357,
-      valor: 17.962968362729676
-    },
-    alpaca: {
-      name: Alpaca Finance,
-      min_brl: 196.75231063200005,
-      max_brl: 49513.79850250682,
-      valor: 4.6676549673811225
-    },
-    alpha: {
-      name: Alpha Finance Lab,
-      min_brl: 196.67764078560003,
-      max_brl: 12002.616733198145,
-      valor: 3.8101531079224675
-    },
-    amb: {
-      name: Ambrosus,
-      min_brl: 291.2612357304001,
-      max_brl: 18682.390873629003,
-      valor: 3.042488190118104
-    },
-    ankr: {
-      name: Ankr,
-      min_brl: 253.71266580720004,
-      max_brl: 1983771.7465641901,
-      valor: 3.2030117133581344
-    },
-    ant: {
-      name: Aragon V2,
-      min_brl: 288.79043814720006,
-      max_brl: 9558594.422024872,
-      valor: 12.700693952804668
-    },
-    ape: {
-      name: ApeCoin,
-      min_brl: 249.32313527040006,
-      max_brl: 218285.34631080876,
-      valor: 42.82982944234714
-    },
-    ardr: {
-      name: Ardor,
-      min_brl: 235.79135574480006,
-      max_brl: 111180.9839101744,
-      valor: 3.5915497042148607
-    },
-    ark: {
-      name: Ark,
-      min_brl: 240.47504632800005,
-      max_brl: 23150.48167198258,
-      valor: 5.5883519332435085
-    },
-    arpa: {
-      name: ARPA Chain,
-      min_brl: 204.32712612960006,
-      max_brl: 59879.42991451661,
-      valor: 3.173332610190854
-    },
-    arrr: {
-      name: Pirate Chain,
-      min_brl: 151.12440000000004,
-      max_brl: 3896.5918146031895,
-      valor: 6.689665459002329
-    },
-    ata: {
-      name: Automata Network,
-      min_brl: 201.12458420160004,
-      max_brl: 3552.9318784234806,
-      valor: 3.7926248797720636
-    },
-    atom: {
-      name: Cosmos,
-      min_brl: 221.65471879920003,
-      max_brl: 61767183.33744582,
-      valor: 60.7805956668769
-    },
-    auction: {
-      name: Bounce Token,
-      min_brl: 195.63234929280003,
-      max_brl: 40800.92136928436,
-      valor: 55.02682378300345
-    },
-    ava: {
-      name: Travala,
-      min_brl: 200.91239115120004,
-      max_brl: 36080.68603146043,
-      valor: 6.6566238754974005
-    },
-    avaxc: {
-      name: AVAX C-Chain,
-      min_brl: 151.12440000000004,
-      max_brl: 37982.06542232236,
-      valor: 157.3635549174444
-    },
-    axs: {
-      name: Axie Infinity,
-      min_brl: 179.07421010400003,
-      max_brl: 50767.30316892067,
-      valor: 112.30133181982107
-    },
-    badger: {
-      name: Badger DAO,
-      min_brl: 175.12283957760002,
-      max_brl: 21861.019412093112,
-      valor: 31.71868322926718
-    },
-    bal: {
-      name: Balancer,
-      min_brl: 161.62453770480002,
-      max_brl: 65700.61526891106,
-      valor: 42.126233234851604
-    },
-    bat: {
-      name: Basic Attention Token,
-      min_brl: 205.62410451600005,
-      max_brl: 60356263.95104925,
-      valor: 5.008104994219253
-    },
-    bcd: {
-      name: Bitcoin Diamond,
-      min_brl: 244.84731989760004,
-      max_brl: 25942.666594031885,
-      valor: 4.196745105498241
-    },
-    bch: {
-      name: Bitcoin Cash,
-      min_brl: 179.27473059360005,
-      max_brl: 60364828.595528275,
-      valor: 979.3596637771318
-    },
-    beam: {
-      name: Beam,
-      min_brl: 230.40069082560004,
-      max_brl: 38830.23868440193,
-      valor: 3.6988856039661875
-    },
-    beta: {
-      name: Beta Finance,
-      min_brl: 178.24281001200004,
-      max_brl: 10374.735890993043,
-      valor: 4.043159193840767
-    },
-    bico: {
-      name: BICONOMY (BICO),
-      min_brl: 317.3443428528001,
-      max_brl: 23595.896091309365,
-      valor: 6.40803864275124
-    },
-    bnb: {
-      name: BNB,
-      min_brl: 235.86704748000005,
-      max_brl: 61767183.33744582,
-      valor: 1689.457855635894
-    },
-    bnbbsc: {
-      name: Binance Coin (BSC),
-      min_brl: 197.12718550080004,
-      max_brl: 87758.80127786542,
-      valor: 1607.2707583347374
-    },
-    bnt: {
-      name: Bancor Network Token,
-      min_brl: 205.33187310480005,
-      max_brl: 206855.18695358466,
-      valor: 9.943859351228468
-    },
-    bnx: {
-      name: BinaryX,
-      min_brl: 205.49685777120004,
-      max_brl: 123079.00838881294,
-      valor: 581.6311878382496
-    },
-    boson: {
-      name: Boson Protocol,
-      min_brl: 521.6619121632001,
-      max_brl: 644.1600970229042,
-      valor: 4.974015028510972
-    },
-    brd: {
-      name: Bread,
-      min_brl: 243.44416582560004,
-      max_brl: 9944.276124664984,
-      valor: 3.35752469678542
-    },
-    bsv: {
-      name: Bitcoin SV,
-      min_brl: 151.12440000000004,
-      max_brl: 61798155.377906226,
-      valor: 259.8357959577173
-    },
-    btc: {
-      name: Bitcoin,
-      min_brl: 218.72450304000006,
-      max_brl: 61767183.33744582,
-      valor: 145965.88444076385
-    },
-    btcv: {
-      name: Bitcoin Vault,
-      min_brl: 151.12440000000004,
-      max_brl: 2391.783046815709,
-      valor: 15.661222281477697
-    },
-    btg: {
-      name: Bitcoin Gold,
-      min_brl: 265.36769617680005,
-      max_brl: 60356263.95104925,
-      valor: 129.49257018047038
-    },
-    btrst: {
-      name: Braintrust,
-      min_brl: 269.52532992000005,
-      max_brl: 40511.65386302854,
-      valor: 20.74274691888484
-    },
-    busd: {
-      name: Binance USD,
-      min_brl: 249.20515748880007,
-      max_brl: 60364828.595528275,
-      valor: 7.862511084814035
-    },
-    busdbsc: {
-      name: Binance USD (BSC),
-      min_brl: 170.85193449840003,
-      max_brl: 81560.30131520121,
-      valor: 7.8123716212939405
-    },
-    c98: {
-      name: Coin98,
-      min_brl: 275.3486999784001,
-      max_brl: 33387.83607362661,
-      valor: 6.212417626342511
-    },
-    cake: {
-      name: PancakeSwap,
-      min_brl: 217.73355876000005,
-      max_brl: 61758618.6929668,
-      valor: 27.40402938721826
-    },
-    celo: {
-      name: Celo,
-      min_brl: 153.02957493600005,
-      max_brl: 39675.28000571126,
-      valor: 9.709740407524087
-    },
-    celr: {
-      name: Celer Network,
-      min_brl: 271.08096131520006,
-      max_brl: 21311.764403991605,
-      valor: 3.0977497854799716
-    },
-    chess: {
-      name: Tranchess,
-      min_brl: 253.59186703680007,
-      max_brl: 14814.444022385074,
-      valor: 4.574731595749547
-    },
-    chr: {
-      name: Chromia,
-      min_brl: 213.01195754160003,
-      max_brl: 38876.38018388904,
-      valor: 4.117536896808116
-    },
-    chz: {
-      name: Chiliz,
-      min_brl: 221.70579884640003,
-      max_brl: 60364828.595528275,
-      valor: 3.6080236129992826
-    },
-    city: {
-      name: Manchester City Fan Token,
-      min_brl: 269.53790922720003,
-      max_brl: 63491.72299591087,
-      valor: 33.48687023709408
-    },
-    cocos: {
-      name: Cocos-BCX,
-      min_brl: 191.26780465680002,
-      max_brl: 42971.684084302695,
-      valor: 9.884575102704202
-    },
-    comp: {
-      name: Compound,
-      min_brl: 204.36778578960005,
-      max_brl: 74275.06790367218,
-      valor: 358.28513468077034
-    },
-    coti: {
-      name: COTI Token,
-      min_brl: 253.49562238320004,
-      max_brl: 60380.90461691402,
-      valor: 3.609976903492625
-    },
-    croold: {
-      name: Crypto.com Coin,
-      min_brl: 532.9778769504001,
-      max_brl: 61758618.6929668,
-      valor: 3.9559461263360314
-    },
-    crv: {
-      name: Curve DAO Token,
-      min_brl: 209.70603213120003,
-      max_brl: 4364983.572989277,
-      valor: 9.749736075964234
-    },
-    ctk: {
-      name: CertiK,
-      min_brl: 186.92886481200003,
-      max_brl: 74185.479830477,
-      valor: 7.150770475107392
-    },
-    ctsi: {
-      name: Cartesi,
-      min_brl: 239.09505027120005,
-      max_brl: 41101.25992198381,
-      valor: 3.9169936659162294
-    },
-    cvc: {
-      name: Civic,
-      min_brl: 260.92750298400006,
-      max_brl: 5665054.672276021,
-      valor: 3.92620475773215
-    },
-    cw: {
-      name: CardWallet,
-      min_brl: 560.8127461536001,
-      max_brl: 987.6538801029602,
-      valor: 3.072852093522231
-    },
-    dai: {
-      name: Dai,
-      min_brl: 169.38884880720005,
-      max_brl: 61758618.6929668,
-      valor: 7.856522148417807
-    },
-    dar: {
-      name: Mines of Dalarnia,
-      min_brl: 178.24281001200004,
-      max_brl: 21353.645007314553,
-      valor: 5.441126672794153
-    },
-    dash: {
-      name: Dash,
-      min_brl: 209.43216593280005,
-      max_brl: 61758618.6929668,
-      valor: 311.2980154730547
-    },
-    dcr: {
-      name: Decred,
-      min_brl: 217.48384368000006,
-      max_brl: 18900.898369227005,
-      valor: 193.2993185378642
-    },
-    dent: {
-      name: Dent,
-      min_brl: 205.49685777120004,
-      max_brl: 2301.9036302930645,
-      valor: 3.006177278897192
-    },
-    dgb: {
-      name: DigiByte,
-      min_brl: 209.54153682000003,
-      max_brl: 61758618.6929668,
-      valor: 3.0645987469446774
-    },
-    dgd: {
-      name: DigixDAO,
-      min_brl: 378.2078958528001,
-      max_brl: 12265.481250402536,
-      valor: 2204.093048202576
-    },
-    dnt: {
-      name: district0x,
-      min_brl: 708.5813209056001,
-      max_brl: 35318.09487182341,
-      valor: 3.273015189736975
-    },
-    doge: {
-      name: Dogecoin,
-      min_brl: 196.89733248480005,
-      max_brl: 70949.38382067063,
-      valor: 3.4193515303215243
-    },
-    dot: {
-      name: Polkadot,
-      min_brl: 166.13682443280004,
-      max_brl: 60356263.95104925,
-      valor: 54.48724337945729
-    },
-    dusk: {
-      name: Dusk Network,
-      min_brl: 222.98595204960003,
-      max_brl: 27010.439889187448,
-      valor: 3.708558372592445
-    },
-    dydx: {
-      name: dYdX,
-      min_brl: 900.8291888856002,
-      max_brl: 60356263.95104925,
-      valor: 13.715799701180384
-    },
-    edg: {
-      name: Edgeless,
-      min_brl: 430.3744987032001,
-      max_brl: 10641.315035622603,
-      valor: 3.0879177440147303
-    },
-    efi: {
-      name: Efinity Token,
-      min_brl: 1112.8787574624002,
-      max_brl: 1151.8258451289244,
-      valor: 4.170718541932034
-    },
-    egld: {
-      name: Elrond,
-      min_brl: 182.52153038160006,
-      max_brl: 51035.70320934688,
-      valor: 448.6218758673211
-    },
-    enj: {
-      name: Enjin,
-      min_brl: 217.38071926800004,
-      max_brl: 61758618.6929668,
-      valor: 6.567199874634287
-    },
-    ens: {
-      name: Ethereum Name Service,
-      min_brl: 231.73049918880005,
-      max_brl: 32980.06466892481,
-      valor: 69.73285217573623
-    },
-    eos: {
-      name: EOS,
-      min_brl: 151.12440000000004,
-      max_brl: 61758618.6929668,
-      valor: 9.78673323549105
-    },
-    eqx: {
-      name: EQIFI,
-      min_brl: 515.9282812128001,
-      max_brl: 2982.845822408299,
-      valor: 3.2142932788790213
-    },
-    erg: {
-      name: Ergo,
-      min_brl: 151.12440000000004,
-      max_brl: 11486.210685268203,
-      valor: 14.663553108642676
-    },
-    eth: {
-      name: Ethereum,
-      min_brl: 151.12440000000004,
-      max_brl: 60395800.63598869,
-      valor: 10021.296941661953
-    },
-    etn: {
-      name: Electroneum,
-      min_brl: 151.12440000000004,
-      max_brl: 11642.079365461443,
-      valor: 3.0164968684644595
-    },
-    ever: {
-      name: Everscale,
-      min_brl: 151.12440000000004,
-      max_brl: 20579.035935419644,
-      valor: 4.038272366637581
-    },
-    fet: {
-      name: Fetch,
-      min_brl: 208.66477062240006,
-      max_brl: 25040.958995530807,
-      valor: 3.8388533492357793
-    },
-    fida: {
-      name: Bonfida,
-      min_brl: 195.63234929280003,
-      max_brl: 14894.927616597004,
-      valor: 5.998912170279096
-    },
-    fil: {
-      name: Filecoin,
-      min_brl: 196.86663264240005,
-      max_brl: 60356263.95104925,
-      valor: 47.51422827074847
-    },
-    fio: {
-      name: FIO Protocol,
-      min_brl: 227.27643133680004,
-      max_brl: 33604.16941964341,
-      valor: 3.261499827426157
-    },
-    firo: {
-      name: Firo,
-      min_brl: 243.44223719040002,
-      max_brl: 45303.88742065201,
-      valor: 12.126850290464999
-    },
-    fkx: {
-      name: FortKnoxster,
-      min_brl: 499.92600635280013,
-      max_brl: 8673.072351107685,
-      valor: 3.1254080905548665
-    },
-    flow: {
-      name: Flow,
-      min_brl: 186.92886481200003,
-      max_brl: 31694.512236489907,
-      valor: 17.175510077109188
-    },
-    flux: {
-      name: Flux,
-      min_brl: 213.01195754160003,
-      max_brl: 38313.10427815333,
-      valor: 6.5052776575865305
-    },
-    front: {
-      name: Frontier,
-      min_brl: 260.83095608160005,
-      max_brl: 32466.57205426951,
-      valor: 4.3186520088182005
-    },
-    ftm: {
-      name: Fantom,
-      min_brl: 323.53493081040006,
-      max_brl: 60364828.595528275,
-      valor: 5.381324202535904
-    },
-    ftt: {
-      name: FTX Token,
-      min_brl: 230.51449469520006,
-      max_brl: 61767183.33744582,
-      valor: 151.86849519625176
-    },
-    gala: {
-      name: GALA,
-      min_brl: 243.44223719040002,
-      max_brl: 137269.12168731107,
-      valor: 3.420584920185391
-    },
-    gas: {
-      name: Gas,
-      min_brl: 275.89972832640007,
-      max_brl: 57956.92813241353,
-      valor: 18.343167471417893
-    },
-    glm: {
-      name: Golem,
-      min_brl: 257.7516021288001,
-      max_brl: 26075.22780802801,
-      valor: 4.3163808620668895
-    },
-    gmt: {
-      name: STEPN,
-      min_brl: 249.12402527520007,
-      max_brl: 57015.889184704814,
-      valor: 10.186582166570584
-    },
-    gno: {
-      name: Gnosis,
-      min_brl: 529.7333656176,
-      max_brl: 80027.82399402853,
-      valor: 1080.7759369104256
-    },
-    grs: {
-      name: Groestlcoin,
-      min_brl: 218.61367848000006,
-      max_brl: 63017.56173046322,
-      valor: 5.124596026404645
-    },
-    grt: {
-      name: The Graph,
-      min_brl: 217.33933996800002,
-      max_brl: 81357.62419432202,
-      valor: 3.816658301296754
-    },
-    gusd: {
-      name: Gemini Dollar,
-      min_brl: 524.3407000992001,
-      max_brl: 27769.341521489794,
-      valor: 7.806315617685958
-    },
-    hbar: {
-      name: Hedera Hashgraph,
-      min_brl: 222.83525943360002,
-      max_brl: 61767183.33744582,
-      valor: 3.5139613236594625
-    },
-    hedg: {
-      name: HedgeTrade,
-      min_brl: 343.42743558240005,
-      max_brl: 378.6589227049609,
-      valor: 4.149741099612008
-    },
-    hex: {
-      name: HEX,
-      min_brl: 549.8366961240001,
-      max_brl: 36421.73864879966,
-      valor: 3.4289862009498027
-    },
-    hive: {
-      name: Hive,
-      min_brl: 222.98595204960003,
-      max_brl: 40589.48914639382,
-      valor: 5.536477937887182
-    },
-    hot: {
-      name: Holo,
-      min_brl: 204.21949677120003,
-      max_brl: 32497.52728281256,
-      valor: 3.0131041501600384
-    },
-    ht: {
-      name: Huobi token,
-      min_brl: 519.6639324528,
-      max_brl: 33641579.2758085,
-      valor: 36.84425554728679
-    },
-    icp: {
-      name: Internet Computer,
-      min_brl: 208.66477062240006,
-      max_brl: 32855.51539643395,
-      valor: 44.7748967919418
-    },
-    icx: {
-      name: Icon,
-      min_brl: 205.54279958880005,
-      max_brl: 38821.49838457801,
-      valor: 4.959517859683607
-    },
-    idex: {
-      name: IDEX,
-      min_brl: 273.87251683920005,
-      max_brl: 43009.55871687301,
-      valor: 3.6152328671450684
-    },
-    ignis: {
-      name: Ignis,
-      min_brl: 151.12440000000004,
-      max_brl: 1360.7190109206124,
-      valor: 3.0856604098635874
-    },
-    ilv: {
-      name: Illuvium,
-      min_brl: 178.24281001200004,
-      max_brl: 6596.095580001181,
-      valor: 1752.234789358085
-    },
-    iost: {
-      name: IOStoken,
-      min_brl: 191.27603733840004,
-      max_brl: 137455.28661385854,
-      valor: 3.088234227908689
-    },
-    iotx: {
-      name: IoTeX,
-      min_brl: 286.91406320400006,
-      max_brl: 46897.12754122164,
-      valor: 3.1980706338251146
-    },
-    jasmy: {
-      name: JasmyCoin,
-      min_brl: 252.12365750880008,
-      max_brl: 9573.723830046707,
-      valor: 3.066822984568778
-    },
-    jst: {
-      name: JUST,
-      min_brl: 195.63234929280003,
-      max_brl: 83615.53498216803,
-      valor: 3.210568779267984
-    },
-    juv: {
-      name: Juventus Fan Token,
-      min_brl: 312.9971559336,
-      max_brl: 44411.648480293516,
-      valor: 20.883089380112068
-    },
-    kava: {
-      name: Kava.io,
-      min_brl: 310.4314234416001,
-      max_brl: 51041.89425505549,
-      valor: 16.872473875979615
-    },
-    kmd: {
-      name: Komodo,
-      min_brl: 221.70808730160005,
-      max_brl: 70038.20756402696,
-      valor: 4.241224326062042
-    },
-    knc: {
-      name: Kyber Network,
-      min_brl: 325.93291521840007,
-      max_brl: 233063.00823810152,
-      valor: 14.735988704585028
-    },
-    krl: {
-      name: Kryll,
-      min_brl: 539.0758184544001,
-      max_brl: 39184.67605121985,
-      valor: 5.739175650743986
-    },
-    ksm: {
-      name: Kusama,
-      min_brl: 430.37108760960007,
-      max_brl: 41480.00624768701,
-      valor: 419.2353829623107
-    },
-    lazio: {
-      name: S.S. Lazio Fan Token,
-      min_brl: 199.97041117680004,
-      max_brl: 1740.040324042284,
-      valor: 17.6324112912584
-    },
-    lcx: {
-      name: LCX,
-      min_brl: 480.9500926560001,
-      max_brl: 1192.0676422348893,
-      valor: 3.2817047744782286
-    },
-    levl: {
-      name: Levolution,
-      min_brl: 476.5778190864001,
-      max_brl: 5443.021715346182,
-      valor: 3.186474139768166
-    },
-    link: {
-      name: Link,
-      min_brl: 209.65345523280004,
-      max_brl: 60356263.95104925,
-      valor: 39.62550824135842
-    },
-    loom: {
-      name: Loom Network,
-      min_brl: 235.91632842720006,
-      max_brl: 49958.09707688941,
-      valor: 3.265639404122402
-    },
-    lpt: {
-      name: Livepeer,
-      min_brl: 208.67451454800002,
-      max_brl: 10410.898881514511,
-      valor: 76.78461239074498
-    },
-    lrc: {
-      name: Loopring,
-      min_brl: 279.60121105920007,
-      max_brl: 61758618.6929668,
-      valor: 6.04219801414642
-    },
-    lsk: {
-      name: Lisk,
-      min_brl: 234.89685761760003,
-      max_brl: 282270.15078515233,
-      valor: 9.424397127361662
-    },
-    ltc: {
-      name: Litecoin,
-      min_brl: 200.10249390240006,
-      max_brl: 60356263.95104925,
-      valor: 353.7943991882186
-    },
-    luna: {
-      name: Terra,
-      min_brl: 151.12440000000004,
-      max_brl: 4005.970752630001,
-      valor: 3.000960730166634
-    },
-    maid: {
-      name: MaidSafeCoin,
-      min_brl: 673.5336151248002,
-      max_brl: 8770.890873303722,
-      valor: 3.9108491398688945
-    },
-    mana: {
-      name: Decentraland,
-      min_brl: 253.72626700320006,
-      max_brl: 61767183.33744582,
-      valor: 8.403856771841918
-    },
-    mask: {
-      name: Mask Network,
-      min_brl: 508.62036579840014,
-      max_brl: 12356.161861075709,
-      valor: 13.35872923795389
-    },
-    matic: {
-      name: Polygon,
-      min_brl: 204.81708582720003,
-      max_brl: 60364828.595528275,
-      valor: 6.361031674501874
-    },
-    maticpolygon: {
-      name: Polygon,
-      min_brl: 209.25034169040003,
-      max_brl: 63340.224465629595,
-      valor: 6.356741082393352
-    },
-    mbox: {
-      name: MOBOX,
-      min_brl: 208.54932597360002,
-      max_brl: 21437.042034801125,
-      valor: 8.394287423414376
-    },
-    mc: {
-      name: Merit Circle,
-      min_brl: 151.12440000000004,
-      max_brl: 40708.45628073047,
-      valor: 11.724122480916696
-    },
-    mdt: {
-      name: Measurable Data Token,
-      min_brl: 191.26622144880005,
-      max_brl: 763.90233040368,
-      valor: 3.268149087965042
-    },
-    mir: {
-      name: Mirror Protocol,
-      min_brl: 179.26321635360003,
-      max_brl: 16579.256228498256,
-      valor: 4.347374833985105
-    },
-    mith: {
-      name: Mithril,
-      min_brl: 234.74786335200005,
-      max_brl: 27531.94444534801,
-      valor: 3.0923678423163743
-    },
-    mkr: {
-      name: Maker,
-      min_brl: 234.74770503120004,
-      max_brl: 337197.6781472401,
-      valor: 6894.015612109675
-    },
-    mo: {
-      name: Morality,
-      min_brl: 373.85771523120013,
-      max_brl: 101522.95260474278,
-      valor: 4.019709677461628
-    },
-    near: {
-      name: NEAR Protocol,
-      min_brl: 169.53142388400002,
-      max_brl: 50162.76576443287,
-      valor: 33.85487404083399
-    },
-    nebl: {
-      name: Neblio,
-      min_brl: 265.17814300080005,
-      max_brl: 30678.45238195921,
-      valor: 4.157125778976823
-    },
-    neo: {
-      name: Neo,
-      min_brl: 348.7765772736001,
-      max_brl: 42244.78248228001,
-      valor: 61.578373573320576
-    },
-    nexo: {
-      name: NEXO,
-      min_brl: 510.7760042400001,
-      max_brl: 255050.6891618096,
-      valor: 9.472017050099105
-    },
-    ngc: {
-      name: NAGA Coin,
-      min_brl: 424.1105362512001,
-      max_brl: 1535.3793357352804,
-      valor: 4.8868301244274495
-    },
-    nim: {
-      name: Nimiq,
-      min_brl: 151.12440000000004,
-      max_brl: 4417.7845460003655,
-      valor: 3.0074889249415393
-    },
-    nmr: {
-      name: Numeraire,
-      min_brl: 182.91330239760003,
-      max_brl: 353298.57858669764,
-      valor: 68.62621321230152
-    },
-    nrg: {
-      name: Energi,
-      min_brl: 151.12440000000004,
-      max_brl: 19405.650684058386,
-      valor: 10.343508923257062
-    },
-    nxt: {
-      name: Nxt,
-      min_brl: 151.12440000000004,
-      max_brl: 366.07289095851615,
-      valor: 3.0194893434448717
-    },
-    omg: {
-      name: OmiseGo,
-      min_brl: 195.39135624960005,
-      max_brl: 61758618.6929668,
-      valor: 16.1886533696535
-    },
-    one: {
-      name: Harmony,
-      min_brl: 249.30025071840006,
-      max_brl: 24573893.307551347,
-      valor: 3.2495508037341976
-    },
-    ont: {
-      name: Ontology,
-      min_brl: 230.44408511760003,
-      max_brl: 61758618.6929668,
-      valor: 4.453533000713268
-    },
-    paxg: {
-      name: PAX Gold,
-      min_brl: 240.44227392240003,
-      max_brl: 90934.0793680637,
-      valor: 8993.807786662503
-    },
-    pay: {
-      name: TenXPay,
-      min_brl: 504.2771944704001,
-      max_brl: 6392.072604560161,
-      valor: 3.0857848861752672
-    },
-    peak: {
-      name: PEAKDEFI,
-      min_brl: 151.12440000000004,
-      max_brl: 444.97521926063524,
-      valor: 3.185478523564364
-    },
-    perp: {
-      name: Perpetual Protocol,
-      min_brl: 151.12440000000004,
-      max_brl: 11270.616622944843,
-      valor: 8.9069224451033
-    },
-    plr: {
-      name: Pillar,
-      min_brl: 534.7034729208001,
-      max_brl: 672.112304218119,
-      valor: 3.0382151123337033
-    },
-    pma: {
-      name: PumaPay,
-      min_brl: 411.5386845216001,
-      max_brl: 1977.4928351619005,
-      valor: 3.000139554961631
-    },
-    pols: {
-      name: Polkastarter,
-      min_brl: 201.12458420160004,
-      max_brl: 35022.599901943046,
-      valor: 6.231568530691881
-    },
-    poly: {
-      name: Polymath,
-      min_brl: 270.72376080480007,
-      max_brl: 30718.51208948551,
-      valor: 4.243100206360153
-    },
-    porto: {
-      name: FC Porto Fan Token,
-      min_brl: 386.8992615960001,
-      max_brl: 6194.833171867034,
-      valor: 14.434546946412489
-    },
-    powr: {
-      name: Power Ledger,
-      min_brl: 247.71402023040008,
-      max_brl: 448819.1828834882,
-      valor: 4.340340427268659
-    },
-    ppc: {
-      name: Peercoin,
-      min_brl: 151.12440000000004,
-      max_brl: 1902.064047681471,
-      valor: 4.800908140703518
-    },
-    ppt: {
-      name: Populous,
-      min_brl: 234.74973441600005,
-      max_brl: 2348.2272193598405,
-      valor: 3.656751435990281
-    },
-    psg: {
-      name: Paris Saint-Germain Fan Token,
-      min_brl: 360.81616886640006,
-      max_brl: 16221.996473195524,
-      valor: 43.85733011106829
-    },
-    pyr: {
-      name: Vulcan Forged PYR,
-      min_brl: 252.13659663600006,
-      max_brl: 37626.99074197561,
-      valor: 28.373479466242042
-    },
-    qnt: {
-      name: Quant,
-      min_brl: 212.99960851920005,
-      max_brl: 561226.8061315004,
-      valor: 343.0537136802405
-    },
-    qtum: {
-      name: Qtum Ignition,
-      min_brl: 210.00268213200002,
-      max_brl: 37849.86838748557,
-      valor: 24.105797199195983
-    },
-    rad: {
-      name: Radicle,
-      min_brl: 222.98595204960003,
-      max_brl: 16722.92490685394,
-      valor: 13.290920172156387
-    },
-    rcn: {
-      name: Ripio Credit Network,
-      min_brl: 565.1382287304001,
-      max_brl: 3344.6213992867206,
-      valor: 3.021079338482309
-    },
-    ren: {
-      name: Ren,
-      min_brl: 205.20104255280003,
-      max_brl: 61767183.33744582,
-      valor: 3.7751217915334743
-    },
-    rep: {
-      name: Augur (REPv2),
-      min_brl: 354.2229423288001,
-      max_brl: 89380.49107436193,
-      valor: 62.895092109107175
-    },
-    req: {
-      name: Request,
-      min_brl: 297.23562943920007,
-      max_brl: 37255.52799945901,
-      valor: 3.7532515410506795
-    },
-    rlc: {
-      name: iEx.ec,
-      min_brl: 235.84871105280004,
-      max_brl: 61758618.6929668,
-      valor: 7.665726184451682
-    },
-    rndr: {
-      name: Render Token,
-      min_brl: 221.71666541040003,
-      max_brl: 31326.254270575413,
-      valor: 7.491793082977291
-    },
-    roobee: {
-      name: ROOBEE,
-      min_brl: 582.5224714608001,
-      max_brl: 3853.7074461141283,
-      valor: 3.0113932770844247
-    },
-    rsr: {
-      name: Reserve Rights,
-      min_brl: 533.2161497544001,
-      max_brl: 53107.518446775255,
-      valor: 3.026781336948434
-    },
-    rune: {
-      name: THORChain,
-      min_brl: 191.97283596480003,
-      max_brl: 314237.0861361212,
-      valor: 18.855261838975473
-    },
-    rvn: {
-      name: Ravencoin,
-      min_brl: 227.35726130160006,
-      max_brl: 70594.96466281066,
-      valor: 3.151825057412743
-    },
-    sand: {
-      name: The Sandbox,
-      min_brl: 209.84605968240004,
-      max_brl: 134396.5312874795,
-      valor: 9.797959878475563
-    },
-    santos: {
-      name: Santos FC Fan Token,
-      min_brl: 192.38003706240005,
-      max_brl: 41906.80832317537,
-      valor: 33.762521379124124
-    },
-    sfp: {
-      name: SafePal,
-      min_brl: 221.70631698720004,
-      max_brl: 52024.813806087164,
-      valor: 5.094461470425468
-    },
-    shib: {
-      name: SHIBA INU,
-      min_brl: 200.06839735920002,
-      max_brl: 5317.651077549518,
-      valor: 3.000059942972501
-    },
-    skl: {
-      name: SKALE Network,
-      min_brl: 391.26469858560006,
-      max_brl: 48713.84256112253,
-      valor: 3.426782095933802
-    },
-    smart: {
-      name: SmartCash,
-      min_brl: 151.12440000000004,
-      max_brl: 379.47468402186007,
-      valor: 3.003927010119389
-    },
-    snx: {
-      name: Synthetix,
-      min_brl: 310.1860693800001,
-      max_brl: 3618007.667264647,
-      valor: 16.70246311444602
-    },
-    sol: {
-      name: Solana,
-      min_brl: 151.12440000000004,
-      max_brl: 73535.96629981195,
-      valor: 263.82117899844053
-    },
-    solve: {
-      name: SolveCare,
-      min_brl: 1453.0230946152003,
-      max_brl: 8699.961521789444,
-      valor: 3.194655240070851
-    },
-    spell: {
-      name: Spell Token,
-      min_brl: 521.6619121632001,
-      max_brl: 21763.346561560804,
-      valor: 3.0073282090951348
-    },
-    stc: {
-      name: Student Coin,
-      min_brl: 404.2879948800001,
-      max_brl: 3529.587994310428,
-      valor: 3.020700476443624
-    },
-    storj: {
-      name: Storj,
-      min_brl: 243.14417669520006,
-      max_brl: 60356263.95104925,
-      valor: 5.975410057480794
-    },
-    sushi: {
-      name: SushiSwap,
-      min_brl: 240.45509790720004,
-      max_brl: 5135311.627107353,
-      valor: 11.186964670822523
-    },
-    sxp: {
-      name: Swipe,
-      min_brl: 516.0308730912002,
-      max_brl: 4420.843650938737,
-      valor: 5.467868219790056
-    },
-    sys: {
-      name: Syscoin,
-      min_brl: 253.68094407600006,
-      max_brl: 31443.228616552205,
-      valor: 4.053675932774645
-    },
-    tel: {
-      name: Telcoin,
-      min_brl: 512.221689036,
-      max_brl: 1186.2043577696763,
-      valor: 3.011951899410335
-    },
-    tfuel: {
-      name: Theta Fuel,
-      min_brl: 200.01528792720003,
-      max_brl: 33584.60207341261,
-      valor: 3.3377468089019513
-    },
-    theta: {
-      name: THETA,
-      min_brl: 191.93414811840003,
-      max_brl: 77547.43615774783,
-      valor: 9.534933563255954
-    },
-    tlm: {
-      name: Alien Worlds,
-      min_brl: 253.46866466880007,
-      max_brl: 18008.440921372905,
-      valor: 3.191648468196504
-    },
-    tomo: {
-      name: TomoChain,
-      min_brl: 183.69999845280003,
-      max_brl: 21621.316689422103,
-      valor: 5.895820812075952
-    },
-    torn: {
-      name: Tornado Cash,
-      min_brl: 260.83095608160005,
-      max_brl: 105945.9813306375,
-      valor: 184.99714048933754
-    },
-    trac: {
-      name: OriginTrail,
-      min_brl: 399.9594754224001,
-      max_brl: 35172.42320809141,
-      valor: 5.418810081829584
-    },
-    tribe: {
-      name: Tribe,
-      min_brl: 151.12440000000004,
-      max_brl: 848.5638175321562,
-      valor: 4.907645445385819
-    },
-    trx: {
-      name: Tron,
-      min_brl: 183.61113730560004,
-      max_brl: 61758618.6929668,
-      valor: 3.369067612674573
-    },
-    tusd: {
-      name: TrueUSD,
-      min_brl: 169.64705563920003,
-      max_brl: 35030801.310074374,
-      valor: 7.86608203571373
-    },
-    uma: {
-      name: UMA,
-      min_brl: 257.75432236800003,
-      max_brl: 103834.76190816962,
-      valor: 20.551930063824432
-    },
-    uni: {
-      name: Uniswap,
-      min_brl: 226.00216478880003,
-      max_brl: 7658682.773645278,
-      valor: 30.92954353615545
-    },
-    uos: {
-      name: Ultra,
-      min_brl: 512.9915023368001,
-      max_brl: 31441.262049091827,
-      valor: 4.926928108694069
-    },
-    usdc: {
-      name: USD coin
-    },
-    usdcbsc: {
-      name: USD Coin,
-      min_brl: 213.98413361040002,
-      max_brl: 1055472.0000000002,
-      valor: 7.829700903729829
-    },
-    usdcmatic: {
-      name: USD Coin,
-      min_brl: 151.12440000000004,
-      max_brl: 479760.0000000001,
-      valor: 7.834915456243073
-    },
-    usdcsol: {
-      name: USD Coin,
-      min_brl: 151.12440000000004,
-      max_brl: 119940.00000000003,
-      valor: 7.834915456243073
-    },
-    usdp: {
-      name: Pax Dollar,
-      min_brl: 247.66184633040004,
-      max_brl: 6724478.138023746,
-      valor: 7.837037947135673
-    },
-    usdt: {
-      name: Tether OMNI,
-      min_brl: 449.2212226272001,
-      max_brl: 60356263.95104925,
-      valor: 7.818201879385596
-    },
-    usdt20: {
-      name: Tether ERC20,
-      min_brl: 249.66949800240005,
-      max_brl: 61758618.6929668,
-      valor: 7.835301162428184
-    },
-    usdtrx: {
-      name: USDT TRC20,
-      min_brl: 170.02859437440006,
-      max_brl: 359439.0567688607,
-      valor: 7.82480712600862
-    },
-    ust: {
-      name: TerraUSD,
-      min_brl: 151.12440000000004,
-      max_brl: 7575.725983457327,
-      valor: 3.309484293349076
-    },
-    utk: {
-      name: UTRUST Token,
-      min_brl: 282.55236834240003,
-      max_brl: 61758618.6929668,
-      valor: 3.7706712277163215
-    },
-    vet: {
-      name: VeChain,
-      min_brl: 209.24246882880004,
-      max_brl: 60364828.595528275,
-      valor: 3.16363497091197
-    },
-    vib: {
-      name: Viberate,
-      min_brl: 151.12440000000004,
-      max_brl: 25207.024692185285,
-      valor: 3.1224909180721423
-    },
-    vidt: {
-      name: VIDT Datalink,
-      min_brl: 213.01195754160003,
-      max_brl: 27011.896605824764,
-      valor: 4.5620955304834325
-    },
-    vra: {
-      name: Verasity,
-      min_brl: 529.0451019216001,
-      max_brl: 7627.368313007522,
-      valor: 3.039002563377642
-    },
-    vtc: {
-      name: Vertcoin,
-      min_brl: 151.12440000000004,
-      max_brl: 3009.2123935437908,
-      valor: 3.7609471017057117
-    },
-    wabi: {
-      name: WABI,
-      min_brl: 269.52532992000005,
-      max_brl: 8670.484494001485,
-      valor: 3.228834783416932
-    },
-    waves: {
-      name: Waves,
-      min_brl: 157.47502150080004,
-      max_brl: 61758618.6929668,
-      valor: 32.911439820506104
-    },
-    wbtc: {
-      name: Wrapped Bitcoin,
-      min_brl: 252.23360410800007,
-      max_brl: 145683.3174650986,
-      valor: 146033.71441159997
-    },
-    win: {
-      name: WINkLink,
-      min_brl: 183.69098856000005,
-      max_brl: 15096.682870865823,
-      valor: 3.00072391969535
-    },
-    wrx: {
-      name: WazirX,
-      min_brl: 234.75883066560004,
-      max_brl: 27123.400980828425,
-      valor: 4.2968806246627045
-    },
-    wtc: {
-      name: Waltonchain,
-      min_brl: 151.12440000000004,
-      max_brl: 18514.868460337206,
-      valor: 3.954665428619813
-    },
-    xdc: {
-      name: XinFin Network,
-      min_brl: 151.12440000000004,
-      max_brl: 61798155.377906226,
-      valor: 3.204261792896429
-    },
-    xem: {
-      name: NEM,
-      min_brl: 244.87344282960007,
-      max_brl: 61758618.6929668,
-      valor: 3.2785449395366397
-    },
-    xlm: {
-      name: Stellar,
-      min_brl: 196.47678926160006,
-      max_brl: 60356263.95104925,
-      valor: 3.6579934873583495
-    },
-    xmr: {
-      name: Monero,
-      min_brl: 244.58247798480005,
-      max_brl: 61758618.6929668,
-      valor: 944.6472673863966
-    },
-    xno: {
-      name: NANO,
-      min_brl: 205.19029113120004,
-      max_brl: 57911.769916656616,
-      valor: 8.84509142086858
-    },
-    xrp: {
-      name: XRP,
-      min_brl: 196.77329533440005,
-      max_brl: 61767183.33744582,
-      valor: 5.045390004571794
-    },
-    xtz: {
-      name: Tezos,
-      min_brl: 209.94603207120005,
-      max_brl: 52495041.92437472,
-      valor: 12.729492273539702
-    },
-    xvg: {
-      name: Verge,
-      min_brl: 209.73628579680005,
-      max_brl: 9095.738683426083,
-      valor: 3.0264084372369537
-    },
-    xvs: {
-      name: Venus,
-      min_brl: 239.09505027120005,
-      max_brl: 19129.602881286246,
-      valor: 27.005551334416843
-    },
-    xym: {
-      name: Symbol,
-      min_brl: 151.12440000000004,
-      max_brl: 32666.433576909814,
-      valor: 3.3250457323143436
-    },
-    yfi: {
-      name: yearn.finance,
-      min_brl: 170.33221049040003,
-      max_brl: 61758618.6929668,
-      valor: 47103.386365095765
-    },
-    yfii: {
-      name: DFI.Money,
-      min_brl: 151.12440000000004,
-      max_brl: 39832.16838755063,
-      valor: 5834.776554321337
-    },
-    ygg: {
-      name: Yield Guild Games,
-      min_brl: 665.1499962312001,
-      max_brl: 18296.360964739204,
-      valor: 6.673684002922776
-    },
-    zec: {
-      name: Zcash,
-      min_brl: 256.6279706256001,
-      max_brl: 60356263.95104925,
-      valor: 527.2569146612607
-    },
-    zen: {
-      name: Horizen,
-      min_brl: 208.66477062240006,
-      max_brl: 61758618.6929668,
-      valor: 107.9620522410598
-    },
-    zil: {
-      name: Zilliqa,
-      min_brl: 208.65268067040003,
-      max_brl: 60356263.95104925,
-      valor: 3.274457794818664
-    },
-    zrx: {
-      name: 0x,
-      min_brl: 235.86294553200005,
-      max_brl: 209865.52414709915,
-      valor: 5.229461697058209
+  "usdt_cbrl_rate": 4.797600000000001,
+  "updated_at": "2022-06-12 16:24:01 +0100",
+  "data": {
+    "1inch": {
+      "name": "1inch",
+      "min_brl": 227.58560307360003,
+      "max_brl": 4160529.071025398,
+      "valor": 7.899232953181081
+    },
+    "aave": {
+      "name": "Aave",
+      "min_brl": 435.7784337840001,
+      "max_brl": 7975838.281020491,
+      "valor": 507.2964185655028
+    },
+    "abyss": {
+      "name": "The Abyss",
+      "min_brl": 582.5037608208,
+      "max_brl": 6764.992063714082,
+      "valor": 3.1918056551763807
+    },
+    "ach": {
+      "name": "Alchemy Pay",
+      "min_brl": 573.7986643464002,
+      "max_brl": 25669.16804537506,
+      "valor": 3.1036516668028153
+    },
+    "acm": {
+      "name": "AC Milan Fan Token",
+      "min_brl": 304.3027820952001,
+      "max_brl": 35598.51282450751,
+      "valor": 24.153375974791963
+    },
+    "ada": {
+      "name": "Cardano",
+      "min_brl": 200.47821794640004,
+      "max_brl": 60356263.95104925,
+      "valor": 5.675729381234364
+    },
+    "ads": {
+      "name": "Adshares",
+      "min_brl": 151.12440000000004,
+      "max_brl": 30629.92899434193,
+      "valor": 17.517877525824908
+    },
+    "ae": {
+      "name": "Aeternity",
+      "min_brl": 151.12440000000004,
+      "max_brl": 3126.478082848051,
+      "valor": 3.3764027962654777
+    },
+    "agld": {
+      "name": "Adventure Gold",
+      "min_brl": 247.80098152800005,
+      "max_brl": 28959.52674992161,
+      "valor": 5.911385302119612
+    },
+    "aion": {
+      "name": "Aion",
+      "min_brl": 252.13659663600006,
+      "max_brl": 4038.0185186510407,
+      "valor": 3.16927565409169
+    },
+    "alcx": {
+      "name": "Alchemix",
+      "min_brl": 195.63234929280003,
+      "max_brl": 2428.0552910849765,
+      "valor": 165.9599440120038
+    },
+    "algo": {
+      "name": "Algorand",
+      "min_brl": 192.48180855120006,
+      "max_brl": 60364828.595528275,
+      "valor": 5.145604204955683
+    },
+    "alice": {
+      "name": "MyNeighborAlice",
+      "min_brl": 243.44223719040002,
+      "max_brl": 32481.75832521357,
+      "valor": 17.962968362729676
+    },
+    "alpaca": {
+      "name": "Alpaca Finance",
+      "min_brl": 196.75231063200005,
+      "max_brl": 49513.79850250682,
+      "valor": 4.6676549673811225
+    },
+    "alpha": {
+      "name": "Alpha Finance Lab",
+      "min_brl": 196.67764078560003,
+      "max_brl": 12002.616733198145,
+      "valor": 3.8101531079224675
+    },
+    "amb": {
+      "name": "Ambrosus",
+      "min_brl": 291.2612357304001,
+      "max_brl": 18682.390873629003,
+      "valor": 3.042488190118104
+    },
+    "ankr": {
+      "name": "Ankr",
+      "min_brl": 253.71266580720004,
+      "max_brl": 1983771.7465641901,
+      "valor": 3.2030117133581344
+    },
+    "ant": {
+      "name": "Aragon V2",
+      "min_brl": 288.79043814720006,
+      "max_brl": 9558594.422024872,
+      "valor": 12.700693952804668
+    },
+    "ape": {
+      "name": "ApeCoin",
+      "min_brl": 249.32313527040006,
+      "max_brl": 218285.34631080876,
+      "valor": 42.82982944234714
+    },
+    "ardr": {
+      "name": "Ardor",
+      "min_brl": 235.79135574480006,
+      "max_brl": 111180.9839101744,
+      "valor": 3.5915497042148607
+    },
+    "ark": {
+      "name": "Ark",
+      "min_brl": 240.47504632800005,
+      "max_brl": 23150.48167198258,
+      "valor": 5.5883519332435085
+    },
+    "arpa": {
+      "name": "ARPA Chain",
+      "min_brl": 204.32712612960006,
+      "max_brl": 59879.42991451661,
+      "valor": 3.173332610190854
+    },
+    "arrr": {
+      "name": "Pirate Chain",
+      "min_brl": 151.12440000000004,
+      "max_brl": 3896.5918146031895,
+      "valor": 6.689665459002329
+    },
+    "ata": {
+      "name": "Automata Network",
+      "min_brl": 201.12458420160004,
+      "max_brl": 3552.9318784234806,
+      "valor": 3.7926248797720636
+    },
+    "atom": {
+      "name": "Cosmos",
+      "min_brl": 221.65471879920003,
+      "max_brl": 61767183.33744582,
+      "valor": 60.7805956668769
+    },
+    "auction": {
+      "name": "Bounce Token",
+      "min_brl": 195.63234929280003,
+      "max_brl": 40800.92136928436,
+      "valor": 55.02682378300345
+    },
+    "ava": {
+      "name": "Travala",
+      "min_brl": 200.91239115120004,
+      "max_brl": 36080.68603146043,
+      "valor": 6.6566238754974005
+    },
+    "avaxc": {
+      "name": "AVAX C-Chain",
+      "min_brl": 151.12440000000004,
+      "max_brl": 37982.06542232236,
+      "valor": 157.3635549174444
+    },
+    "axs": {
+      "name": "Axie Infinity",
+      "min_brl": 179.07421010400003,
+      "max_brl": 50767.30316892067,
+      "valor": 112.30133181982107
+    },
+    "badger": {
+      "name": "Badger DAO",
+      "min_brl": 175.12283957760002,
+      "max_brl": 21861.019412093112,
+      "valor": 31.71868322926718
+    },
+    "bal": {
+      "name": "Balancer",
+      "min_brl": 161.62453770480002,
+      "max_brl": 65700.61526891106,
+      "valor": 42.126233234851604
+    },
+    "bat": {
+      "name": "Basic Attention Token",
+      "min_brl": 205.62410451600005,
+      "max_brl": 60356263.95104925,
+      "valor": 5.008104994219253
+    },
+    "bcd": {
+      "name": "Bitcoin Diamond",
+      "min_brl": 244.84731989760004,
+      "max_brl": 25942.666594031885,
+      "valor": 4.196745105498241
+    },
+    "bch": {
+      "name": "Bitcoin Cash",
+      "min_brl": 179.27473059360005,
+      "max_brl": 60364828.595528275,
+      "valor": 979.3596637771318
+    },
+    "beam": {
+      "name": "Beam",
+      "min_brl": 230.40069082560004,
+      "max_brl": 38830.23868440193,
+      "valor": 3.6988856039661875
+    },
+    "beta": {
+      "name": "Beta Finance",
+      "min_brl": 178.24281001200004,
+      "max_brl": 10374.735890993043,
+      "valor": 4.043159193840767
+    },
+    "bico": {
+      "name": "BICONOMY (BICO)",
+      "min_brl": 317.3443428528001,
+      "max_brl": 23595.896091309365,
+      "valor": 6.40803864275124
+    },
+    "bnb": {
+      "name": "BNB",
+      "min_brl": 235.86704748000005,
+      "max_brl": 61767183.33744582,
+      "valor": 1689.457855635894
+    },
+    "bnbbsc": {
+      "name": "Binance Coin (BSC)",
+      "min_brl": 197.12718550080004,
+      "max_brl": 87758.80127786542,
+      "valor": 1607.2707583347374
+    },
+    "bnt": {
+      "name": "Bancor Network Token",
+      "min_brl": 205.33187310480005,
+      "max_brl": 206855.18695358466,
+      "valor": 9.943859351228468
+    },
+    "bnx": {
+      "name": "BinaryX",
+      "min_brl": 205.49685777120004,
+      "max_brl": 123079.00838881294,
+      "valor": 581.6311878382496
+    },
+    "boson": {
+      "name": "Boson Protocol",
+      "min_brl": 521.6619121632001,
+      "max_brl": 644.1600970229042,
+      "valor": 4.974015028510972
+    },
+    "brd": {
+      "name": "Bread",
+      "min_brl": 243.44416582560004,
+      "max_brl": 9944.276124664984,
+      "valor": 3.35752469678542
+    },
+    "bsv": {
+      "name": "Bitcoin SV",
+      "min_brl": 151.12440000000004,
+      "max_brl": 61798155.377906226,
+      "valor": 259.8357959577173
+    },
+    "btc": {
+      "name": "Bitcoin",
+      "min_brl": 218.72450304000006,
+      "max_brl": 61767183.33744582,
+      "valor": 145965.88444076385
+    },
+    "btcv": {
+      "name": "Bitcoin Vault",
+      "min_brl": 151.12440000000004,
+      "max_brl": 2391.783046815709,
+      "valor": 15.661222281477697
+    },
+    "btg": {
+      "name": "Bitcoin Gold",
+      "min_brl": 265.36769617680005,
+      "max_brl": 60356263.95104925,
+      "valor": 129.49257018047038
+    },
+    "btrst": {
+      "name": "Braintrust",
+      "min_brl": 269.52532992000005,
+      "max_brl": 40511.65386302854,
+      "valor": 20.74274691888484
+    },
+    "busd": {
+      "name": "Binance USD",
+      "min_brl": 249.20515748880007,
+      "max_brl": 60364828.595528275,
+      "valor": 7.862511084814035
+    },
+    "busdbsc": {
+      "name": "Binance USD (BSC)",
+      "min_brl": 170.85193449840003,
+      "max_brl": 81560.30131520121,
+      "valor": 7.8123716212939405
+    },
+    "c98": {
+      "name": "Coin98",
+      "min_brl": 275.3486999784001,
+      "max_brl": 33387.83607362661,
+      "valor": 6.212417626342511
+    },
+    "cake": {
+      "name": "PancakeSwap",
+      "min_brl": 217.73355876000005,
+      "max_brl": 61758618.6929668,
+      "valor": 27.40402938721826
+    },
+    "celo": {
+      "name": "Celo",
+      "min_brl": 153.02957493600005,
+      "max_brl": 39675.28000571126,
+      "valor": 9.709740407524087
+    },
+    "celr": {
+      "name": "Celer Network",
+      "min_brl": 271.08096131520006,
+      "max_brl": 21311.764403991605,
+      "valor": 3.0977497854799716
+    },
+    "chess": {
+      "name": "Tranchess",
+      "min_brl": 253.59186703680007,
+      "max_brl": 14814.444022385074,
+      "valor": 4.574731595749547
+    },
+    "chr": {
+      "name": "Chromia",
+      "min_brl": 213.01195754160003,
+      "max_brl": 38876.38018388904,
+      "valor": 4.117536896808116
+    },
+    "chz": {
+      "name": "Chiliz",
+      "min_brl": 221.70579884640003,
+      "max_brl": 60364828.595528275,
+      "valor": 3.6080236129992826
+    },
+    "city": {
+      "name": "Manchester City Fan Token",
+      "min_brl": 269.53790922720003,
+      "max_brl": 63491.72299591087,
+      "valor": 33.48687023709408
+    },
+    "cocos": {
+      "name": "Cocos-BCX",
+      "min_brl": 191.26780465680002,
+      "max_brl": 42971.684084302695,
+      "valor": 9.884575102704202
+    },
+    "comp": {
+      "name": "Compound",
+      "min_brl": 204.36778578960005,
+      "max_brl": 74275.06790367218,
+      "valor": 358.28513468077034
+    },
+    "coti": {
+      "name": "COTI Token",
+      "min_brl": 253.49562238320004,
+      "max_brl": 60380.90461691402,
+      "valor": 3.609976903492625
+    },
+    "croold": {
+      "name": "Crypto.com Coin",
+      "min_brl": 532.9778769504001,
+      "max_brl": 61758618.6929668,
+      "valor": 3.9559461263360314
+    },
+    "crv": {
+      "name": "Curve DAO Token",
+      "min_brl": 209.70603213120003,
+      "max_brl": 4364983.572989277,
+      "valor": 9.749736075964234
+    },
+    "ctk": {
+      "name": "CertiK",
+      "min_brl": 186.92886481200003,
+      "max_brl": 74185.479830477,
+      "valor": 7.150770475107392
+    },
+    "ctsi": {
+      "name": "Cartesi",
+      "min_brl": 239.09505027120005,
+      "max_brl": 41101.25992198381,
+      "valor": 3.9169936659162294
+    },
+    "cvc": {
+      "name": "Civic",
+      "min_brl": 260.92750298400006,
+      "max_brl": 5665054.672276021,
+      "valor": 3.92620475773215
+    },
+    "cw": {
+      "name": "CardWallet",
+      "min_brl": 560.8127461536001,
+      "max_brl": 987.6538801029602,
+      "valor": 3.072852093522231
+    },
+    "dai": {
+      "name": "Dai",
+      "min_brl": 169.38884880720005,
+      "max_brl": 61758618.6929668,
+      "valor": 7.856522148417807
+    },
+    "dar": {
+      "name": "Mines of Dalarnia",
+      "min_brl": 178.24281001200004,
+      "max_brl": 21353.645007314553,
+      "valor": 5.441126672794153
+    },
+    "dash": {
+      "name": "Dash",
+      "min_brl": 209.43216593280005,
+      "max_brl": 61758618.6929668,
+      "valor": 311.2980154730547
+    },
+    "dcr": {
+      "name": "Decred",
+      "min_brl": 217.48384368000006,
+      "max_brl": 18900.898369227005,
+      "valor": 193.2993185378642
+    },
+    "dent": {
+      "name": "Dent",
+      "min_brl": 205.49685777120004,
+      "max_brl": 2301.9036302930645,
+      "valor": 3.006177278897192
+    },
+    "dgb": {
+      "name": "DigiByte",
+      "min_brl": 209.54153682000003,
+      "max_brl": 61758618.6929668,
+      "valor": 3.0645987469446774
+    },
+    "dgd": {
+      "name": "DigixDAO",
+      "min_brl": 378.2078958528001,
+      "max_brl": 12265.481250402536,
+      "valor": 2204.093048202576
+    },
+    "dnt": {
+      "name": "district0x",
+      "min_brl": 708.5813209056001,
+      "max_brl": 35318.09487182341,
+      "valor": 3.273015189736975
+    },
+    "doge": {
+      "name": "Dogecoin",
+      "min_brl": 196.89733248480005,
+      "max_brl": 70949.38382067063,
+      "valor": 3.4193515303215243
+    },
+    "dot": {
+      "name": "Polkadot",
+      "min_brl": 166.13682443280004,
+      "max_brl": 60356263.95104925,
+      "valor": 54.48724337945729
+    },
+    "dusk": {
+      "name": "Dusk Network",
+      "min_brl": 222.98595204960003,
+      "max_brl": 27010.439889187448,
+      "valor": 3.708558372592445
+    },
+    "dydx": {
+      "name": "dYdX",
+      "min_brl": 900.8291888856002,
+      "max_brl": 60356263.95104925,
+      "valor": 13.715799701180384
+    },
+    "edg": {
+      "name": "Edgeless",
+      "min_brl": 430.3744987032001,
+      "max_brl": 10641.315035622603,
+      "valor": 3.0879177440147303
+    },
+    "efi": {
+      "name": "Efinity Token",
+      "min_brl": 1112.8787574624002,
+      "max_brl": 1151.8258451289244,
+      "valor": 4.170718541932034
+    },
+    "egld": {
+      "name": "Elrond",
+      "min_brl": 182.52153038160006,
+      "max_brl": 51035.70320934688,
+      "valor": 448.6218758673211
+    },
+    "enj": {
+      "name": "Enjin",
+      "min_brl": 217.38071926800004,
+      "max_brl": 61758618.6929668,
+      "valor": 6.567199874634287
+    },
+    "ens": {
+      "name": "Ethereum Name Service",
+      "min_brl": 231.73049918880005,
+      "max_brl": 32980.06466892481,
+      "valor": 69.73285217573623
+    },
+    "eos": {
+      "name": "EOS",
+      "min_brl": 151.12440000000004,
+      "max_brl": 61758618.6929668,
+      "valor": 9.78673323549105
+    },
+    "eqx": {
+      "name": "EQIFI",
+      "min_brl": 515.9282812128001,
+      "max_brl": 2982.845822408299,
+      "valor": 3.2142932788790213
+    },
+    "erg": {
+      "name": "Ergo",
+      "min_brl": 151.12440000000004,
+      "max_brl": 11486.210685268203,
+      "valor": 14.663553108642676
+    },
+    "eth": {
+      "name": "Ethereum",
+      "min_brl": 151.12440000000004,
+      "max_brl": 60395800.63598869,
+      "valor": 10021.296941661953
+    },
+    "etn": {
+      "name": "Electroneum",
+      "min_brl": 151.12440000000004,
+      "max_brl": 11642.079365461443,
+      "valor": 3.0164968684644595
+    },
+    "ever": {
+      "name": "Everscale",
+      "min_brl": 151.12440000000004,
+      "max_brl": 20579.035935419644,
+      "valor": 4.038272366637581
+    },
+    "fet": {
+      "name": "Fetch",
+      "min_brl": 208.66477062240006,
+      "max_brl": 25040.958995530807,
+      "valor": 3.8388533492357793
+    },
+    "fida": {
+      "name": "Bonfida",
+      "min_brl": 195.63234929280003,
+      "max_brl": 14894.927616597004,
+      "valor": 5.998912170279096
+    },
+    "fil": {
+      "name": "Filecoin",
+      "min_brl": 196.86663264240005,
+      "max_brl": 60356263.95104925,
+      "valor": 47.51422827074847
+    },
+    "fio": {
+      "name": "FIO Protocol",
+      "min_brl": 227.27643133680004,
+      "max_brl": 33604.16941964341,
+      "valor": 3.261499827426157
+    },
+    "firo": {
+      "name": "Firo",
+      "min_brl": 243.44223719040002,
+      "max_brl": 45303.88742065201,
+      "valor": 12.126850290464999
+    },
+    "fkx": {
+      "name": "FortKnoxster",
+      "min_brl": 499.92600635280013,
+      "max_brl": 8673.072351107685,
+      "valor": 3.1254080905548665
+    },
+    "flow": {
+      "name": "Flow",
+      "min_brl": 186.92886481200003,
+      "max_brl": 31694.512236489907,
+      "valor": 17.175510077109188
+    },
+    "flux": {
+      "name": "Flux",
+      "min_brl": 213.01195754160003,
+      "max_brl": 38313.10427815333,
+      "valor": 6.5052776575865305
+    },
+    "front": {
+      "name": "Frontier",
+      "min_brl": 260.83095608160005,
+      "max_brl": 32466.57205426951,
+      "valor": 4.3186520088182005
+    },
+    "ftm": {
+      "name": "Fantom",
+      "min_brl": 323.53493081040006,
+      "max_brl": 60364828.595528275,
+      "valor": 5.381324202535904
+    },
+    "ftt": {
+      "name": "FTX Token",
+      "min_brl": 230.51449469520006,
+      "max_brl": 61767183.33744582,
+      "valor": 151.86849519625176
+    },
+    "gala": {
+      "name": "GALA",
+      "min_brl": 243.44223719040002,
+      "max_brl": 137269.12168731107,
+      "valor": 3.420584920185391
+    },
+    "gas": {
+      "name": "Gas",
+      "min_brl": 275.89972832640007,
+      "max_brl": 57956.92813241353,
+      "valor": 18.343167471417893
+    },
+    "glm": {
+      "name": "Golem",
+      "min_brl": 257.7516021288001,
+      "max_brl": 26075.22780802801,
+      "valor": 4.3163808620668895
+    },
+    "gmt": {
+      "name": "STEPN",
+      "min_brl": 249.12402527520007,
+      "max_brl": 57015.889184704814,
+      "valor": 10.186582166570584
+    },
+    "gno": {
+      "name": "Gnosis",
+      "min_brl": 529.7333656176,
+      "max_brl": 80027.82399402853,
+      "valor": 1080.7759369104256
+    },
+    "grs": {
+      "name": "Groestlcoin",
+      "min_brl": 218.61367848000006,
+      "max_brl": 63017.56173046322,
+      "valor": 5.124596026404645
+    },
+    "grt": {
+      "name": "The Graph",
+      "min_brl": 217.33933996800002,
+      "max_brl": 81357.62419432202,
+      "valor": 3.816658301296754
+    },
+    "gusd": {
+      "name": "Gemini Dollar",
+      "min_brl": 524.3407000992001,
+      "max_brl": 27769.341521489794,
+      "valor": 7.806315617685958
+    },
+    "hbar": {
+      "name": "Hedera Hashgraph",
+      "min_brl": 222.83525943360002,
+      "max_brl": 61767183.33744582,
+      "valor": 3.5139613236594625
+    },
+    "hedg": {
+      "name": "HedgeTrade",
+      "min_brl": 343.42743558240005,
+      "max_brl": 378.6589227049609,
+      "valor": 4.149741099612008
+    },
+    "hex": {
+      "name": "HEX",
+      "min_brl": 549.8366961240001,
+      "max_brl": 36421.73864879966,
+      "valor": 3.4289862009498027
+    },
+    "hive": {
+      "name": "Hive",
+      "min_brl": 222.98595204960003,
+      "max_brl": 40589.48914639382,
+      "valor": 5.536477937887182
+    },
+    "hot": {
+      "name": "Holo",
+      "min_brl": 204.21949677120003,
+      "max_brl": 32497.52728281256,
+      "valor": 3.0131041501600384
+    },
+    "ht": {
+      "name": "Huobi token",
+      "min_brl": 519.6639324528,
+      "max_brl": 33641579.2758085,
+      "valor": 36.84425554728679
+    },
+    "icp": {
+      "name": "Internet Computer",
+      "min_brl": 208.66477062240006,
+      "max_brl": 32855.51539643395,
+      "valor": 44.7748967919418
+    },
+    "icx": {
+      "name": "Icon",
+      "min_brl": 205.54279958880005,
+      "max_brl": 38821.49838457801,
+      "valor": 4.959517859683607
+    },
+    "idex": {
+      "name": "IDEX",
+      "min_brl": 273.87251683920005,
+      "max_brl": 43009.55871687301,
+      "valor": 3.6152328671450684
+    },
+    "ignis": {
+      "name": "Ignis",
+      "min_brl": 151.12440000000004,
+      "max_brl": 1360.7190109206124,
+      "valor": 3.0856604098635874
+    },
+    "ilv": {
+      "name": "Illuvium",
+      "min_brl": 178.24281001200004,
+      "max_brl": 6596.095580001181,
+      "valor": 1752.234789358085
+    },
+    "iost": {
+      "name": "IOStoken",
+      "min_brl": 191.27603733840004,
+      "max_brl": 137455.28661385854,
+      "valor": 3.088234227908689
+    },
+    "iotx": {
+      "name": "IoTeX",
+      "min_brl": 286.91406320400006,
+      "max_brl": 46897.12754122164,
+      "valor": 3.1980706338251146
+    },
+    "jasmy": {
+      "name": "JasmyCoin",
+      "min_brl": 252.12365750880008,
+      "max_brl": 9573.723830046707,
+      "valor": 3.066822984568778
+    },
+    "jst": {
+      "name": "JUST",
+      "min_brl": 195.63234929280003,
+      "max_brl": 83615.53498216803,
+      "valor": 3.210568779267984
+    },
+    "juv": {
+      "name": "Juventus Fan Token",
+      "min_brl": 312.9971559336,
+      "max_brl": 44411.648480293516,
+      "valor": 20.883089380112068
+    },
+    "kava": {
+      "name": "Kava.io",
+      "min_brl": 310.4314234416001,
+      "max_brl": 51041.89425505549,
+      "valor": 16.872473875979615
+    },
+    "kmd": {
+      "name": "Komodo",
+      "min_brl": 221.70808730160005,
+      "max_brl": 70038.20756402696,
+      "valor": 4.241224326062042
+    },
+    "knc": {
+      "name": "Kyber Network",
+      "min_brl": 325.93291521840007,
+      "max_brl": 233063.00823810152,
+      "valor": 14.735988704585028
+    },
+    "krl": {
+      "name": "Kryll",
+      "min_brl": 539.0758184544001,
+      "max_brl": 39184.67605121985,
+      "valor": 5.739175650743986
+    },
+    "ksm": {
+      "name": "Kusama",
+      "min_brl": 430.37108760960007,
+      "max_brl": 41480.00624768701,
+      "valor": 419.2353829623107
+    },
+    "lazio": {
+      "name": "S.S. Lazio Fan Token",
+      "min_brl": 199.97041117680004,
+      "max_brl": 1740.040324042284,
+      "valor": 17.6324112912584
+    },
+    "lcx": {
+      "name": "LCX",
+      "min_brl": 480.9500926560001,
+      "max_brl": 1192.0676422348893,
+      "valor": 3.2817047744782286
+    },
+    "levl": {
+      "name": "Levolution",
+      "min_brl": 476.5778190864001,
+      "max_brl": 5443.021715346182,
+      "valor": 3.186474139768166
+    },
+    "link": {
+      "name": "Link",
+      "min_brl": 209.65345523280004,
+      "max_brl": 60356263.95104925,
+      "valor": 39.62550824135842
+    },
+    "loom": {
+      "name": "Loom Network",
+      "min_brl": 235.91632842720006,
+      "max_brl": 49958.09707688941,
+      "valor": 3.265639404122402
+    },
+    "lpt": {
+      "name": "Livepeer",
+      "min_brl": 208.67451454800002,
+      "max_brl": 10410.898881514511,
+      "valor": 76.78461239074498
+    },
+    "lrc": {
+      "name": "Loopring",
+      "min_brl": 279.60121105920007,
+      "max_brl": 61758618.6929668,
+      "valor": 6.04219801414642
+    },
+    "lsk": {
+      "name": "Lisk",
+      "min_brl": 234.89685761760003,
+      "max_brl": 282270.15078515233,
+      "valor": 9.424397127361662
+    },
+    "ltc": {
+      "name": "Litecoin",
+      "min_brl": 200.10249390240006,
+      "max_brl": 60356263.95104925,
+      "valor": 353.7943991882186
+    },
+    "luna": {
+      "name": "Terra",
+      "min_brl": 151.12440000000004,
+      "max_brl": 4005.970752630001,
+      "valor": 3.000960730166634
+    },
+    "maid": {
+      "name": "MaidSafeCoin",
+      "min_brl": 673.5336151248002,
+      "max_brl": 8770.890873303722,
+      "valor": 3.9108491398688945
+    },
+    "mana": {
+      "name": "Decentraland",
+      "min_brl": 253.72626700320006,
+      "max_brl": 61767183.33744582,
+      "valor": 8.403856771841918
+    },
+    "mask": {
+      "name": "Mask Network",
+      "min_brl": 508.62036579840014,
+      "max_brl": 12356.161861075709,
+      "valor": 13.35872923795389
+    },
+    "matic": {
+      "name": "Polygon",
+      "min_brl": 204.81708582720003,
+      "max_brl": 60364828.595528275,
+      "valor": 6.361031674501874
+    },
+    "maticpolygon": {
+      "name": "Polygon",
+      "min_brl": 209.25034169040003,
+      "max_brl": 63340.224465629595,
+      "valor": 6.356741082393352
+    },
+    "mbox": {
+      "name": "MOBOX",
+      "min_brl": 208.54932597360002,
+      "max_brl": 21437.042034801125,
+      "valor": 8.394287423414376
+    },
+    "mc": {
+      "name": "Merit Circle",
+      "min_brl": 151.12440000000004,
+      "max_brl": 40708.45628073047,
+      "valor": 11.724122480916696
+    },
+    "mdt": {
+      "name": "Measurable Data Token",
+      "min_brl": 191.26622144880005,
+      "max_brl": 763.90233040368,
+      "valor": 3.268149087965042
+    },
+    "mir": {
+      "name": "Mirror Protocol",
+      "min_brl": 179.26321635360003,
+      "max_brl": 16579.256228498256,
+      "valor": 4.347374833985105
+    },
+    "mith": {
+      "name": "Mithril",
+      "min_brl": 234.74786335200005,
+      "max_brl": 27531.94444534801,
+      "valor": 3.0923678423163743
+    },
+    "mkr": {
+      "name": "Maker",
+      "min_brl": 234.74770503120004,
+      "max_brl": 337197.6781472401,
+      "valor": 6894.015612109675
+    },
+    "mo": {
+      "name": "Morality",
+      "min_brl": 373.85771523120013,
+      "max_brl": 101522.95260474278,
+      "valor": 4.019709677461628
+    },
+    "near": {
+      "name": "NEAR Protocol",
+      "min_brl": 169.53142388400002,
+      "max_brl": 50162.76576443287,
+      "valor": 33.85487404083399
+    },
+    "nebl": {
+      "name": "Neblio",
+      "min_brl": 265.17814300080005,
+      "max_brl": 30678.45238195921,
+      "valor": 4.157125778976823
+    },
+    "neo": {
+      "name": "Neo",
+      "min_brl": 348.7765772736001,
+      "max_brl": 42244.78248228001,
+      "valor": 61.578373573320576
+    },
+    "nexo": {
+      "name": "NEXO",
+      "min_brl": 510.7760042400001,
+      "max_brl": 255050.6891618096,
+      "valor": 9.472017050099105
+    },
+    "ngc": {
+      "name": "NAGA Coin",
+      "min_brl": 424.1105362512001,
+      "max_brl": 1535.3793357352804,
+      "valor": 4.8868301244274495
+    },
+    "nim": {
+      "name": "Nimiq",
+      "min_brl": 151.12440000000004,
+      "max_brl": 4417.7845460003655,
+      "valor": 3.0074889249415393
+    },
+    "nmr": {
+      "name": "Numeraire",
+      "min_brl": 182.91330239760003,
+      "max_brl": 353298.57858669764,
+      "valor": 68.62621321230152
+    },
+    "nrg": {
+      "name": "Energi",
+      "min_brl": 151.12440000000004,
+      "max_brl": 19405.650684058386,
+      "valor": 10.343508923257062
+    },
+    "nxt": {
+      "name": "Nxt",
+      "min_brl": 151.12440000000004,
+      "max_brl": 366.07289095851615,
+      "valor": 3.0194893434448717
+    },
+    "omg": {
+      "name": "OmiseGo",
+      "min_brl": 195.39135624960005,
+      "max_brl": 61758618.6929668,
+      "valor": 16.1886533696535
+    },
+    "one": {
+      "name": "Harmony",
+      "min_brl": 249.30025071840006,
+      "max_brl": 24573893.307551347,
+      "valor": 3.2495508037341976
+    },
+    "ont": {
+      "name": "Ontology",
+      "min_brl": 230.44408511760003,
+      "max_brl": 61758618.6929668,
+      "valor": 4.453533000713268
+    },
+    "paxg": {
+      "name": "PAX Gold",
+      "min_brl": 240.44227392240003,
+      "max_brl": 90934.0793680637,
+      "valor": 8993.807786662503
+    },
+    "pay": {
+      "name": "TenXPay",
+      "min_brl": 504.2771944704001,
+      "max_brl": 6392.072604560161,
+      "valor": 3.0857848861752672
+    },
+    "peak": {
+      "name": "PEAKDEFI",
+      "min_brl": 151.12440000000004,
+      "max_brl": 444.97521926063524,
+      "valor": 3.185478523564364
+    },
+    "perp": {
+      "name": "Perpetual Protocol",
+      "min_brl": 151.12440000000004,
+      "max_brl": 11270.616622944843,
+      "valor": 8.9069224451033
+    },
+    "plr": {
+      "name": "Pillar",
+      "min_brl": 534.7034729208001,
+      "max_brl": 672.112304218119,
+      "valor": 3.0382151123337033
+    },
+    "pma": {
+      "name": "PumaPay",
+      "min_brl": 411.5386845216001,
+      "max_brl": 1977.4928351619005,
+      "valor": 3.000139554961631
+    },
+    "pols": {
+      "name": "Polkastarter",
+      "min_brl": 201.12458420160004,
+      "max_brl": 35022.599901943046,
+      "valor": 6.231568530691881
+    },
+    "poly": {
+      "name": "Polymath",
+      "min_brl": 270.72376080480007,
+      "max_brl": 30718.51208948551,
+      "valor": 4.243100206360153
+    },
+    "porto": {
+      "name": "FC Porto Fan Token",
+      "min_brl": 386.8992615960001,
+      "max_brl": 6194.833171867034,
+      "valor": 14.434546946412489
+    },
+    "powr": {
+      "name": "Power Ledger",
+      "min_brl": 247.71402023040008,
+      "max_brl": 448819.1828834882,
+      "valor": 4.340340427268659
+    },
+    "ppc": {
+      "name": "Peercoin",
+      "min_brl": 151.12440000000004,
+      "max_brl": 1902.064047681471,
+      "valor": 4.800908140703518
+    },
+    "ppt": {
+      "name": "Populous",
+      "min_brl": 234.74973441600005,
+      "max_brl": 2348.2272193598405,
+      "valor": 3.656751435990281
+    },
+    "psg": {
+      "name": "Paris Saint-Germain Fan Token",
+      "min_brl": 360.81616886640006,
+      "max_brl": 16221.996473195524,
+      "valor": 43.85733011106829
+    },
+    "pyr": {
+      "name": "Vulcan Forged PYR",
+      "min_brl": 252.13659663600006,
+      "max_brl": 37626.99074197561,
+      "valor": 28.373479466242042
+    },
+    "qnt": {
+      "name": "Quant",
+      "min_brl": 212.99960851920005,
+      "max_brl": 561226.8061315004,
+      "valor": 343.0537136802405
+    },
+    "qtum": {
+      "name": "Qtum Ignition",
+      "min_brl": 210.00268213200002,
+      "max_brl": 37849.86838748557,
+      "valor": 24.105797199195983
+    },
+    "rad": {
+      "name": "Radicle",
+      "min_brl": 222.98595204960003,
+      "max_brl": 16722.92490685394,
+      "valor": 13.290920172156387
+    },
+    "rcn": {
+      "name": "Ripio Credit Network",
+      "min_brl": 565.1382287304001,
+      "max_brl": 3344.6213992867206,
+      "valor": 3.021079338482309
+    },
+    "ren": {
+      "name": "Ren",
+      "min_brl": 205.20104255280003,
+      "max_brl": 61767183.33744582,
+      "valor": 3.7751217915334743
+    },
+    "rep": {
+      "name": "Augur (REPv2)",
+      "min_brl": 354.2229423288001,
+      "max_brl": 89380.49107436193,
+      "valor": 62.895092109107175
+    },
+    "req": {
+      "name": "Request",
+      "min_brl": 297.23562943920007,
+      "max_brl": 37255.52799945901,
+      "valor": 3.7532515410506795
+    },
+    "rlc": {
+      "name": "iEx.ec",
+      "min_brl": 235.84871105280004,
+      "max_brl": 61758618.6929668,
+      "valor": 7.665726184451682
+    },
+    "rndr": {
+      "name": "Render Token",
+      "min_brl": 221.71666541040003,
+      "max_brl": 31326.254270575413,
+      "valor": 7.491793082977291
+    },
+    "roobee": {
+      "name": "ROOBEE",
+      "min_brl": 582.5224714608001,
+      "max_brl": 3853.7074461141283,
+      "valor": 3.0113932770844247
+    },
+    "rsr": {
+      "name": "Reserve Rights",
+      "min_brl": 533.2161497544001,
+      "max_brl": 53107.518446775255,
+      "valor": 3.026781336948434
+    },
+    "rune": {
+      "name": "THORChain",
+      "min_brl": 191.97283596480003,
+      "max_brl": 314237.0861361212,
+      "valor": 18.855261838975473
+    },
+    "rvn": {
+      "name": "Ravencoin",
+      "min_brl": 227.35726130160006,
+      "max_brl": 70594.96466281066,
+      "valor": 3.151825057412743
+    },
+    "sand": {
+      "name": "The Sandbox",
+      "min_brl": 209.84605968240004,
+      "max_brl": 134396.5312874795,
+      "valor": 9.797959878475563
+    },
+    "santos": {
+      "name": "Santos FC Fan Token",
+      "min_brl": 192.38003706240005,
+      "max_brl": 41906.80832317537,
+      "valor": 33.762521379124124
+    },
+    "sfp": {
+      "name": "SafePal",
+      "min_brl": 221.70631698720004,
+      "max_brl": 52024.813806087164,
+      "valor": 5.094461470425468
+    },
+    "shib": {
+      "name": "SHIBA INU",
+      "min_brl": 200.06839735920002,
+      "max_brl": 5317.651077549518,
+      "valor": 3.000059942972501
+    },
+    "skl": {
+      "name": "SKALE Network",
+      "min_brl": 391.26469858560006,
+      "max_brl": 48713.84256112253,
+      "valor": 3.426782095933802
+    },
+    "smart": {
+      "name": "SmartCash",
+      "min_brl": 151.12440000000004,
+      "max_brl": 379.47468402186007,
+      "valor": 3.003927010119389
+    },
+    "snx": {
+      "name": "Synthetix",
+      "min_brl": 310.1860693800001,
+      "max_brl": 3618007.667264647,
+      "valor": 16.70246311444602
+    },
+    "sol": {
+      "name": "Solana",
+      "min_brl": 151.12440000000004,
+      "max_brl": 73535.96629981195,
+      "valor": 263.82117899844053
+    },
+    "solve": {
+      "name": "SolveCare",
+      "min_brl": 1453.0230946152003,
+      "max_brl": 8699.961521789444,
+      "valor": 3.194655240070851
+    },
+    "spell": {
+      "name": "Spell Token",
+      "min_brl": 521.6619121632001,
+      "max_brl": 21763.346561560804,
+      "valor": 3.0073282090951348
+    },
+    "stc": {
+      "name": "Student Coin",
+      "min_brl": 404.2879948800001,
+      "max_brl": 3529.587994310428,
+      "valor": 3.020700476443624
+    },
+    "storj": {
+      "name": "Storj",
+      "min_brl": 243.14417669520006,
+      "max_brl": 60356263.95104925,
+      "valor": 5.975410057480794
+    },
+    "sushi": {
+      "name": "SushiSwap",
+      "min_brl": 240.45509790720004,
+      "max_brl": 5135311.627107353,
+      "valor": 11.186964670822523
+    },
+    "sxp": {
+      "name": "Swipe",
+      "min_brl": 516.0308730912002,
+      "max_brl": 4420.843650938737,
+      "valor": 5.467868219790056
+    },
+    "sys": {
+      "name": "Syscoin",
+      "min_brl": 253.68094407600006,
+      "max_brl": 31443.228616552205,
+      "valor": 4.053675932774645
+    },
+    "tel": {
+      "name": "Telcoin",
+      "min_brl": 512.221689036,
+      "max_brl": 1186.2043577696763,
+      "valor": 3.011951899410335
+    },
+    "tfuel": {
+      "name": "Theta Fuel",
+      "min_brl": 200.01528792720003,
+      "max_brl": 33584.60207341261,
+      "valor": 3.3377468089019513
+    },
+    "theta": {
+      "name": "THETA",
+      "min_brl": 191.93414811840003,
+      "max_brl": 77547.43615774783,
+      "valor": 9.534933563255954
+    },
+    "tlm": {
+      "name": "Alien Worlds",
+      "min_brl": 253.46866466880007,
+      "max_brl": 18008.440921372905,
+      "valor": 3.191648468196504
+    },
+    "tomo": {
+      "name": "TomoChain",
+      "min_brl": 183.69999845280003,
+      "max_brl": 21621.316689422103,
+      "valor": 5.895820812075952
+    },
+    "torn": {
+      "name": "Tornado Cash",
+      "min_brl": 260.83095608160005,
+      "max_brl": 105945.9813306375,
+      "valor": 184.99714048933754
+    },
+    "trac": {
+      "name": "OriginTrail",
+      "min_brl": 399.9594754224001,
+      "max_brl": 35172.42320809141,
+      "valor": 5.418810081829584
+    },
+    "tribe": {
+      "name": "Tribe",
+      "min_brl": 151.12440000000004,
+      "max_brl": 848.5638175321562,
+      "valor": 4.907645445385819
+    },
+    "trx": {
+      "name": "Tron",
+      "min_brl": 183.61113730560004,
+      "max_brl": 61758618.6929668,
+      "valor": 3.369067612674573
+    },
+    "tusd": {
+      "name": "TrueUSD",
+      "min_brl": 169.64705563920003,
+      "max_brl": 35030801.310074374,
+      "valor": 7.86608203571373
+    },
+    "uma": {
+      "name": "UMA",
+      "min_brl": 257.75432236800003,
+      "max_brl": 103834.76190816962,
+      "valor": 20.551930063824432
+    },
+    "uni": {
+      "name": "Uniswap",
+      "min_brl": 226.00216478880003,
+      "max_brl": 7658682.773645278,
+      "valor": 30.92954353615545
+    },
+    "uos": {
+      "name": "Ultra",
+      "min_brl": 512.9915023368001,
+      "max_brl": 31441.262049091827,
+      "valor": 4.926928108694069
+    },
+    "usdc": {
+      "name": "USD coin"
+    },
+    "usdcbsc": {
+      "name": "USD Coin",
+      "min_brl": 213.98413361040002,
+      "max_brl": 1055472.0000000002,
+      "valor": 7.829700903729829
+    },
+    "usdcmatic": {
+      "name": "USD Coin",
+      "min_brl": 151.12440000000004,
+      "max_brl": 479760.0000000001,
+      "valor": 7.834915456243073
+    },
+    "usdcsol": {
+      "name": "USD Coin",
+      "min_brl": 151.12440000000004,
+      "max_brl": 119940.00000000003,
+      "valor": 7.834915456243073
+    },
+    "usdp": {
+      "name": "Pax Dollar",
+      "min_brl": 247.66184633040004,
+      "max_brl": 6724478.138023746,
+      "valor": 7.837037947135673
+    },
+    "usdt": {
+      "name": "Tether OMNI",
+      "min_brl": 449.2212226272001,
+      "max_brl": 60356263.95104925,
+      "valor": 7.818201879385596
+    },
+    "usdt20": {
+      "name": "Tether ERC20",
+      "min_brl": 249.66949800240005,
+      "max_brl": 61758618.6929668,
+      "valor": 7.835301162428184
+    },
+    "usdtrx": {
+      "name": "USDT TRC20",
+      "min_brl": 170.02859437440006,
+      "max_brl": 359439.0567688607,
+      "valor": 7.82480712600862
+    },
+    "ust": {
+      "name": "TerraUSD",
+      "min_brl": 151.12440000000004,
+      "max_brl": 7575.725983457327,
+      "valor": 3.309484293349076
+    },
+    "utk": {
+      "name": "UTRUST Token",
+      "min_brl": 282.55236834240003,
+      "max_brl": 61758618.6929668,
+      "valor": 3.7706712277163215
+    },
+    "vet": {
+      "name": "VeChain",
+      "min_brl": 209.24246882880004,
+      "max_brl": 60364828.595528275,
+      "valor": 3.16363497091197
+    },
+    "vib": {
+      "name": "Viberate",
+      "min_brl": 151.12440000000004,
+      "max_brl": 25207.024692185285,
+      "valor": 3.1224909180721423
+    },
+    "vidt": {
+      "name": "VIDT Datalink",
+      "min_brl": 213.01195754160003,
+      "max_brl": 27011.896605824764,
+      "valor": 4.5620955304834325
+    },
+    "vra": {
+      "name": "Verasity",
+      "min_brl": 529.0451019216001,
+      "max_brl": 7627.368313007522,
+      "valor": 3.039002563377642
+    },
+    "vtc": {
+      "name": "Vertcoin",
+      "min_brl": 151.12440000000004,
+      "max_brl": 3009.2123935437908,
+      "valor": 3.7609471017057117
+    },
+    "wabi": {
+      "name": "WABI",
+      "min_brl": 269.52532992000005,
+      "max_brl": 8670.484494001485,
+      "valor": 3.228834783416932
+    },
+    "waves": {
+      "name": "Waves",
+      "min_brl": 157.47502150080004,
+      "max_brl": 61758618.6929668,
+      "valor": 32.911439820506104
+    },
+    "wbtc": {
+      "name": "Wrapped Bitcoin",
+      "min_brl": 252.23360410800007,
+      "max_brl": 145683.3174650986,
+      "valor": 146033.71441159997
+    },
+    "win": {
+      "name": "WINkLink",
+      "min_brl": 183.69098856000005,
+      "max_brl": 15096.682870865823,
+      "valor": 3.00072391969535
+    },
+    "wrx": {
+      "name": "WazirX",
+      "min_brl": 234.75883066560004,
+      "max_brl": 27123.400980828425,
+      "valor": 4.2968806246627045
+    },
+    "wtc": {
+      "name": "Waltonchain",
+      "min_brl": 151.12440000000004,
+      "max_brl": 18514.868460337206,
+      "valor": 3.954665428619813
+    },
+    "xdc": {
+      "name": "XinFin Network",
+      "min_brl": 151.12440000000004,
+      "max_brl": 61798155.377906226,
+      "valor": 3.204261792896429
+    },
+    "xem": {
+      "name": "NEM",
+      "min_brl": 244.87344282960007,
+      "max_brl": 61758618.6929668,
+      "valor": 3.2785449395366397
+    },
+    "xlm": {
+      "name": "Stellar",
+      "min_brl": 196.47678926160006,
+      "max_brl": 60356263.95104925,
+      "valor": 3.6579934873583495
+    },
+    "xmr": {
+      "name": "Monero",
+      "min_brl": 244.58247798480005,
+      "max_brl": 61758618.6929668,
+      "valor": 944.6472673863966
+    },
+    "xno": {
+      "name": "NANO",
+      "min_brl": 205.19029113120004,
+      "max_brl": 57911.769916656616,
+      "valor": 8.84509142086858
+    },
+    "xrp": {
+      "name": "XRP",
+      "min_brl": 196.77329533440005,
+      "max_brl": 61767183.33744582,
+      "valor": 5.045390004571794
+    },
+    "xtz": {
+      "name": "Tezos",
+      "min_brl": 209.94603207120005,
+      "max_brl": 52495041.92437472,
+      "valor": 12.729492273539702
+    },
+    "xvg": {
+      "name": "Verge",
+      "min_brl": 209.73628579680005,
+      "max_brl": 9095.738683426083,
+      "valor": 3.0264084372369537
+    },
+    "xvs": {
+      "name": "Venus",
+      "min_brl": 239.09505027120005,
+      "max_brl": 19129.602881286246,
+      "valor": 27.005551334416843
+    },
+    "xym": {
+      "name": "Symbol",
+      "min_brl": 151.12440000000004,
+      "max_brl": 32666.433576909814,
+      "valor": 3.3250457323143436
+    },
+    "yfi": {
+      "name": "yearn.finance",
+      "min_brl": 170.33221049040003,
+      "max_brl": 61758618.6929668,
+      "valor": 47103.386365095765
+    },
+    "yfii": {
+      "name": "DFI.Money",
+      "min_brl": 151.12440000000004,
+      "max_brl": 39832.16838755063,
+      "valor": 5834.776554321337
+    },
+    "ygg": {
+      "name": "Yield Guild Games",
+      "min_brl": 665.1499962312001,
+      "max_brl": 18296.360964739204,
+      "valor": 6.673684002922776
+    },
+    "zec": {
+      "name": "Zcash",
+      "min_brl": 256.6279706256001,
+      "max_brl": 60356263.95104925,
+      "valor": 527.2569146612607
+    },
+    "zen": {
+      "name": "Horizen",
+      "min_brl": 208.66477062240006,
+      "max_brl": 61758618.6929668,
+      "valor": 107.9620522410598
+    },
+    "zil": {
+      "name": "Zilliqa",
+      "min_brl": 208.65268067040003,
+      "max_brl": 60356263.95104925,
+      "valor": 3.274457794818664
+    },
+    "zrx": {
+      "name": "0x",
+      "min_brl": 235.86294553200005,
+      "max_brl": 209865.52414709915,
+      "valor": 5.229461697058209
     }
   }
 }

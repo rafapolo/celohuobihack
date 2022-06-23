@@ -1,14 +1,16 @@
 $(document).ready(function() {
   if (typeof window.ethereum !== 'undefined') {
-      const showAccount = document.querySelector('.showAccount');
-      const showBalance = document.querySelector('.showBalance');
-
       let currentAccount = null;
       
-      //manage
+      if (window.ethereum.isMetaMask) {
+        console.log('MetaMask is installed!');
+      }      
+      
+      // connect wallet
       $('.auth').on('click', function(){
         if (window.ethereum.isMetaMask){
             try {
+                window.web3 = new Web3(window.ethereum);
                 connectToAccount();
             } catch (error) {
                 console.error(error);
@@ -18,48 +20,56 @@ $(document).ready(function() {
       });
       
       function read_metadata(){
-        // "https://gateway.ipfs.io/ipns/"
+        // todo: get address from contract
+        $.getJSON("https://ipfs.io/ipfs/QmR5RCD47Y4DiUcDso4hpt2fmbJ87gQyYUBMFD4ojBU5jY", function(data){
+          console.log("fetching ipfs:// metadata ...")
+        }).done(function(result) {
+          console.log(result);
+          $.each( result['data'] , function( tkn, val ) {
+            $("#tokens").append( "<span class='token' id='" + tkn + "'>" + tkn.toUpperCase() + " - cR$" + parseFloat(val['valor']).toFixed(2) + "</span>" );
+          });
+        }).fail(function(jqXHR, status, error){
+          console.log(error);
+        });
       }
       
-      if (window.ethereum.isMetaMask) {
-          console.log('MetaMask is installed!');
-      }
-        
-      web3 = new Web3(window.ethereum);
-      ethereum.on("connect", function initConnect(chainId) {
-          console.log(chainId);
-          return false;
-      });
-
-        //account manage
-    		function handleAccountsChanged(accounts)
-    		{
-    			if (accounts.length === 0){
-    				console.log('Please connect to MetaMask.');
-    			}
-    			else if(accounts[0] !== currentAccount){
-    				currentAccount = accounts[0];
-    				showAccount.innerHTML = currentAccount;
-            handleAccountsBalance(currentAccount);
-    			}
-    		}
+      function loadContract(){
+        $.get( "./src/HybridEx_abi.json", function( data ) {
+          console.log("contract abi:");
+          console.log(data);
+          const ABI = data;
+          window.contract = new window.web3.eth.Contract(ABI, "0xd9145CCE52D386f254917e481eB44e9943F39138"); 
+        });
+      } 
             
-        //balance
-        function handleAccountsBalance(account) {
-          var balance = ethereum.request({
-            method: 'eth_getBalance',
-            params: [account, "latest"]
-          }).then((result) => {
-            console.log(result);
-            showBalance.innerHTML = web3.utils.hexToNumberString(result);
-            $(".auth").hide();
-          }).catch(err=>console.log(err))
-
-        }
-        
+      //account manage
+  		function handleAccountsChanged(accounts)
+  		{
+  			if (accounts.length === 0){
+  				console.log('Please connect to MetaMask.');
+  			}
+  			else if(accounts[0] !== currentAccount){
+  				currentAccount = accounts[0];
+          handleAccountsBalance(currentAccount);
+          $(".showAccount").text(currentAccount);
+          read_metadata();
+  			}
+  		}
+          
+      // get balance
+      function handleAccountsBalance(account) {
+        var balance = ethereum.request({
+          method: 'eth_getBalance',
+          params: [account, "latest"]
+        }).then((result) => {
+          $(".showBalance").text(window.web3.utils.hexToNumberString(result) + " cREAL");
+          $(".auth").hide();
+          $(".wallet").show();
+        }).catch(err=>console.log(err))
+      }
+      
       //init account
       function connectToAccount(){
-        console.log("connecting...")
         ethereum.request({
           method: 'eth_accounts',
           params: {
@@ -77,6 +87,13 @@ $(document).ready(function() {
         });
       }
       ethereum.on('accountsChanged', handleAccountsChanged);
+      
+      // buy token
+      $(document).on("click", '.token', function(){
+        token = $(this).attr("id");
+        window.contract.methods.addOrder(address,string,string,uint256):
+        // todo: form
+      })
   }
 
 });
