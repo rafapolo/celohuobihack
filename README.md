@@ -1,3 +1,4 @@
+![logo](./veraefiko/dapp/src/logo_s.png)
 
 ## VERAΞFIKO
 
@@ -262,7 +263,7 @@ The ミ tree pillars of our prototyped system,
       end
   ```     
 #### Screenshot
-The dApp reads the IPFS metadata with updated market data and stored on-chain orders.
+The dApp reads the IPFS metadata with updated market data and stores on-chain orders.
 
 ![screenshot](./veraefiko/dapp/screenshot.png)
 
