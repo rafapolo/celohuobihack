@@ -10,6 +10,10 @@ html {
   width: 50%;
   font-size: 16px;
 }
+a{
+  color: white;
+  text-decoration: underline;
+}
 body{ 
   margin: 10px auto;
   border: 10px solid #042305;

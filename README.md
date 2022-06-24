@@ -200,7 +200,7 @@ The ミ tree pillars of our prototyped system,
    
   The Agent should be kept awake, constantly checking new cReal deposits and reading Huobi websockets market ticks for the pairs potentially tradable for Celo Reais on our own mechanism. For each price_change event, the prices+fees are calculated as cR\$ Real and published through IPNS on a distributed metadata.json
 
-  The Interplanetary File System protocol is extended with the proposed IPNS Name System, solving the problem of a distributed file having an distinct address on each update, unable to have a unique URL for the updated file. We encode the ipns:// path on the smart contract, enabling the dApp to read an always-updated version of the metadata.json provided off-chain by the Agent. 
+  The Interplanetary File System protocol is extended with the proposed IPNS Name System, solving the problem of a distributed file having a distinct address on each update, unable to have a unique URL for the updated file. We encode the ipns:// path on the smart contract, enabling the dApp to read an always-updated version of the metadata.json provided off-chain by the Agent. 
 
   On the dApp side, once a Wallet is plugged, the +500 tokens prices encoded on the metadata are listed to be exchanged with cR\$. We integrated a cReal on-ramp as an external solution, where some basic KYC is validated and the user proofs the ownership of his/her bank account, following local compliance and also protecting the provider, Moedax. Then, a conversion Real 1:1 cReal happens with a single generated PIX QrCode paid on any national mobile banking.
 
@@ -272,18 +272,12 @@ While I took a solo flight writing VERAΞFICO, "we" came from the conversations 
 
 
 - [ミ.digital](https://ミ.digital)
--  [ipfs:// dApp](https://ipfs.io/ipfs/dfsfs)
+-  [ipfs:// dApp](https://ipfs.io/ipfs/Qmce4p1TFqRKfHBGPPccrHEjZtaMK5EiAGQZDpq5ermUGJ/index.html)
 - [github / rafapolo / veraefico](https://github.com/rafapolo/celohuobihack)
 - [Moedax Serviços Digitais](https://moedax.digital/)
-- [Pitch Video](https://)
+- [ExtraPolo](https://extrapolo.com/)
+- [Pitch Video](https://youtu.be/xC2-DXm4Oxo)
 
-#### Pitch video
-  - name
-  - overview of the design
-  - originality, technical complexity
-  - mass usability  
-  - domain expertise!
-  - uniq
 ---
 
 
