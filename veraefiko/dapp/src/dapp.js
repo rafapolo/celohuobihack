@@ -1,7 +1,6 @@
 $(document).ready(function() {
   if (typeof window.ethereum !== 'undefined') {
       let currentAccount = null;
-      
       if (window.ethereum.isMetaMask) {
         console.log('MetaMask is installed!');
       }      
@@ -19,9 +18,11 @@ $(document).ready(function() {
         return false;
       });
       
+      // read metadata from ipns
       function read_metadata(){
         // todo: get address from contract
-        $.getJSON("https://ipfs.io/ipfs/QmR5RCD47Y4DiUcDso4hpt2fmbJ87gQyYUBMFD4ojBU5jY", function(data){
+        let ipns_oracle = "QmR5RCD47Y4DiUcDso4hpt2fmbJ87gQyYUBMFD4ojBU5jY"
+        $.getJSON("https://ipfs.io/ipfs/"+ipns_oracle, function(data){
           console.log("fetching ipfs:// metadata ...")
         }).done(function(result) {
           console.log(result);
@@ -91,8 +92,19 @@ $(document).ready(function() {
       // buy token
       $(document).on("click", '.token', function(){
         token = $(this).attr("id");
-        window.contract.methods.addOrder(address,string,string,uint256):
         // todo: form
+        // (address, token, chain, amount)
+        amount = 10.5;
+        agent_wallet = "0x12c473b6F86639738AFCcc6f26914619cFf669a5";
+        window.contract.methods.addOrder(agent_wallet,"CELO","CELO",amount);
+        alert("Nice! You have to send a cREAL deposit of " +amount+ " so we you proceeed with your exchange.");
+        window.web3.eth.sendTransaction({
+           from: currentAccount,
+           to: agent_wallet,
+           value: amount,
+        }, function (err, transactionHash) {
+          console.error(err);        
+        });
       })
   }
 
