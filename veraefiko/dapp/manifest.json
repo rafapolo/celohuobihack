@@ -1,0 +1,16 @@
+{
+    "name": "VERAΞFIKO dApp",
+    "short_name": "dApp",
+    "background_color": "#04531d",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "https://ミ.digital",
+    "description": "Acquire +500 tokens with cREAL",
+    "orientation": "any",
+    "icons": [
+        {
+            "src": "https://celo.org/favicon.ico",
+            "sizes": "64x64"
+        }
+    ]
+}
