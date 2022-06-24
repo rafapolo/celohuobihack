@@ -261,6 +261,10 @@ The ミ tree pillars of our prototyped system,
       Agent-->>Agent: half into our cMCO2
       end
   ```     
+#### Screenshot
+The dApp reads the IPFS metadata with updated market data and stored on-chain orders.
+
+![screenshot](./veraefiko/dapp/screenshot.png)
 
 #### Team
 
