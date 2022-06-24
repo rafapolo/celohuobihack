@@ -125,7 +125,7 @@ class Huobi
   # wip: def generate_tokens metadata
     # we basicly select all usdt markets and calculate as BRL Real + @marketmaker_fee on a new Hash
     # see generated sample agente/ipfs/metadata.json
-    # todo: should add [:provider_signature, :updated_at, :available_liquidity ]
+    # todo: should add [:provider_signature, :updated_at, :available_liquidity, :agent_wallet, :collected_cMCO2 ]
   # end
   
   # research: AMM
