@@ -104,13 +104,15 @@ $(document).ready(function() {
         token = $(this).attr("id");
         // todo: html form
         // define (address, token, chain, amount)
-        amount = prompt("How much " + token.toUpperCase() + " you want to buy?", "value em cREAL"); // wip
-        dest_wallet = prompt("What is the destination wallet for the " + token.toUpperCase() + " ?", "wallet address"); // wip
-        window.contract.methods.addOrder(dest_wallet,"CELO","CELO",amount);
+        // WIP with prompt
+        amount = prompt("How much " + token.toUpperCase() + " you want to buy?", "value em cREAL");
+        dest_wallet = prompt("What is the destination wallet for the " + token.toUpperCase() + " ?", "wallet address");
+        amount = prompt("Which chain for " + token.toUpperCase() + " is the destination wallet?", "chain");
+        window.contract.methods.addOrder(dest_wallet, token, chain, amount);
         alert("Nice! You have to send a cREAL deposit of " +amount+ " so we you proceeed with your exchange.");
         // important: agent_wallet should be in the metadata file 
         
-        agent_wallet = "0x12c473b6F86639738AFCcc6f26914619cFf669a5"; // wip
+        agent_wallet = "0x12c473b6F86639738AFCcc6f26914619cFf669a5"; // wip. must be in the metadata.json
         window.web3.eth.sendTransaction({
            from: currentAccount,
            to: agent_wallet,
