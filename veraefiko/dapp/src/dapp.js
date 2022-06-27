@@ -107,7 +107,7 @@ $(document).ready(function() {
         // WIP with prompt
         amount = prompt("How much " + token.toUpperCase() + " you want to buy?", "value em cREAL");
         dest_wallet = prompt("What is the destination wallet for the " + token.toUpperCase() + " ?", "wallet address");
-        amount = prompt("Which chain for " + token.toUpperCase() + " is the destination wallet?", "chain");
+        chain = prompt("Which chain for " + token.toUpperCase() + " is the destination wallet?", "chain");
         window.contract.methods.addOrder(dest_wallet, token, chain, amount);
         alert("Nice! You have to send a cREAL deposit of " +amount+ " so we you proceeed with your exchange.");
         // important: agent_wallet should be in the metadata file 
