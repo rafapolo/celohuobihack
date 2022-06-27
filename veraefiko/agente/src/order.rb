@@ -32,6 +32,6 @@ class Order
     end
     
     def refund!
-      Celo.send(@to, @value) unless @status == "Refunded"
+      Celo.send(@from, @value) unless @status == "Refunded"
     end
 end
